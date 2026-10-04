@@ -1,0 +1,62 @@
+{
+  "format": "beacon-module-index/v1",
+  "modules": [
+    {
+      "id": "dnd5e-2014",
+      "title": "D&D 5e (2014)",
+      "type": "system",
+      "version": "1.0.0",
+      "description": "Система D&D 5e (редакция 2014): лист персонажа, карточки существа, заклинания, предмета и справочника, правила боя (инициатива, спасброски от смерти, опыт по уровню опасности), монеты и вес, состояния SRD 5.1.",
+      "license": "CC-BY-4.0",
+      "minAppVersion": "0.9.0",
+      "systems": [
+        "dnd5e-2014"
+      ],
+      "legacyIds": true,
+      "size": 26340,
+      "sha256": "7f3937dc8e60e9b45ec472e83082d5c6863f02ee9c8fd99e5098e46bbb9d217d",
+      "url": "https://github.com/major1ink/beacon-table-modules/releases/download/dnd5e-2014%2Fv1.0.0/dnd5e-2014-1.0.0.btmod",
+      "summaryUrl": "https://github.com/major1ink/beacon-table-modules/releases/download/dnd5e-2014%2Fv1.0.0/dnd5e-2014-1.0.0.summary.json"
+    },
+    {
+      "id": "dnd5e-2024",
+      "title": "D&D 5e (2024)",
+      "type": "system",
+      "version": "1.0.0",
+      "description": "Система D&D 5e (редакция 2024): лист персонажа, карточки существа, заклинания, предмета и справочника, правила боя (инициатива, спасброски от смерти, опыт по уровню опасности), монеты и вес, состояния SRD 5.2.",
+      "license": "CC-BY-4.0",
+      "minAppVersion": "0.9.0",
+      "systems": [
+        "dnd5e-2024"
+      ],
+      "legacyIds": true,
+      "size": 27759,
+      "sha256": "c2b470ff7f16d30ef05ce0e5750b7f7c99e0ff175262db847e0f18cc279fc9bf",
+      "url": "https://github.com/major1ink/beacon-table-modules/releases/download/dnd5e-2024%2Fv1.0.0/dnd5e-2024-1.0.0.btmod",
+      "summaryUrl": "https://github.com/major1ink/beacon-table-modules/releases/download/dnd5e-2024%2Fv1.0.0/dnd5e-2024-1.0.0.summary.json"
+    },
+    {
+      "id": "dnd5e-2024-srd",
+      "title": "D&D 5e (2024) — SRD 5.2",
+      "type": "content",
+      "version": "1.0.0",
+      "description": "Каталог SRD 5.2 для D&D 5e 2024: существа, заклинания, предметы и справочник (классы, архетипы, виды, предыстории, черты).",
+      "license": "CC-BY-4.0",
+      "minAppVersion": "0.9.0",
+      "systems": [
+        "dnd5e-2024"
+      ],
+      "requires": [
+        {
+          "id": "dnd5e-2024",
+          "minVersion": "1.0.0"
+        }
+      ],
+      "legacyIds": true,
+      "size": 1632534,
+      "sha256": "bf6646d1e0362130345a3a6b1b1f913753e184ce7a0eb4d6bd237d560e666b02",
+      "url": "https://github.com/major1ink/beacon-table-modules/releases/download/dnd5e-2024-srd%2Fv1.0.0/dnd5e-2024-srd-1.0.0.btmod",
+      "summaryUrl": "https://github.com/major1ink/beacon-table-modules/releases/download/dnd5e-2024-srd%2Fv1.0.0/dnd5e-2024-srd-1.0.0.summary.json"
+    }
+  ]
+}
