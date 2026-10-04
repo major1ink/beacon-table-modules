@@ -3,7 +3,7 @@
   "id": "dnd5e-2024",
   "type": "system",
   "title": "D&D 5e (2024)",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "minAppVersion": "0.9.0",
   "systems": [
     "dnd5e-2024"
@@ -125,5 +125,45 @@
       "label": "ММ",
       "title": "медь"
     }
-  ]
+  ],
+  "theme": {
+    "vars": {
+      "bg": "#16120f",
+      "rail-bg": "#1b1613",
+      "panel-bg": "#201a16",
+      "surface": "#2b231e",
+      "surface-hover": "#362c26",
+      "border": "rgba(232, 210, 170, 0.10)",
+      "text": "#efe6d8",
+      "text-dim": "rgba(239, 230, 216, 0.58)",
+      "accent": "#a83a32",
+      "accent-hover": "#8f2f28",
+      "accent-bg": "rgba(168, 58, 50, 0.20)",
+      "on-accent": "#fff7ec",
+      "heading": "#f4e9d2",
+      "gold": "#c9a227",
+      "amber": "#b9852a",
+      "glass-bg": "rgba(32, 26, 22, 0.92)",
+      "glass-bg-strong": "rgba(26, 21, 18, 0.95)",
+      "glass-border": "rgba(232, 210, 170, 0.09)"
+    },
+    "fonts": [
+      {
+        "family": "Forum",
+        "file": "fonts/forum-cyrillic.woff2",
+        "weight": 400,
+        "unicodeRange": "U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116"
+      },
+      {
+        "family": "Forum",
+        "file": "fonts/forum-latin.woff2",
+        "weight": 400,
+        "unicodeRange": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+      }
+    ],
+    "display": "Forum",
+    "styles": [
+      "theme/sheet.css"
+    ]
+  }
 }

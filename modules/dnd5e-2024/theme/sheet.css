@@ -1,0 +1,13 @@
+/* Оформление D&D: золотые линии и малые капители вместо нейтрального вида. */
+.card-name { font-variant: small-caps; letter-spacing: 0.02em; }
+.card-hero { border-bottom: 1px solid rgba(201, 162, 39, 0.35); }
+.card-lbl, .card-fold h3 { color: var(--gold); }
+.card-pill { border-radius: 4px; }
+.card-sub { color: var(--gold); opacity: 0.85; }
+.stat-table th { color: var(--gold); }
+.card-fold { border-top: 1px solid rgba(201, 162, 39, 0.18); }
+.card-aside { border-left-color: rgba(201, 162, 39, 0.25); }
+
+:scope .v-card { border: 1px solid rgba(201, 162, 39, 0.28); }
+:scope .v-card-head, :scope .v-card-head span { color: var(--gold); letter-spacing: 0.1em; font-family: var(--font-serif); }
+:scope .tab-btn.active { border-bottom-color: var(--gold); }
