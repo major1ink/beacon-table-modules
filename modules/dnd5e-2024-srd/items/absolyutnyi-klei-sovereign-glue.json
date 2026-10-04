@@ -1,0 +1,17 @@
+{
+  "name": "Абсолютный клей [Sovereign Glue]",
+  "source": "DMG 2024",
+  "type": "зелье",
+  "rarity": "легендарный",
+  "requiresAttunement": false,
+  "cost": "100000 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><em>Чудесный предмет, Легендарный</em>.</p><p>Эта вязкая молочно-белая субстанция может навсегда склеить два любых объекта. Её хранят в банке или склянке, покрытой изнутри <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Масло скольжения [Oil of Slipperiness]\">Маслом скольжения</a>. Когда вы находите контейнер, внутри 1d6 + 1 унций клея.</p><p>Одна унция клея может покрыть поверхность размером 1 на 1 фут. Для нанесения одной унции Абсолютного клея необходимо выполнить действие Utilize, а на его засыхание уйдёт 1 минута. После этого склеенное можно разделить только с помощью <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Универсальный растворитель [Universal solvent]\">Универсального растворителя</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Масло эфирности [Oil of Etherealness]\">Масла эфирности</a> или заклинания <a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Желание [Wish]\">Желание</a>.</p>",
+  "imageUrl": ""
+}

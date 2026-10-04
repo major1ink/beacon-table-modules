@@ -1,0 +1,17 @@
+{
+  "name": "Лютня [Lute]",
+  "source": "PHB 2024",
+  "type": "музыкальный инструмент, lute",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "35 зм.",
+  "weight": "2 фунт.",
+  "weightLb": 2,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Харизма</p><p class=\"phb-meta\"><strong>Использование:</strong> сыграть известную мелодию (СЛ 10), импровизировать (СЛ 15)</p>",
+  "imageUrl": ""
+}

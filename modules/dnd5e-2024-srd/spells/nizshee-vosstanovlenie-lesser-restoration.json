@@ -1,0 +1,18 @@
+{
+  "name": "Низшее восстановление [Lesser Restoration]",
+  "source": "PHB 2024",
+  "level": 2,
+  "school": "Ограждение",
+  "castTime": "1 бонусное действие",
+  "ritual": false,
+  "range": "Касание (1 существ(о/а))",
+  "verbal": true,
+  "somatic": true,
+  "material": false,
+  "materialNote": "",
+  "duration": "Мгновенная",
+  "concentration": false,
+  "savingThrow": "",
+  "damage": "",
+  "description": "<p>Вы касаетесь существа и прекращаете одно из состояний для него: <br>deafened<br>poisoned<br>paralyzed<br>blinded</p>"
+}

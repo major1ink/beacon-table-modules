@@ -1,0 +1,17 @@
+{
+  "name": "Набор травника [Herbalism Kit]",
+  "source": "PHB 2024",
+  "type": "herb",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "5 зм.",
+  "weight": "3 фунт.",
+  "weightLb": 3,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p class=\"phb-meta\"><strong>Характеристика:</strong> Интеллект <strong>Вес:</strong> 3 фунта</p><p><strong>Использование:</strong> опознать растение (СЛ 10)</p><p><strong>Изготовление:</strong> <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Зелье исцеления [Potion of Healing]\">Зелье исцеления</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Набор лекаря [Healer's Kit]\">Набор лекаря</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Противоядие [Antitoxin]\">Противоядие</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Свеча [Candle]\">Свеча</a>.</p>",
+  "imageUrl": ""
+}

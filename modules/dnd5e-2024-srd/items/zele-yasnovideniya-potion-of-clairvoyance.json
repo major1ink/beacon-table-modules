@@ -1,0 +1,17 @@
+{
+  "name": "Зелье ясновидения [Potion of Clairvoyance]",
+  "source": "DMG 2024",
+  "type": "зелье",
+  "rarity": "редкий",
+  "requiresAttunement": false,
+  "cost": "2000 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "1 бонусное действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "1 из 1 зарядов",
+  "description": "<p><em>Зелье, Редкое</em></p><p>В этой желтоватой жидкости плавает глаз, но как только зелье откроют, он исчезает.</p><p>Выпив это зелье, вы получаете эффект заклинания <a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Ясновидение [Clairvoyance]\">Ясновидение</a> (Концентрация не требуется).</p>",
+  "imageUrl": ""
+}

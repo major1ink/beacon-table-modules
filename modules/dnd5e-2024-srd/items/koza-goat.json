@@ -1,0 +1,16 @@
+{
+  "name": "Коза [Goat]",
+  "source": "DMG 2024",
+  "type": "trade",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "1 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Торговцы часто обменивают товары без использования валюты.</p>"
+}

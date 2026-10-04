@@ -1,0 +1,47 @@
+name: release
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Два выпуска одновременно не нужны: индекс собирается по очереди.
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Основной репозиторий (btmod)
+        uses: actions/checkout@v4
+        with:
+          repository: major1ink/Beacon-Table
+          ref: ${{ vars.BEACON_APP_REF || 'main' }}
+          path: app
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: app/go.mod
+          cache-dependency-path: app/go.sum
+
+      - name: Собрать btmod
+        run: go -C app build -o "$GITHUB_WORKSPACE/bin/btmod" ./cmd/btmod
+
+      # Для каждого модуля, у которого тега <id>/v<версия> ещё нет: проверка,
+      # сборка .btmod, выпуск на GitHub и обновление index.json в gh-pages.
+      - name: Выпуск модулей
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BTMOD: ${{ github.workspace }}/bin/btmod
+          REPO: ${{ github.repository }}
+        run: bash scripts/release.sh

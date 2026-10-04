@@ -1,0 +1,7 @@
+{
+  "name": "Совершенная защита охотника [Superior Hunter's Defense]",
+  "kind": "черта класса",
+  "parentName": "",
+  "source": "PHB 2024",
+  "description": "<p><strong>Требования:</strong> Следопыт 15 (Охотник)</p><p>При получении урона вы можете выполнить &amp;reference[reaction], чтобы дать себе &amp;reference[resistance] к этому и любому другому урону этого типа до конца текущего хода.</p>"
+}

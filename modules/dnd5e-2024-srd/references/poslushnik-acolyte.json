@@ -1,0 +1,8 @@
+{
+  "name": "Послушник [Acolyte]",
+  "kind": "происхождение",
+  "parentName": "",
+  "source": "PHB 2024",
+  "description": "<p><strong>Характеристики:</strong> Интеллект, Мудрость, Харизма.</p><p><strong>Черта:</strong> <a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Посвящённый в магию [Magic Initiate]\">Посвящённый в магию</a> (Жрец).</p><p><strong>Умения в навыках:</strong> Проницательность и Религия.</p><p><strong>Умения в инструментах:</strong> Инструменты каллиграфа.</p><p><strong>Экипировка:</strong> Выберите А или Б: (А) <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Инструменты каллиграфа [Calligrapher’s Supplies]\">Инструменты каллиграфа</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Книга [Book]\">Книга</a> (молитвенник), <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Символ религии (различный) [Holy Symbol (Varies)]\">Символ религии</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Пергамент [Parchment]\">Пергамент</a> (10 листов), <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Роба [Robe]\">Мантия</a>, 8 ЗМ; (Б) 50 ЗМ.</p><p>Вы посвятили себя служению храму, расположенному в городе или в уединении священной рощи. Вы совершали обряды в честь бога или пантеона, служили под началом священника и изучали священные тексты. Благодаря наставлениям старших и глубокой набожности вы научились направлять божественную силу на служение храму и помощь прихожанам.</p>",
+  "imageUrl": ""
+}

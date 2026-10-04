@@ -1,0 +1,17 @@
+{
+  "name": "Кольчуга [Chain Mail]",
+  "source": "PHB 2024",
+  "type": "тяжёлый доспех, chainmail",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "75 зм.",
+  "weight": "55 фунт.",
+  "weightLb": 55,
+  "activation": "",
+  "damage": "",
+  "armorClass": "16",
+  "properties": "",
+  "charges": "",
+  "description": "",
+  "imageUrl": ""
+}

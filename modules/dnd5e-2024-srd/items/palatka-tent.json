@@ -1,0 +1,17 @@
+{
+  "name": "Палатка [Tent]",
+  "source": "PHB 2024",
+  "type": "gear",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "2 зм.",
+  "weight": "20 фунт.",
+  "weightLb": 20,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>В Палатке могут спать до двух существ Небольшого или Среднего размера.</p>",
+  "imageUrl": ""
+}

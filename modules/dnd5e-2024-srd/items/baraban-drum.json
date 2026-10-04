@@ -1,0 +1,17 @@
+{
+  "name": "Барабан [Drum]",
+  "source": "PHB 2024",
+  "type": "музыкальный инструмент, drum",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "6 зм.",
+  "weight": "3 фунт.",
+  "weightLb": 3,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Харизма</p><p><strong>Использование:</strong> сыграть известную мелодию (СЛ 10), импровизировать (СЛ 15)</p>",
+  "imageUrl": ""
+}

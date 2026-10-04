@@ -1,0 +1,34 @@
+name: validate
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # btmod собирается из основного репозитория тем же кодом, которым
+      # программа разбирает модуль при установке. Версия — переменная
+      # репозитория BEACON_APP_REF (тег или ветка), см. README.
+      - name: Основной репозиторий (btmod)
+        uses: actions/checkout@v4
+        with:
+          repository: major1ink/Beacon-Table
+          ref: ${{ vars.BEACON_APP_REF || 'main' }}
+          path: app
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: app/go.mod
+          cache-dependency-path: app/go.sum
+
+      - name: Собрать btmod
+        run: go -C app build -o "$GITHUB_WORKSPACE/bin/btmod" ./cmd/btmod
+
+      - name: Проверить модули
+        run: ./bin/btmod validate modules/*

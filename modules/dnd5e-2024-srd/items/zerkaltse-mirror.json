@@ -1,0 +1,16 @@
+{
+  "name": "Зеркальце [Mirror]",
+  "source": "PHB 2024",
+  "type": "Расходуемый предмет",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "5 зм.",
+  "weight": "0.5 фунт.",
+  "weightLb": 0.5,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Ручное Зеркальце из стали полезно не только для нанесения грима, но и чтобы заглядывать за углы и подавать сигнал отражённым светом.</p>"
+}

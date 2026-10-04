@@ -1,0 +1,17 @@
+{
+  "name": "Нагрудник [Breastplate]",
+  "source": "PHB 2024",
+  "type": "средний доспех, breastplate",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "400 зм.",
+  "weight": "20 фунт.",
+  "weightLb": 20,
+  "activation": "",
+  "damage": "",
+  "armorClass": "14 + Лов (макс 2)",
+  "properties": "",
+  "charges": "",
+  "description": "",
+  "imageUrl": ""
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Инструменты кожевника [Leatherworker’s Tools]",
+  "source": "PHB 2024",
+  "type": "художественные инструменты, leatherworker",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "5 зм.",
+  "weight": "5 фунт.",
+  "weightLb": 5,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Ловкость </p><p><strong>Использование:</strong> Добавление рисунка на предмет из кожи (СЛ 10) </p><p><strong>Изготовление:</strong> <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Бурдюк [Waterskin]\">Бурдюк</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Кнут [Whip]\">Кнут</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Кожаный доспех [Leather Armor]\">Кожаный доспех</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Колчан для стрел [Quiver]\">Колчан</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Кошель [Pouch]\">Кошель</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Пергамент [Parchment]\">Пергамент</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Праща [Sling]\">Праща</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Клёпаный кожаный доспех [Studded Leather Armor]\">Проклёпанный кожаный доспех</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Рюкзак [Backpack]\">Рюкзак</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Тубус для свитков и карт [Case, Map or Scroll]\">Тубус для карт и свитков</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Колчан для арбалетных болтов [Case, Crossbow Bolt]\">Футляр для арбалетных болтов</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Сыромятный доспех [Hide Armor]\">Шкурный доспех</a>.</p>"
+}

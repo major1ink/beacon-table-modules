@@ -1,0 +1,16 @@
+{
+  "name": "Замок [Lock]",
+  "source": "PHB 2024",
+  "type": "Расходуемый предмет",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "10 зм.",
+  "weight": "1 фунт.",
+  "weightLb": 1,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "1 из 1 зарядов",
+  "description": "<p>Продаётся вместе с ключом. Без ключа существо может вскрыть Замок, пройдя {проверку Ловкости (Ловкость рук) со СЛ 15} с использованием <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Инструменты вора [Thieves’ Tools]\">Инструментов вора</a>.</p>"
+}

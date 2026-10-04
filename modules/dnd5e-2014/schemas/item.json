@@ -1,0 +1,314 @@
+{
+  "format": "beacon-schema/v1",
+  "kind": "item",
+  "fields": {
+    "type": {
+      "type": "text",
+      "path": "type",
+      "label": "Тип",
+      "placeholder": "Доспех (кольчуга)"
+    },
+    "rarity": {
+      "type": "select",
+      "path": "rarity",
+      "label": "Редкость",
+      "options": [
+        {
+          "value": "обычный",
+          "label": "обычный",
+          "color": "#9aa0a6"
+        },
+        {
+          "value": "необычный",
+          "label": "необычный",
+          "color": "#3fb950"
+        },
+        {
+          "value": "редкий",
+          "label": "редкий",
+          "color": "#4a8ef0"
+        },
+        {
+          "value": "очень редкий",
+          "label": "очень редкий",
+          "color": "#a371f7"
+        },
+        {
+          "value": "легендарный",
+          "label": "легендарный",
+          "color": "#e3a008"
+        },
+        {
+          "value": "артефакт",
+          "label": "артефакт",
+          "color": "#d9534f"
+        },
+        {
+          "value": "разное",
+          "label": "разное"
+        }
+      ]
+    },
+    "requires_attunement": {
+      "type": "bool",
+      "path": "requiresAttunement",
+      "label": "Требует настройки"
+    },
+    "attunement_note": {
+      "type": "text",
+      "path": "attunementNote",
+      "label": "Кем",
+      "placeholder": "колдуном"
+    },
+    "attunement": {
+      "type": "template",
+      "label": "Настройка",
+      "template": "{requires_attunement}[ ({attunement_note})]"
+    },
+    "cost": {
+      "type": "text",
+      "path": "cost",
+      "label": "Стоимость",
+      "placeholder": "50 зм."
+    },
+    "weight": {
+      "type": "text",
+      "path": "weight",
+      "label": "Вес",
+      "placeholder": "1 фунт."
+    },
+    "weight_lb": {
+      "type": "number",
+      "path": "weightLb",
+      "label": "Вес числом, фнт."
+    },
+    "activation": {
+      "type": "text",
+      "path": "activation",
+      "label": "Активация",
+      "placeholder": "1 действие"
+    },
+    "damage": {
+      "type": "text",
+      "path": "damage",
+      "label": "Урон",
+      "placeholder": "1к8 рубящий"
+    },
+    "armor_class": {
+      "type": "text",
+      "path": "armorClass",
+      "label": "Класс доспеха",
+      "placeholder": "14 + Лов (макс 2)"
+    },
+    "properties": {
+      "type": "text",
+      "path": "properties",
+      "label": "Свойства",
+      "placeholder": "лёгкое, фехтовальное"
+    },
+    "charges": {
+      "type": "text",
+      "path": "charges",
+      "label": "Заряды",
+      "placeholder": "3 заряда, 1к3 на рассвете"
+    }
+  },
+  "layout": [
+    {
+      "title": "Параметры",
+      "fields": [
+        "cost",
+        "weight",
+        "weight_lb",
+        "activation",
+        "damage",
+        "armor_class",
+        "properties",
+        "charges"
+      ]
+    },
+    {
+      "title": "Тип и редкость",
+      "fields": [
+        "type",
+        "rarity",
+        "requires_attunement",
+        "attunement_note"
+      ],
+      "mode": "edit"
+    },
+    {
+      "title": "Пока надет",
+      "widget": "modifiers"
+    }
+  ],
+  "list": {
+    "subtitle": "{type} · {rarity} · {attunement}",
+    "group": "rarity",
+    "sort": [
+      "name"
+    ],
+    "filters": [
+      "rarity",
+      "requires_attunement",
+      "source"
+    ],
+    "search": [
+      "name",
+      "type",
+      "rarity",
+      "tags"
+    ],
+    "badges": [
+      "rarity"
+    ],
+    "pills": [
+      "rarity",
+      "attunement"
+    ],
+    "flags": [
+      {
+        "field": "requires_attunement",
+        "mark": "Н",
+        "title": "Требует настройки"
+      }
+    ],
+    "medallion": {
+      "field": "type",
+      "glyph": "box",
+      "colorField": "rarity",
+      "rules": [
+        {
+          "contains": [
+            "щит",
+            "доспех",
+            "кольчуг",
+            "латы",
+            "броня",
+            "кожан"
+          ],
+          "glyph": "shield"
+        },
+        {
+          "contains": [
+            "лук",
+            "арбалет",
+            "праща"
+          ],
+          "glyph": "bow"
+        },
+        {
+          "contains": [
+            "меч",
+            "топор",
+            "кинжал",
+            "копь",
+            "молот",
+            "булав",
+            "дубин",
+            "оружи",
+            "клинок",
+            "сабл",
+            "рапир",
+            "глеф",
+            "алебард"
+          ],
+          "glyph": "sword"
+        },
+        {
+          "contains": [
+            "зель",
+            "эликсир",
+            "яд",
+            "масло",
+            "флакон",
+            "расходн"
+          ],
+          "glyph": "flask"
+        },
+        {
+          "contains": [
+            "свит",
+            "книг",
+            "том",
+            "манускрипт"
+          ],
+          "glyph": "scroll"
+        },
+        {
+          "contains": [
+            "жезл",
+            "палоч",
+            "посох"
+          ],
+          "glyph": "wand"
+        },
+        {
+          "contains": [
+            "кольц",
+            "амулет",
+            "ожерель",
+            "перст",
+            "талисман"
+          ],
+          "glyph": "ring"
+        },
+        {
+          "contains": [
+            "монет",
+            "сокровищ",
+            "драгоцен",
+            "самоцвет"
+          ],
+          "glyph": "coin"
+        }
+      ]
+    },
+    "categories": {
+      "field": "type",
+      "other": "Безделушки",
+      "rules": [
+        {
+          "label": "Оружие",
+          "contains": [
+            "оружие"
+          ]
+        },
+        {
+          "label": "Доспехи",
+          "contains": [
+            "доспех",
+            "броня",
+            "щит"
+          ]
+        },
+        {
+          "label": "Кольца",
+          "contains": [
+            "кольцо"
+          ]
+        },
+        {
+          "label": "Жезлы",
+          "contains": [
+            "жезл",
+            "посох",
+            "палочк"
+          ]
+        },
+        {
+          "label": "Чудесные предметы",
+          "contains": [
+            "чудесн"
+          ]
+        },
+        {
+          "label": "Инструменты",
+          "contains": [
+            "инструмент"
+          ]
+        }
+      ]
+    }
+  }
+}

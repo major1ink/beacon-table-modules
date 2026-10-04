@@ -1,0 +1,17 @@
+{
+  "name": "Стёганый доспех [Padded Armor]",
+  "source": "PHB 2024",
+  "type": "лёгкий доспех, padded",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "5 зм.",
+  "weight": "8 фунт.",
+  "weightLb": 8,
+  "activation": "",
+  "damage": "",
+  "armorClass": "11 + Лов",
+  "properties": "",
+  "charges": "",
+  "description": "",
+  "imageUrl": ""
+}

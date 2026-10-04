@@ -1,0 +1,18 @@
+{
+  "name": "Обнаружение зла и добра [Detect Evil and Good]",
+  "source": "PHB 2024",
+  "level": 1,
+  "school": "Прорицание",
+  "castTime": "1 действие",
+  "ritual": false,
+  "range": "На себя (self)",
+  "verbal": true,
+  "somatic": true,
+  "material": false,
+  "materialNote": "",
+  "duration": "10 минута/минут",
+  "concentration": true,
+  "savingThrow": "",
+  "damage": "",
+  "description": "<p>Пока длится заклинание, вы ощущаете местоположение любой Аберрации, Бестии, Небожителя, Нежити, Феи или Элементаля в пределах 30 футов. <br>Аналогично вы чувствуете, действует ли заклинание <a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Освящение [Hallow]\">Освящение</a>, и если да, то где.</p><p>Действие заклинания блокируют 1 фут камня, земли или дерева, 1 дюйм металла или тонкий лист свинца.</p>"
+}

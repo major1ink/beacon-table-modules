@@ -1,0 +1,18 @@
+{
+  "name": "Расплывчатость [Blur]",
+  "source": "PHB 2024",
+  "level": 2,
+  "school": "Иллюзия",
+  "castTime": "1 действие",
+  "ritual": false,
+  "range": "На себя (self)",
+  "verbal": true,
+  "somatic": false,
+  "material": false,
+  "materialNote": "",
+  "duration": "1 минута/минут",
+  "concentration": true,
+  "savingThrow": "",
+  "damage": "",
+  "description": "<p>Ваше тело кажется размытым. Пока длится заклинание, у всех существ есть Помеха к броскам атаки против вас. Атакующий невосприимчив к этому эффекту, если он воспринимает вас с помощью Слепозрения или Истинного зрения.</p>"
+}

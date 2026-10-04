@@ -1,0 +1,8 @@
+{
+  "name": "Охотник [Hunter]",
+  "kind": "архетип",
+  "parentName": "Следопыт",
+  "source": "PHB 2024",
+  "imageUrl": "",
+  "description": "<blockquote><p>Защищайте природу и народы от гибели.</p></blockquote><p>Вы — Охотник, и готовы всюду преследовать добычу, чтобы защитить природу и народы всего мира от гибельных сил.</p><table><thead><tr><td><p style=\"text-align:center\"><strong>Уровень Следопыта</strong></p></td><td><p><strong>Особенности</strong></p></td></tr></thead><tbody><tr><td><p style=\"text-align:center\">3</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Знания охотника [Hunter's Lore]\">Знания охотника</a></p><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Добыча охотника [Hunter's Prey]\">Добыча охотника</a></p></td></tr><tr><td><p style=\"text-align:center\">7</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Оборонительная тактика [Defensive Tactics]\">Оборонительная тактика</a></p></td></tr><tr><td><p style=\"text-align:center\">11</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Улучшенная добыча охотника [Superior Hunter's Prey]\">Улучшенная добыча охотника</a></p></td></tr><tr><td><p style=\"text-align:center\">15</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Совершенная защита охотника [Superior Hunter's Defense]\">Совершенная защита охотника</a></p></td></tr></tbody></table>"
+}

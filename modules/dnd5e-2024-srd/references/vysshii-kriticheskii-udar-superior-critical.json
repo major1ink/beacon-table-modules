@@ -1,0 +1,7 @@
+{
+  "name": "Высший критический удар [Superior Critical]",
+  "kind": "черта класса",
+  "parentName": "",
+  "source": "PHB 2024",
+  "description": "<p><strong>Требования:</strong> Воин 15 (Чемпион)</p><p>Ваши броски атаки оружием и Безоружные удары наносят &amp;reference[criticalhits] при результате 18, 19 или 20 броска d20.</p>"
+}

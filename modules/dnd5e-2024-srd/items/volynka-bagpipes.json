@@ -1,0 +1,16 @@
+{
+  "name": "Волынка [Bagpipes]",
+  "source": "PHB 2024",
+  "type": "музыкальный инструмент, bagpipes",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "30 зм.",
+  "weight": "6 фунт.",
+  "weightLb": 6,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Харизма</p><p class=\"phb-meta\"><strong>Применение:</strong> Сыграть известную мелодию (СЛ 10) или импровизировать (СЛ 15)</p>"
+}

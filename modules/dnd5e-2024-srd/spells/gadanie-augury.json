@@ -1,0 +1,18 @@
+{
+  "name": "Гадание [Augury]",
+  "source": "PHB 2024",
+  "level": 2,
+  "school": "Прорицание",
+  "castTime": "1 мин.",
+  "ritual": true,
+  "range": "На себя (self)",
+  "verbal": true,
+  "somatic": true,
+  "material": true,
+  "materialNote": "палочки, кости, карты или иные специальным образом размеченные предметы для гадания стоимостью не менее 25 ЗМ",
+  "duration": "Мгновенная",
+  "concentration": false,
+  "savingThrow": "",
+  "damage": "",
+  "description": "<p>Вы получаете от потусторонней сущности предсказание о результатах определённых действий, которые вы планируете совершить в ближайшие 30 минут. Мастер выбирает вариант из таблицы «Знамения».</p><p>Если вы сотворите это заклинание более одного раза, прежде чем завершите longrest, появляется накапливающийся шанс (25 процентов за каждое сотворение после первого), что вы не получите ответа.</p>\n<table><thead><tr><td><p><strong>Знамение</strong></p></td><td><p><strong>Если результат будет...</strong></p></td></tr></thead><tbody><tr><td><p style=\"text-align:center\">Благо</p></td><td><p style=\"text-align:center\">хорош</p></td></tr><tr><td><p style=\"text-align:center\">Горе</p></td><td><p style=\"text-align:center\">плох</p></td></tr><tr><td><p style=\"text-align:center\">Благо и горе</p></td><td><p style=\"text-align:center\">и плох, и хорош</p></td></tr><tr><td><p style=\"text-align:center\">Пустота</p></td><td><p style=\"text-align:center\">ни плох, ни хорош</p></td></tr></tbody></table>"
+}

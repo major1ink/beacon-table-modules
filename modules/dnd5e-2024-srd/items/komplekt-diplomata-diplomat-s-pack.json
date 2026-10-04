@@ -1,0 +1,16 @@
+{
+  "name": "Комплект дипломата [Diplomat's Pack]",
+  "source": "PHB 2024",
+  "type": "Контейнер",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "39 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>В Комплект дипломата входят: 5 листов <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Бумага [Paper]\">Бумаги</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Духи [Perfume]\">Духи</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Лампа [Lamp]\">Лампа</a>, 4 склянки <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Масло [Oil]\">Масла</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Огниво [Tinderbox]\">Огниво</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Парадная одежда [Clothes, Fine]\">Парадная одежда</a>, 5 листов <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Пергамент [Parchment]\">Пергамента</a>, 5 <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Перо [Ink Pen]\">Перьев</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Сундук [Chest]\">Сундук</a>, 2 <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Тубус для свитков и карт [Case, Map or Scroll]\">Тубуса для свитков и карт</a>, а также <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Чернила [Ink]\">Чернила</a>.</p>"
+}

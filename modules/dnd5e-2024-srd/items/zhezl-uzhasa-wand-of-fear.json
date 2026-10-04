@@ -1,0 +1,17 @@
+{
+  "name": "Жезл ужаса [Wand of Fear]",
+  "source": "DMG 2024",
+  "type": "волшебная палочка",
+  "rarity": "редкий",
+  "requiresAttunement": true,
+  "cost": "4000 зм.",
+  "weight": "1 фунт.",
+  "weightLb": 1,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "7 из 7 зарядов, восстановление: 1d6 + 1 (продолжительный отдых)",
+  "description": "<p><em>Жезл, Редкий (требует Настроенности)</em></p><p>У жезла 7 зарядов.</p><p><strong>Заклинания.</strong> Пока вы держите жезл, то можете сотворить из него одно из заклинаний (СЛ испытаний 15), перечисленных в таблице ниже. В ней также указано, сколько зарядов требуется для сотворения заклинания.</p><table><thead><tr><td><p style=\"text-align:center\"><strong>Заклинание</strong></p></td><td><p><strong>Расход зарядов</strong></p></td></tr></thead><tbody><tr><td><p><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Приказ [Command]\">Приказ</a> (только «Беги» или «Пади»)</p></td><td><p style=\"text-align:center\">1</p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Ужас [Fear]\">Ужас</a> (60-футовый Конус)</p></td><td><p style=\"text-align:center\">3</p></td></tr></tbody></table><p>Восстановление зарядов. Ежедневно на рассвете жезл восстанавливает 1d6 + 1 потраченных заряда. Потратив последний заряд жезла, бросьте. При результате 1, жезл рассыпается в пепел и уничтожается.</p>",
+  "imageUrl": ""
+}

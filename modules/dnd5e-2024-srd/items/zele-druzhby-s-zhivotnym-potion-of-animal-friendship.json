@@ -1,0 +1,17 @@
+{
+  "name": "Зелье дружбы с животным [Potion of Animal Friendship]",
+  "source": "DMG 2024",
+  "type": "зелье",
+  "rarity": "необычный",
+  "requiresAttunement": false,
+  "cost": "200 зм.",
+  "weight": "0.5 фунт.",
+  "weightLb": 0.5,
+  "activation": "1 бонусное действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "1 из 1 зарядов",
+  "description": "<p><em>Зелье, Необычное</em></p><p>Если встряхнуть эту мутную жидкость, всплывут частицы: рыбья чешуя, язычок пересмешника, кошачий коготь или шерсть белки.</p><p>Выпив это зелье, вы можете сотворить <a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Дружба с животным [Animal Friendship]\">Дружбу с животным</a> (3-й круг, СЛ испытаний 13). </p>",
+  "imageUrl": ""
+}

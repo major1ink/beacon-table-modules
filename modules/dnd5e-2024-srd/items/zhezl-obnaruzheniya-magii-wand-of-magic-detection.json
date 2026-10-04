@@ -1,0 +1,17 @@
+{
+  "name": "Жезл обнаружения магии [Wand of Magic Detection]",
+  "source": "DMG 2024",
+  "type": "волшебная палочка",
+  "rarity": "необычный",
+  "requiresAttunement": false,
+  "cost": "400 зм.",
+  "weight": "1 фунт.",
+  "weightLb": 1,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "3 из 3 зарядов, восстановление: 1d3 (продолжительный отдых)",
+  "description": "<p><em>Жезл, Необычный</em></p><p>У этого жезла 3 заряда. Пока вы держите его, вы можете потратить 1 заряд, чтобы сотворить из него заклинание <a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Обнаружение магии [Detect Magic]\">Обнаружение магии</a>. Ежедневно на рассвете жезл восстанавливает 1d3 потраченных заряда.</p>",
+  "imageUrl": ""
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Железные гвозди [Spikes, Iron]",
+  "source": "PHB 2024",
+  "type": "Расходуемый предмет",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "10 см.",
+  "weight": "0.5 фунт.",
+  "weightLb": 0.5,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "1 из 1 зарядов",
+  "description": "<p>Железные гвозди продаются связками по десять штук. В качестве действия Utilize вы можете взять тупой предмет, например Лёгкий молот, вбить Гвоздь в дерево, землю или аналогичный материал. Вы можете заклинить таким образом дверь или привязать ко вбитому Гвоздю <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Верёвка [Rope]\">Верёвку</a> или <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Цепь [Chain]\">Цепь</a>.</p>"
+}

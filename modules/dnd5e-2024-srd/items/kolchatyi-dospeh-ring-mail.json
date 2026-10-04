@@ -1,0 +1,17 @@
+{
+  "name": "Кольчатый доспех [Ring Mail]",
+  "source": "PHB 2024",
+  "type": "тяжёлый доспех, ringmail",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "30 зм.",
+  "weight": "40 фунт.",
+  "weightLb": 40,
+  "activation": "",
+  "damage": "",
+  "armorClass": "14",
+  "properties": "",
+  "charges": "",
+  "description": "",
+  "imageUrl": ""
+}

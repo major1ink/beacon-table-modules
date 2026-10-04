@@ -1,0 +1,16 @@
+{
+  "name": "Инструменты повара [Cook’s Utensils]",
+  "source": "PHB 2024",
+  "type": "художественные инструменты, cook",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "1 зм.",
+  "weight": "8 фунт.",
+  "weightLb": 8,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Мудрость </p><p><strong>Использование:</strong> Улучшение вкуса пищи (СЛ 10) или обнаружение испорченных или отравленных продуктов (СЛ 15) </p><p><strong>Изготовление:</strong> <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Сухой паёк [Rations]\">Рационы</a>.</p>"
+}

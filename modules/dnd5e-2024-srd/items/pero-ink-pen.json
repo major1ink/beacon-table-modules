@@ -1,0 +1,16 @@
+{
+  "name": "Перо [Ink Pen]",
+  "source": "PHB 2024",
+  "type": "Хлам/сокровище",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "2 мм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Перо используется вместе с <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Чернила [Ink]\">Чернилами</a> для письма или рисования.</p>"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Сценический костюм [Costume]",
+  "source": "PHB 2024",
+  "type": "одежда",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "5 зм.",
+  "weight": "4 фунт.",
+  "weightLb": 4,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Пока вы носите Сценический костюм, у вас Преимущество к проверкам характеристик, связанных с перевоплощением в определённого человека или тип людей.</p>"
+}

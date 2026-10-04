@@ -1,0 +1,16 @@
+{
+  "name": "Чугунный котелок [Pot, Iron]",
+  "source": "PHB 2024",
+  "type": "Контейнер",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "2 зм.",
+  "weight": "10 фунт.",
+  "weightLb": 10,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Железный горшок вмещает до 1 галлона.</p>"
+}

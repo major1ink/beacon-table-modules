@@ -1,0 +1,17 @@
+{
+  "name": "Ведро [Bucket]",
+  "source": "PHB 2024",
+  "type": "Контейнер",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "5 мм.",
+  "weight": "2 фунт.",
+  "weightLb": 2,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Ведро вмещает до половины кубического фута содержимого.</p>",
+  "imageUrl": ""
+}

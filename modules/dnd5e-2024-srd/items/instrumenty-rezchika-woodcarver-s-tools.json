@@ -1,0 +1,16 @@
+{
+  "name": "Инструменты резчика [Woodcarver’s Tools]",
+  "source": "PHB 2024",
+  "type": "художественные инструменты, woodcarver",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "1 зм.",
+  "weight": "5 фунт.",
+  "weightLb": 5,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Ловкость </p><p><strong>Использование:</strong> Вырезание узора на дереве (СЛ 10) </p><p><strong>Изготовление:</strong> <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Боевой посох [Quarterstaff]\">Боевой посох</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Арбалетные болты [Bolts]\">Болты</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Длинный лук [Longbow]\">Длинный лук</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Дротик [Dart]\">Дротик</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Фокусирующий предмет друида (различный) [Druidic Focus (Varies)]\">Друидическая фокусировка</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Дубинка [Club]\">Дубинка</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Духовая трубка [Blowgun]\">Духовая трубка</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Иглы [Needles]\">Иглы</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Короткий лук [Shortbow]\">Короткий лук</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Лёгкий арбалет [Light Crossbow]\">Лёгкий арбалет</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Мистический фокусирующий предмет (различный) [Arcane Focus (Varies)]\">Магическая фокусировка</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Ручной арбалет [Hand Crossbow]\">Одноручный арбалет</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Дубина [Greatclub]\">Палица</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Перо [Ink Pen]\">Писчее перо</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Стрелы [Arrows]\">Стрелы</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Тяжёлый арбалет [Heavy Crossbow]\">Тяжёлый арбалет</a>.</p>"
+}

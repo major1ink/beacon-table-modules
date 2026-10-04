@@ -1,0 +1,19 @@
+{
+  "name": "Исцеление ран [Cure Wounds]",
+  "source": "PHB 2024",
+  "level": 1,
+  "school": "Ограждение",
+  "castTime": "1 действие",
+  "ritual": false,
+  "range": "Касание (1 существ(о/а))",
+  "verbal": true,
+  "somatic": true,
+  "material": false,
+  "materialNote": "",
+  "duration": "Мгновенная",
+  "concentration": false,
+  "savingThrow": "",
+  "damage": "",
+  "upcast": "2к8",
+  "description": "<p>Существо, которого вы коснулись, восстанавливает ПЗ в количестве, равном 2d8 + модификатор вашей заклинательной характеристики.</p><p><strong>Использование ячейки кругом выше.</strong> Исцеление увеличивается на 2d8 за каждый круг ячейки выше 1-го.</p>"
+}

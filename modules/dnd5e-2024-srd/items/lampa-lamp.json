@@ -1,0 +1,17 @@
+{
+  "name": "Лампа [Lamp]",
+  "source": "PHB 2024",
+  "type": "Расходуемый предмет",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "5 см.",
+  "weight": "1 фунт.",
+  "weightLb": 1,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Лампа заправляется <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Масло [Oil]\">Маслом</a> и при горении испускает Яркий свет в радиусе 15 футов и Тусклый свет ещё на 30 футов.</p>",
+  "imageUrl": ""
+}

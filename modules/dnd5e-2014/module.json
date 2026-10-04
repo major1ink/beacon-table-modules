@@ -1,0 +1,133 @@
+{
+  "format": "beacon-module/v1",
+  "id": "dnd5e-2014",
+  "type": "system",
+  "title": "D&D 5e (2014)",
+  "version": "1.0.0",
+  "minAppVersion": "0.9.0",
+  "systems": [
+    "dnd5e-2014"
+  ],
+  "description": "Система D&D 5e (редакция 2014): лист персонажа, карточки существа, заклинания, предмета и справочника, правила боя (инициатива, спасброски от смерти, опыт по уровню опасности), монеты и вес, состояния SRD 5.1.",
+  "license": "CC-BY-4.0",
+  "legacyIds": true,
+  "combat": {
+    "initiative": {
+      "roll": "1d20 + @dex_mod"
+    },
+    "zeroHp": {
+      "character": "deathSaves",
+      "other": "dead",
+      "deathSaves": {
+        "success": 3,
+        "fail": 3,
+        "stabilizeHp": 1
+      }
+    },
+    "xp": {
+      "field": "cr",
+      "table": {
+        "0": 10,
+        "1": 200,
+        "1/2": 100,
+        "1/4": 50,
+        "1/8": 25,
+        "10": 5900,
+        "11": 7200,
+        "12": 8400,
+        "13": 10000,
+        "14": 11500,
+        "15": 13000,
+        "16": 15000,
+        "17": 18000,
+        "18": 20000,
+        "19": 22000,
+        "2": 450,
+        "20": 25000,
+        "21": 33000,
+        "22": 41000,
+        "23": 50000,
+        "24": 62000,
+        "25": 75000,
+        "26": 90000,
+        "27": 105000,
+        "28": 120000,
+        "29": 135000,
+        "3": 700,
+        "30": 155000,
+        "4": 1100,
+        "5": 1800,
+        "6": 2300,
+        "7": 2900,
+        "8": 3900,
+        "9": 5000
+      }
+    }
+  },
+  "modifierTargets": [
+    {
+      "target": "abilities.str",
+      "label": "Сила",
+      "system": true
+    },
+    {
+      "target": "abilities.dex",
+      "label": "Ловкость",
+      "system": true
+    },
+    {
+      "target": "abilities.con",
+      "label": "Телосложение",
+      "system": true
+    },
+    {
+      "target": "abilities.int",
+      "label": "Интеллект",
+      "system": true
+    },
+    {
+      "target": "abilities.wis",
+      "label": "Мудрость",
+      "system": true
+    },
+    {
+      "target": "abilities.cha",
+      "label": "Харизма",
+      "system": true
+    }
+  ],
+  "units": {
+    "weight": "фнт"
+  },
+  "currencies": [
+    {
+      "key": "pp",
+      "label": "ПМ",
+      "title": "платина"
+    },
+    {
+      "key": "gp",
+      "label": "ЗМ",
+      "title": "золото"
+    },
+    {
+      "key": "ep",
+      "label": "ЭМ",
+      "title": "электрум"
+    },
+    {
+      "key": "sp",
+      "label": "СМ",
+      "title": "серебро"
+    },
+    {
+      "key": "cp",
+      "label": "ММ",
+      "title": "медь"
+    }
+  ],
+  "importers": [
+    "foundry-dnd5e",
+    "lss"
+  ]
+}

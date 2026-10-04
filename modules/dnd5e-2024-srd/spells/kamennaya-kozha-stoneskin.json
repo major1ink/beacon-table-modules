@@ -1,0 +1,18 @@
+{
+  "name": "Каменная кожа [Stoneskin]",
+  "source": "PHB 2024",
+  "level": 4,
+  "school": "Ограждение",
+  "castTime": "1 действие",
+  "ritual": false,
+  "range": "Касание (существ(о/а))",
+  "verbal": true,
+  "somatic": true,
+  "material": true,
+  "materialNote": "алмазная пыль стоимостью не менее 100 ЗМ, расходуемая заклинанием",
+  "duration": "1 час(ов)",
+  "concentration": true,
+  "savingThrow": "",
+  "damage": "",
+  "description": "<p>Пока длится заклинание, одно согласное существо, которого вы коснулись, получает damageresistance к Дробящему, Колющему и Режущему урону.</p>"
+}

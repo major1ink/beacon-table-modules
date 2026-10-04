@@ -1,0 +1,17 @@
+{
+  "name": "Кольцо защиты [Ring of Protection]",
+  "source": "DMG 2024",
+  "type": "кольцо",
+  "rarity": "редкий",
+  "requiresAttunement": true,
+  "cost": "4000 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><em>Кольцо, Редкое (требует Настроенности)</em></p><p>Вы получаете бонус +1 к КБ и испытаниям, пока носите это кольцо.</p>",
+  "imageUrl": ""
+}

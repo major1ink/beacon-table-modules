@@ -1,0 +1,17 @@
+{
+  "name": "Рюкзак [Backpack]",
+  "source": "PHB 2024",
+  "type": "Контейнер",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "2 зм.",
+  "weight": "5 фунт.",
+  "weightLb": 5,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Рюкзак вмещает груз объёмом до 1 кубического фута и весом до 30 фунтов. Его также можно использовать в качестве седельной сумки.</p>",
+  "imageUrl": ""
+}

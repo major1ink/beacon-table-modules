@@ -1,0 +1,17 @@
+{
+  "name": "Жезл [Wand]",
+  "source": "PHB 2024",
+  "type": "волшебная палочка",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "10 зм.",
+  "weight": "1 фунт.",
+  "weightLb": 1,
+  "activation": "",
+  "damage": "",
+  "armorClass": "10",
+  "properties": "",
+  "charges": "",
+  "description": "<p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Мистический фокусирующий предмет (различный) [Arcane Focus (Varies)]\">Мистический фокусирующий предмет</a> украшен самоцветами или резьбой, чтобы направлять силу мистической магии. Волшебники, Колдуны и Чародеи могут использовать их как Фокусирующий предмет.</p>",
+  "imageUrl": ""
+}

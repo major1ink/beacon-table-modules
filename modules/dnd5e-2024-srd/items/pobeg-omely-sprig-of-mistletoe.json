@@ -1,0 +1,17 @@
+{
+  "name": "Побег омелы [Sprig of Mistletoe]",
+  "source": "PHB 2024",
+  "type": "Снаряжение",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "1 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Фокусирующий предмет друида (различный) [Druidic Focus (Varies)]\">Фокусирующщий предмет друда</a> перевязываются лентой, украшаются резьбой или росписью, чтобы направлять силу магии природы. Друиды и Следопыты могут использовать их как Фокусирующий предмет.</p>",
+  "imageUrl": ""
+}

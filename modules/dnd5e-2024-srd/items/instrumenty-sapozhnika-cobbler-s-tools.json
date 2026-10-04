@@ -1,0 +1,16 @@
+{
+  "name": "Инструменты сапожника [Cobbler’s Tools]",
+  "source": "PHB 2024",
+  "type": "художественные инструменты, cobbler",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "5 зм.",
+  "weight": "5 фунт.",
+  "weightLb": 5,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Ловкость </p><p><strong>Использование:</strong> Подгонка обуви, от чего её носитель совершит с Преимуществом следующую проверку Ловкости (Акробатика) (СЛ 10) </p><p><strong>Изготовление:</strong> <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Набор верхолаза [Climber's Kit]\">Комплект для лазания</a>.</p>"
+}

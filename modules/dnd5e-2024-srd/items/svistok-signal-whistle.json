@@ -1,0 +1,17 @@
+{
+  "name": "Свисток [Signal Whistle]",
+  "source": "PHB 2024",
+  "type": "gear",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "5 мм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>В качестве действия Использование можно подуть в Свисток, чтобы издать звук, слышимый на расстоянии до 600 футов.</p>",
+  "imageUrl": ""
+}

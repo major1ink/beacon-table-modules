@@ -1,0 +1,16 @@
+{
+  "name": "Корзина [Basket]",
+  "source": "PHB 2024",
+  "type": "Контейнер",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "4 см.",
+  "weight": "2 фунт.",
+  "weightLb": 2,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Корзина вмещает груз объёмом до 2 кубических футов и весом до 40 фунтов.</p>"
+}

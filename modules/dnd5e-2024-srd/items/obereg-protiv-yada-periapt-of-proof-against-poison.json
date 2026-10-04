@@ -1,0 +1,17 @@
+{
+  "name": "Оберег против яда [Periapt of Proof against Poison]",
+  "source": "DMG 2024",
+  "type": "чудесный предмет",
+  "rarity": "редкий",
+  "requiresAttunement": true,
+  "cost": "4000 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><em>Чудесный предмет, Редкий (требует Настроенности)</em></p><p>Это тонкая серебряная цепочка с подвеской из чёрного самоцвета в форме бриллианта. Пока вы носите её, у вас Невосприимчивость к урону Ядом и Отравлению.</p>",
+  "imageUrl": ""
+}

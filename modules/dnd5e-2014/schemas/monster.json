@@ -1,0 +1,614 @@
+{
+  "format": "beacon-schema/v1",
+  "kind": "monster",
+  "core": {
+    "hp.max": "hp",
+    "ac": "ac",
+    "speed": "speed"
+  },
+  "fields": {
+    "size": {
+      "type": "text",
+      "path": "size",
+      "label": "Размер",
+      "placeholder": "Средний",
+      "default": "Средний"
+    },
+    "type": {
+      "type": "text",
+      "path": "type",
+      "label": "Тип",
+      "placeholder": "гуманоид",
+      "facet": "beforeParen"
+    },
+    "alignment": {
+      "type": "text",
+      "path": "alignment",
+      "label": "Мировоззрение",
+      "placeholder": "нейтральное"
+    },
+    "ac": {
+      "type": "number",
+      "path": "ac",
+      "label": "Класс доспеха",
+      "default": 10
+    },
+    "ac_note": {
+      "type": "text",
+      "path": "acNote",
+      "label": "Примечание к КД",
+      "placeholder": "природный доспех"
+    },
+    "ac_line": {
+      "type": "template",
+      "label": "Класс доспеха",
+      "template": "{ac}[ ({ac_note})]"
+    },
+    "hp": {
+      "type": "number",
+      "path": "hp",
+      "label": "Хиты"
+    },
+    "hit_dice": {
+      "type": "text",
+      "path": "hitDice",
+      "label": "Кость хитов",
+      "placeholder": "2к6"
+    },
+    "hp_line": {
+      "type": "template",
+      "label": "Хиты",
+      "template": "{hp}[ ({hit_dice})]"
+    },
+    "speed": {
+      "type": "text",
+      "path": "speed",
+      "label": "Скорость",
+      "placeholder": "30 фт., полёт 60 фт."
+    },
+    "str": {
+      "type": "number",
+      "path": "abilities.str",
+      "label": "Сила",
+      "short": "Сил",
+      "modifierTarget": "abilities.str",
+      "default": 10
+    },
+    "str_mod": {
+      "type": "computed",
+      "label": "Модификатор: Сила",
+      "formula": "floor((@str - 10) / 2)",
+      "signed": true,
+      "roll": "1d20 + @str_mod"
+    },
+    "dex": {
+      "type": "number",
+      "path": "abilities.dex",
+      "label": "Ловкость",
+      "short": "Лов",
+      "modifierTarget": "abilities.dex",
+      "default": 10
+    },
+    "dex_mod": {
+      "type": "computed",
+      "label": "Модификатор: Ловкость",
+      "formula": "floor((@dex - 10) / 2)",
+      "signed": true,
+      "roll": "1d20 + @dex_mod"
+    },
+    "con": {
+      "type": "number",
+      "path": "abilities.con",
+      "label": "Телосложение",
+      "short": "Тел",
+      "modifierTarget": "abilities.con",
+      "default": 10
+    },
+    "con_mod": {
+      "type": "computed",
+      "label": "Модификатор: Телосложение",
+      "formula": "floor((@con - 10) / 2)",
+      "signed": true,
+      "roll": "1d20 + @con_mod"
+    },
+    "int": {
+      "type": "number",
+      "path": "abilities.int",
+      "label": "Интеллект",
+      "short": "Инт",
+      "modifierTarget": "abilities.int",
+      "default": 10
+    },
+    "int_mod": {
+      "type": "computed",
+      "label": "Модификатор: Интеллект",
+      "formula": "floor((@int - 10) / 2)",
+      "signed": true,
+      "roll": "1d20 + @int_mod"
+    },
+    "wis": {
+      "type": "number",
+      "path": "abilities.wis",
+      "label": "Мудрость",
+      "short": "Мдр",
+      "modifierTarget": "abilities.wis",
+      "default": 10
+    },
+    "wis_mod": {
+      "type": "computed",
+      "label": "Модификатор: Мудрость",
+      "formula": "floor((@wis - 10) / 2)",
+      "signed": true,
+      "roll": "1d20 + @wis_mod"
+    },
+    "cha": {
+      "type": "number",
+      "path": "abilities.cha",
+      "label": "Харизма",
+      "short": "Хар",
+      "modifierTarget": "abilities.cha",
+      "default": 10
+    },
+    "cha_mod": {
+      "type": "computed",
+      "label": "Модификатор: Харизма",
+      "formula": "floor((@cha - 10) / 2)",
+      "signed": true,
+      "roll": "1d20 + @cha_mod"
+    },
+    "saving_throws": {
+      "type": "text",
+      "path": "savingThrows",
+      "label": "Спасброски",
+      "placeholder": "Тел +7, Мдр +4"
+    },
+    "skills": {
+      "type": "text",
+      "path": "skills",
+      "label": "Навыки",
+      "placeholder": "Восприятие +5, Скрытность +6"
+    },
+    "damage_vulnerabilities": {
+      "type": "text",
+      "path": "damageVulnerabilities",
+      "label": "Уязвимости к урону"
+    },
+    "damage_resistances": {
+      "type": "text",
+      "path": "damageResistances",
+      "label": "Сопротивления к урону"
+    },
+    "damage_immunities": {
+      "type": "text",
+      "path": "damageImmunities",
+      "label": "Иммунитет к урону"
+    },
+    "condition_immunities": {
+      "type": "text",
+      "path": "conditionImmunities",
+      "label": "Иммунитет к состояниям"
+    },
+    "senses": {
+      "type": "text",
+      "path": "senses",
+      "label": "Чувства",
+      "placeholder": "тёмное зрение 60 фт., пасс. Внимательность 12"
+    },
+    "languages": {
+      "type": "text",
+      "path": "languages",
+      "label": "Языки"
+    },
+    "cr": {
+      "type": "select",
+      "path": "cr",
+      "label": "Опасность",
+      "options": [
+        {
+          "value": "0",
+          "label": "ПО 0",
+          "color": "#9aa0a6"
+        },
+        {
+          "value": "1/8",
+          "label": "ПО 1/8",
+          "color": "#9aa0a6"
+        },
+        {
+          "value": "1/4",
+          "label": "ПО 1/4",
+          "color": "#9aa0a6"
+        },
+        {
+          "value": "1/2",
+          "label": "ПО 1/2",
+          "color": "#9aa0a6"
+        },
+        {
+          "value": "1",
+          "label": "ПО 1",
+          "color": "#3fb950"
+        },
+        {
+          "value": "2",
+          "label": "ПО 2",
+          "color": "#3fb950"
+        },
+        {
+          "value": "3",
+          "label": "ПО 3",
+          "color": "#3fb950"
+        },
+        {
+          "value": "4",
+          "label": "ПО 4",
+          "color": "#3fb950"
+        },
+        {
+          "value": "5",
+          "label": "ПО 5",
+          "color": "#4a8ef0"
+        },
+        {
+          "value": "6",
+          "label": "ПО 6",
+          "color": "#4a8ef0"
+        },
+        {
+          "value": "7",
+          "label": "ПО 7",
+          "color": "#4a8ef0"
+        },
+        {
+          "value": "8",
+          "label": "ПО 8",
+          "color": "#4a8ef0"
+        },
+        {
+          "value": "9",
+          "label": "ПО 9",
+          "color": "#4a8ef0"
+        },
+        {
+          "value": "10",
+          "label": "ПО 10",
+          "color": "#4a8ef0"
+        },
+        {
+          "value": "11",
+          "label": "ПО 11",
+          "color": "#a371f7"
+        },
+        {
+          "value": "12",
+          "label": "ПО 12",
+          "color": "#a371f7"
+        },
+        {
+          "value": "13",
+          "label": "ПО 13",
+          "color": "#a371f7"
+        },
+        {
+          "value": "14",
+          "label": "ПО 14",
+          "color": "#a371f7"
+        },
+        {
+          "value": "15",
+          "label": "ПО 15",
+          "color": "#a371f7"
+        },
+        {
+          "value": "16",
+          "label": "ПО 16",
+          "color": "#a371f7"
+        },
+        {
+          "value": "17",
+          "label": "ПО 17",
+          "color": "#e3a008"
+        },
+        {
+          "value": "18",
+          "label": "ПО 18",
+          "color": "#e3a008"
+        },
+        {
+          "value": "19",
+          "label": "ПО 19",
+          "color": "#e3a008"
+        },
+        {
+          "value": "20",
+          "label": "ПО 20",
+          "color": "#e3a008"
+        },
+        {
+          "value": "21",
+          "label": "ПО 21",
+          "color": "#e3a008"
+        },
+        {
+          "value": "22",
+          "label": "ПО 22",
+          "color": "#e3a008"
+        },
+        {
+          "value": "23",
+          "label": "ПО 23",
+          "color": "#e3a008"
+        },
+        {
+          "value": "24",
+          "label": "ПО 24",
+          "color": "#e3a008"
+        },
+        {
+          "value": "25",
+          "label": "ПО 25",
+          "color": "#e3a008"
+        },
+        {
+          "value": "26",
+          "label": "ПО 26",
+          "color": "#e3a008"
+        },
+        {
+          "value": "27",
+          "label": "ПО 27",
+          "color": "#e3a008"
+        },
+        {
+          "value": "28",
+          "label": "ПО 28",
+          "color": "#e3a008"
+        },
+        {
+          "value": "29",
+          "label": "ПО 29",
+          "color": "#e3a008"
+        },
+        {
+          "value": "30",
+          "label": "ПО 30",
+          "color": "#e3a008"
+        }
+      ]
+    },
+    "proficiency_bonus": {
+      "type": "number",
+      "path": "proficiencyBonus",
+      "label": "Бонус мастерства",
+      "signed": true
+    },
+    "traits": {
+      "type": "longtext",
+      "path": "traits",
+      "label": "Особенности"
+    },
+    "actions": {
+      "type": "longtext",
+      "path": "actions",
+      "label": "Действия"
+    },
+    "bonus_actions": {
+      "type": "longtext",
+      "path": "bonusActions",
+      "label": "Бонусные действия"
+    },
+    "reactions": {
+      "type": "longtext",
+      "path": "reactions",
+      "label": "Реакции"
+    },
+    "legendary_intro": {
+      "type": "longtext",
+      "path": "legendaryActionsIntro",
+      "label": "Вступление к легендарным действиям"
+    },
+    "legendary_actions": {
+      "type": "longtext",
+      "path": "legendaryActions",
+      "label": "Легендарные действия"
+    },
+    "lair_actions": {
+      "type": "longtext",
+      "path": "lairActions",
+      "label": "Действия и эффекты логова"
+    }
+  },
+  "layout": [
+    {
+      "title": "Основное",
+      "fields": [
+        "ac_line",
+        "hp_line",
+        "speed"
+      ],
+      "mode": "view"
+    },
+    {
+      "title": "Вид",
+      "fields": [
+        "size",
+        "type",
+        "alignment"
+      ],
+      "mode": "edit"
+    },
+    {
+      "title": "Основное",
+      "fields": [
+        "ac",
+        "ac_note",
+        "hp",
+        "hit_dice",
+        "speed"
+      ],
+      "mode": "edit"
+    },
+    {
+      "title": "Характеристики",
+      "cells": [
+        [
+          "str",
+          "str_mod"
+        ],
+        [
+          "dex",
+          "dex_mod"
+        ],
+        [
+          "con",
+          "con_mod"
+        ],
+        [
+          "int",
+          "int_mod"
+        ],
+        [
+          "wis",
+          "wis_mod"
+        ],
+        [
+          "cha",
+          "cha_mod"
+        ]
+      ]
+    },
+    {
+      "title": "Защита и чувства",
+      "fields": [
+        "saving_throws",
+        "skills",
+        "damage_vulnerabilities",
+        "damage_resistances",
+        "damage_immunities",
+        "condition_immunities",
+        "senses",
+        "languages",
+        "cr",
+        "proficiency_bonus"
+      ]
+    },
+    {
+      "fields": [
+        "traits",
+        "actions",
+        "bonus_actions",
+        "reactions",
+        "legendary_intro",
+        "legendary_actions",
+        "lair_actions"
+      ]
+    },
+    {
+      "title": "Заклинания",
+      "widget": "spells"
+    },
+    {
+      "title": "Добыча",
+      "widget": "inventory"
+    }
+  ],
+  "list": {
+    "subtitle": "{size} {type} · {alignment} · {cr}",
+    "group": "cr",
+    "sort": [
+      "cr",
+      "name"
+    ],
+    "filters": [
+      "cr",
+      "type"
+    ],
+    "search": [
+      "name",
+      "type",
+      "tags"
+    ],
+    "badges": [
+      "cr"
+    ],
+    "pills": [
+      "cr"
+    ],
+    "medallion": {
+      "field": "type",
+      "glyph": "hood",
+      "colorField": "cr",
+      "rules": [
+        {
+          "contains": [
+            "нежить",
+            "скелет",
+            "зомби",
+            "призрак",
+            "вампир"
+          ],
+          "glyph": "skull"
+        },
+        {
+          "contains": [
+            "дракон"
+          ],
+          "glyph": "dragon"
+        },
+        {
+          "contains": [
+            "зверь",
+            "животн",
+            "чудовищ"
+          ],
+          "glyph": "paw"
+        },
+        {
+          "contains": [
+            "исчадие",
+            "демон",
+            "дьявол",
+            "бес"
+          ],
+          "glyph": "horns"
+        },
+        {
+          "contains": [
+            "растен",
+            "дерев"
+          ],
+          "glyph": "tree"
+        },
+        {
+          "contains": [
+            "аберрац",
+            "слизь"
+          ],
+          "glyph": "eye"
+        },
+        {
+          "contains": [
+            "фея",
+            "небожител",
+            "элементал"
+          ],
+          "glyph": "sparkle"
+        },
+        {
+          "contains": [
+            "конструкт",
+            "голем"
+          ],
+          "glyph": "box"
+        },
+        {
+          "contains": [
+            "гуманоид",
+            "великан"
+          ],
+          "glyph": "hood"
+        }
+      ]
+    }
+  }
+}

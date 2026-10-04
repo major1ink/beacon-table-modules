@@ -1,0 +1,7 @@
+{
+  "name": "Усиленные удары [Empowered Strikes]",
+  "kind": "черта класса",
+  "parentName": "",
+  "source": "PHB 2024",
+  "description": "<p><strong>Требования:</strong> Монах 6</p><p>Когда вы наносите урон Безоружным ударом, вы выбираете его тип: обычный или урон Силой.</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\"></figure><article><p>Используйте зачарование на ваш Безоружный удар.</p></article></section>"
+}

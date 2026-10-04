@@ -1,0 +1,16 @@
+{
+  "name": "Цимбалы [Dulcimer]",
+  "source": "PHB 2024",
+  "type": "музыкальный инструмент, dulcimer",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "25 зм.",
+  "weight": "10 фунт.",
+  "weightLb": 10,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Харизма</p><p class=\"phb-meta\"><strong>Использование:</strong> сыграть известную мелодию (СЛ 10), импровизировать (СЛ 15)</p>"
+}

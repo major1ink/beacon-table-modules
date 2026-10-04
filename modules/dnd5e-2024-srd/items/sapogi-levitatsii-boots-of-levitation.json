@@ -1,0 +1,16 @@
+{
+  "name": "Сапоги левитации [Boots of Levitation]",
+  "source": "DMG 2024",
+  "type": "чудесный предмет",
+  "rarity": "редкий",
+  "requiresAttunement": true,
+  "cost": "4000 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><em>Чудесный предмет, Редкий (требует Настроенности)</em></p><p>Пока вы носите эти сапоги, то можете творить <a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Левитация [Levitate]\">Левитацию</a> на себя.</p>"
+}

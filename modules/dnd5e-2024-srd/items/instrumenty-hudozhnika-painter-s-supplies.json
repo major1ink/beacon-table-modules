@@ -1,0 +1,16 @@
+{
+  "name": "Инструменты художника [Painter's Supplies]",
+  "source": "PHB 2024",
+  "type": "художественные инструменты, painter",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "10 зм.",
+  "weight": "5 фунт.",
+  "weightLb": 5,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p class=\"phb-meta\"><strong>Характеристика:</strong> Мудрость <strong>Вес:</strong> 5 фунтов</p><p><strong>Использование:</strong> нарисовать узнаваемое изображение того, что вы видели (СЛ 10)</p><p><strong>Изготовление:</strong> <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Фокусирующий предмет друида (различный) [Druidic Focus (Varies)]\">Фокусирующий предмет друида</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Символ религии (различный) [Holy Symbol (Varies)]\">Символ религии</a>.</p>"
+}

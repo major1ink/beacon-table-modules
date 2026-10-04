@@ -1,0 +1,119 @@
+{
+  "format": "beacon-schema/v1",
+  "kind": "reference",
+  "fields": {
+    "kind": {
+      "type": "select",
+      "path": "kind",
+      "label": "Вид записи",
+      "options": [
+        {
+          "value": "класс",
+          "label": "Класс",
+          "glyph": "sword",
+          "color": "#c9a24a"
+        },
+        {
+          "value": "архетип",
+          "label": "Архетип",
+          "glyph": "sword",
+          "color": "#c9a24a"
+        },
+        {
+          "value": "вид",
+          "label": "Вид",
+          "glyph": "feather",
+          "color": "#3fb950"
+        },
+        {
+          "value": "черта вида",
+          "label": "Черта вида",
+          "glyph": "feather",
+          "color": "#3fb950"
+        },
+        {
+          "value": "происхождение",
+          "label": "Происхождение",
+          "glyph": "scroll",
+          "color": "#a371f7"
+        },
+        {
+          "value": "черта",
+          "label": "Черта",
+          "glyph": "sparkle",
+          "color": "#4a8ef0"
+        },
+        {
+          "value": "черта класса",
+          "label": "Черта класса",
+          "glyph": "sparkle",
+          "color": "#4a8ef0"
+        }
+      ]
+    },
+    "parent": {
+      "type": "text",
+      "path": "parentName",
+      "label": "Относится к",
+      "placeholder": "родитель, например «Плут»"
+    }
+  },
+  "layout": [
+    {
+      "title": "Параметры",
+      "fields": [
+        "kind",
+        "parent"
+      ]
+    }
+  ],
+  "list": {
+    "subtitle": "{kind} · {parent}",
+    "group": "kind",
+    "sort": [
+      "kind",
+      "name"
+    ],
+    "filters": [
+      "kind",
+      "parent",
+      "tags"
+    ],
+    "search": [
+      "name",
+      "kind",
+      "parent",
+      "source",
+      "tags"
+    ],
+    "medallion": {
+      "field": "kind",
+      "glyph": "scroll"
+    },
+    "categories": {
+      "field": "kind",
+      "other": "Черты",
+      "rules": [
+        {
+          "label": "Классы",
+          "equals": [
+            "класс",
+            "архетип"
+          ]
+        },
+        {
+          "label": "Виды",
+          "equals": [
+            "вид"
+          ]
+        },
+        {
+          "label": "Предыстории",
+          "equals": [
+            "происхождение"
+          ]
+        }
+      ]
+    }
+  }
+}

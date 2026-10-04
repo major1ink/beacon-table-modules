@@ -1,0 +1,17 @@
+{
+  "name": "Бурдюк [Waterskin]",
+  "source": "PHB 2024",
+  "type": "еда/питьё",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "2 см.",
+  "weight": "5 фунт.",
+  "weightLb": 5,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "4 из 4 зарядов",
+  "description": "<p>Бурдюк вмещает до 4 пинт. Если вы не пьёте достаточно воды, вы рискуете получить dehydration.</p>",
+  "imageUrl": ""
+}

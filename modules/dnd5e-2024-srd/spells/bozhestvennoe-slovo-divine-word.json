@@ -1,0 +1,18 @@
+{
+  "name": "Божественное слово [Divine Word]",
+  "source": "PHB 2024",
+  "level": 7,
+  "school": "Воплощение",
+  "castTime": "1 бонусное действие",
+  "ritual": false,
+  "range": "30 фт. (0 существ(о/а))",
+  "verbal": true,
+  "somatic": false,
+  "material": false,
+  "materialNote": "",
+  "duration": "Мгновенная",
+  "concentration": false,
+  "savingThrow": "Хар",
+  "damage": "",
+  "description": "<p>Вы произносите слово, наделённое силой Верхних планов. Каждое существо по вашему выбору проходит испытание Харизмы. При провале цель, у которой 50 ПЗ или меньше, получает эффект, зависящий от её текущих ПЗ, как показано в таблице «Эффекты Божественного слова». Вне зависимости от их текущих ПЗ, Бестия, Небожитель, Фея или Элементаль, провалившие испытание, принудительно отправляются на свой родной план (если они ещё не там). Они могут вернуться на ваш текущий план в ближайшие 24 часа только с помощью заклинания <a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Желание [Wish]\">Желание</a></p>\n<table><thead><tr><td><p style=\"text-align:center\"><strong>ПЗ</strong></p></td><td><p><strong>Эффект</strong></p></td></tr></thead><tbody><tr><td><p style=\"text-align:center\">0-20</p></td><td><p>Цель умирает.</p></td></tr><tr><td><p style=\"text-align:center\">21-30</p></td><td><p>Цель получает состояния blinded, deafened и stunned на 1 час.</p></td></tr><tr><td><p style=\"text-align:center\">31-40</p></td><td><p>Цель получает состояния blinded и deafened на 10 минут.</p></td></tr><tr><td><p style=\"text-align:center\">41-50</p></td><td><p>Цель получает состояние deafened на 1 минуту.</p></td></tr></tbody></table>"
+}

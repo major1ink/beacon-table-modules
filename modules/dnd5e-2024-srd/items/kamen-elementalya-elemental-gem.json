@@ -1,0 +1,17 @@
+{
+  "name": "Камень элементаля [Elemental Gem]",
+  "source": "DMG 2024",
+  "type": "безделушка",
+  "rarity": "необычный",
+  "requiresAttunement": false,
+  "cost": "400 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "1 из 1 зарядов",
+  "description": "<p><em>Чудесный предмет, Необычный</em>.</p><p>Этот самоцвет содержит крупицу стихийной энергии. Когда вы выполняете действие Utilize, чтобы разбить самоцвет, появляется элементаль, а самоцвет перестаёт быть магическим. Элементаль появляется в незанятом пространстве как можно ближе к разбитому самоцвету, понимает ваши языки, подчиняется вашим приказам и совершает свой ход сразу после вас при том же значении Инициативы. Элементаль исчезает через 1 час, когда умирает или когда вы отпустите его в качестве Бонусного действия. От типа самоцвета зависит, какой элементаль появится, как показано в таблице ниже.</p><table><thead><tr><td><p>Камень</p></td><td><p>Элементаль</p></td></tr></thead><tbody><tr><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Самоцвет элементаля (синий сапфир) [Elemental Gem (Blue Sapphire)]\">Синий сапфир</a></p></td><td><p><a class=\"catalog-ref\" data-kind=\"monster\" data-name=\"Элементаль воздуха [Air Elemental]\">Элементаль воздуха</a></p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Самоцвет элементаля (изумруд) [Elemental Gem (Emerald)]\">Изумруд</a></p></td><td><p><a class=\"catalog-ref\" data-kind=\"monster\" data-name=\"Элементаль воды [Water Elemental]\">Элементаль воды</a></p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Самоцвет элементаля (красный корунд) [Elemental Gem (Red Corundum)]\">Красный корунд</a></p></td><td><p><a class=\"catalog-ref\" data-kind=\"monster\" data-name=\"Элементаль огня [Fire Elemental]\">Элементаль огня</a></p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Самоцвет элементаля (жёлтый алмаз) [Elemental Gem (yellow diamond)]\">Желтый алмаз</a></p></td><td><p><a class=\"catalog-ref\" data-kind=\"monster\" data-name=\"Элементаль земли [Earth Elemental]\">Элементаль земли</a></p></td></tr></tbody></table>",
+  "imageUrl": ""
+}

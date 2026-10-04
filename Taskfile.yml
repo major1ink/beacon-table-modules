@@ -1,0 +1,44 @@
+# https://taskfile.dev
+version: "3"
+
+vars:
+  # Основной репозиторий Beacon Table рядом с этим (из него собирается btmod).
+  APP: ../Beacon-Table
+  REPO: https://github.com/major1ink/beacon-table-modules
+
+tasks:
+  default:
+    desc: Показать список доступных задач
+    silent: true
+    cmds:
+      - task --list
+
+  btmod:
+    desc: Собрать утилиту проверки и упаковки btmod из основного репозитория
+    cmds:
+      - go -C {{.APP}} build -o {{.ROOT_DIR}}/bin/btmod{{exeExt}} ./cmd/btmod
+    sources:
+      - "{{.APP}}/cmd/btmod/**/*.go"
+      - "{{.APP}}/internal/**/*.go"
+    generates:
+      - bin/btmod{{exeExt}}
+
+  validate:
+    desc: "Проверить все модули (или один — task validate MODULE=dnd5e-2024)"
+    deps: [btmod]
+    cmds:
+      - ./bin/btmod{{exeExt}} validate {{if .MODULE}}modules/{{.MODULE}}{{else}}modules/*{{end}}
+
+  pack:
+    desc: "Собрать .btmod, sha256 и summary.json одного модуля в dist/ (task pack MODULE=dnd5e-2024)"
+    deps: [btmod]
+    requires:
+      vars: [MODULE]
+    cmds:
+      - ./bin/btmod{{exeExt}} pack -o dist modules/{{.MODULE}}
+
+  index:
+    desc: Собрать dist/index.json по выпускам из dist/
+    deps: [btmod]
+    cmds:
+      - ./bin/btmod{{exeExt}} index -o dist/index.json --base-url {{.REPO}}/releases/download dist

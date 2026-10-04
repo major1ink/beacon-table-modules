@@ -1,0 +1,17 @@
+{
+  "name": "Шляпа маскировки [Hat of Disguise]",
+  "source": "DMG 2024",
+  "type": "чудесный предмет",
+  "rarity": "необычный",
+  "requiresAttunement": true,
+  "cost": "400 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><em>Чудесный предмет, Необычный (требует Настроенности)</em></p><p>Пока вы носите эту шляпу, вы можете творить заклинание <a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Изменение облика [Disguise Self]\">Изменение облика</a>. Заклинание прекращает действовать, если снять шляпу.</p>",
+  "imageUrl": ""
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Инструменты пивовара [Brewer’s Supplies]",
+  "source": "PHB 2024",
+  "type": "художественные инструменты, brewer",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "20 зм.",
+  "weight": "9 фунт.",
+  "weightLb": 9,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Интеллект.</p><p><strong>Использование:</strong> Обнаружение отравы в напитке (СЛ 15) или опознание алкоголя (СЛ 10) </p><p><strong>Изготовление:</strong> <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Противоядие [Antitoxin]\">Противоядие</a>.</p>"
+}

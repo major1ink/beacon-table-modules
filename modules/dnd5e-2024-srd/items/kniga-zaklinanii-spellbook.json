@@ -1,0 +1,17 @@
+{
+  "name": "Книга заклинаний [Spellbook]",
+  "source": "PHB 2024",
+  "type": "Хлам/сокровище",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "50 зм.",
+  "weight": "3 фунт.",
+  "weightLb": 3,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Книги заклинаний очень важны для волшебников. Это переплетённые кожей тома, содержащие 100 пустых пергаментных страниц, на которых можно записывать заклинания.</p>",
+  "imageUrl": ""
+}

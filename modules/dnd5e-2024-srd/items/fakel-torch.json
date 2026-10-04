@@ -1,0 +1,17 @@
+{
+  "name": "Факел [Torch]",
+  "source": "PHB 2024",
+  "type": "lighting",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "1 мм.",
+  "weight": "1 фунт.",
+  "weightLb": 1,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Факел горит 1 час, испускает Яркий свет в радиусе 20 футов и Тусклый свет ещё на 20 футов. Выполняя действие Attack, вы можете атаковать Факелом как Простым оружием Ближнего боя. При попадании цель получает 1 урон Огнём.</p>",
+  "imageUrl": ""
+}

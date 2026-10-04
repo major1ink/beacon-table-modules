@@ -1,0 +1,17 @@
+{
+  "name": "Инструменты вора [Thieves’ Tools]",
+  "source": "PHB 2024",
+  "type": "thief",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "25 зм.",
+  "weight": "1 фунт.",
+  "weightLb": 1,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Ловкость </p><p><strong>Использование:</strong> Взлом замка (СЛ 15) или обезвреживание ловушки (СЛ 15)</p>",
+  "imageUrl": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Кольчужно-латных доспех [Half Plate Armor]",
+  "source": "PHB 2024",
+  "type": "средний доспех, halfplate",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "750 зм.",
+  "weight": "40 фунт.",
+  "weightLb": 40,
+  "activation": "",
+  "damage": "",
+  "armorClass": "15 + Лов (макс 2)",
+  "properties": "",
+  "charges": "",
+  "description": "",
+  "imageUrl": ""
+}

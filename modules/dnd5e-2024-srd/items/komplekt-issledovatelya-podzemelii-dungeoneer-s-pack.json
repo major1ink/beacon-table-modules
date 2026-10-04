@@ -1,0 +1,16 @@
+{
+  "name": "Комплект исследователя подземелий [Dungeoneer's Pack]",
+  "source": "PHB 2024",
+  "type": "Контейнер",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "12 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>В Комплект исследователя подземелий входят: <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Бурдюк [Waterskin]\">Бурдюк</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Верёвка [Rope]\">Верёвка</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Ломик [Crowbar]\">Ломик</a>, 2 склянки <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Масло [Oil]\">Масла</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Огниво [Tinderbox]\">Огниво</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Рюкзак [Backpack]\">Рюкзак</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Сухой паёк [Rations]\">Сухой паёк</a> на 10 дней, 10 <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Факел [Torch]\">Факелов </a> и <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Шипы-«чеснок» [Caltrops]\">Шипы-«чеснок»</a>.</p>"
+}

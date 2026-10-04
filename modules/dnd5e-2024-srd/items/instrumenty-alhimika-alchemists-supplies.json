@@ -1,0 +1,16 @@
+{
+  "name": "Инструменты алхимика [Alchemists Supplies]",
+  "source": "PHB 2024",
+  "type": "художественные инструменты, alchemist",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "50 зм.",
+  "weight": "8 фунт.",
+  "weightLb": 8,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Интеллект.</p><p><strong>Вес:</strong> 8 фнт.</p><p><strong>Использование:</strong> Определить субстанцию (СЛ 15) или разжечь огонь (СЛ 15)</p><p><strong>Создание: </strong><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Кислота [Acid]\">Кислота [Acid]</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Алхимический огонь [Alchemist's Fire]\">Алхимический огонь [Alchemist's Fire]</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Сумка с компонентами [Component Pouch]\">Мешочек с компонентами [Component Pouch]</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Масло [Oil]\">Масло [Oil]</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Бумага [Paper]\">Бумага [Paper]</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Духи [Perfume]\">Духи [Perfume]</a>.</p>"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Щит [Shield]",
+  "source": "PHB 2024",
+  "type": "щит, shield",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "10 зм.",
+  "weight": "6 фунт.",
+  "weightLb": 6,
+  "activation": "",
+  "damage": "",
+  "armorClass": "+2",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Вы получаете бонус к Классу Брони от щита, только если умелы в обращении с ним.</p>",
+  "imageUrl": ""
+}

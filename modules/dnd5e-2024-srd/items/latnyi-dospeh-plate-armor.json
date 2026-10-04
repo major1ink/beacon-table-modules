@@ -1,0 +1,17 @@
+{
+  "name": "Латный доспех [Plate Armor]",
+  "source": "PHB 2024",
+  "type": "тяжёлый доспех, plate",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "1500 зм.",
+  "weight": "65 фунт.",
+  "weightLb": 65,
+  "activation": "",
+  "damage": "",
+  "armorClass": "18",
+  "properties": "",
+  "charges": "",
+  "description": "",
+  "imageUrl": ""
+}

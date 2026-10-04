@@ -1,0 +1,7 @@
+{
+  "name": "Мистический апофеоз [Arcane Apotheosis]",
+  "kind": "черта класса",
+  "parentName": "",
+  "source": "PHB 2024",
+  "description": "<p><strong>Требования:</strong> Чародей 20</p><p>Пока действует <a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Врождённое чародейство [Innate Sorcery]\">Врождённое чародейство</a>, вы можете использовать один вариант Метамагии каждый свой ход без траты Очков чар.</p>"
+}

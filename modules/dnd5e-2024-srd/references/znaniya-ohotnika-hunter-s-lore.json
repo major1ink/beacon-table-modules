@@ -1,0 +1,7 @@
+{
+  "name": "Знания охотника [Hunter's Lore]",
+  "kind": "черта класса",
+  "parentName": "",
+  "source": "PHB 2024",
+  "description": "<p><strong>Требования:</strong> Следопыт 3 (Охотник)</p><p>Вы можете попросить силы природы раскрыть сильные и слабые стороны вашей добычи. Пока существо отмечено <a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Метка охотника [Hunter's Mark]\">Меткой охотника</a>, вы узнаёте наличие у него &amp;reference[immunity]{Невосприимчивостей}, &amp;reference[resistance]{Устойчивостей} и &amp;reference[vulnerability]{Уязвимостей}, а также какие они.</p>"
+}

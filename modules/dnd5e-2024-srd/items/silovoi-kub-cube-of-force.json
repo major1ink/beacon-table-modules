@@ -1,0 +1,17 @@
+{
+  "name": "Силовой куб [Cube of Force]",
+  "source": "DMG 2024",
+  "type": "чудесный предмет",
+  "rarity": "редкий",
+  "requiresAttunement": true,
+  "cost": "4000 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "10 из 10 зарядов, восстановление: 1d6 (на рассвете)",
+  "description": "<p><em>Чудесный предмет, Редкий (требует Настроенности)</em></p><p>Это куб с длиной ребра примерно дюйм, а на каждой его грани есть своя пометка. Вы можете нажать одну из граней куба и потратить необходимое количество зарядов, чтобы сотворить связанное с гранью заклинание (СЛ испытаний 17), как показано в таблице «Грани силового куба».</p><p>С начала у куба 10 зарядов, ежедневно на рассвете он восстанавливает 1d6 потраченных зарядов.</p><h4>Грани силового куба</h4><table><thead><tr><td><p style=\"text-align:center\"><strong>Заклинание</strong></p></td><td><p><strong>Расход зарядов</strong></p></td></tr></thead><tbody><tr><td><p><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Магический доспех [Mage Armor]\">Магический доспех</a></p></td><td><p style=\"text-align:center\">1</p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Щит [Shield]\">Щит</a></p></td><td><p style=\"text-align:center\">1</p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Хижина Леомунда [Leomund's Tiny Hut]\">Хижина Леомунда</a></p></td><td><p style=\"text-align:center\">3</p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Личное убежище Морденкайнена [Mordenkainen's Private Sanctum]\">Личное убежище Морденкайнена</a></p></td><td><p style=\"text-align:center\">4</p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Силовая сфера Отилюка [Otiluke's Resilient Sphere]\">Силовая сфера Отилюка</a></p></td><td><p style=\"text-align:center\">4</p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Силовая стена [Wall of Force]\">Силовая стена</a></p></td><td><p style=\"text-align:center\">5</p></td></tr></tbody></table>",
+  "imageUrl": ""
+}

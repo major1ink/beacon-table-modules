@@ -1,0 +1,17 @@
+{
+  "name": "Камень удачи [Stone of Good Luck (Luckstone)]",
+  "source": "DMG 2024",
+  "type": "чудесный предмет",
+  "rarity": "необычный",
+  "requiresAttunement": true,
+  "cost": "400 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><em>Чудесный предмет, Необычный (требует Настроенности)</em></p><p>Пока у вас при себе этот полированный агат, вы получаете бонус +1 к проверкам характеристик и испытаниям.</p>",
+  "imageUrl": ""
+}

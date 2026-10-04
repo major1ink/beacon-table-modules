@@ -1,0 +1,8 @@
+{
+  "name": "Коллегия Знаний [College of Lore]",
+  "kind": "архетип",
+  "parentName": "Бард",
+  "source": "PHB 2024",
+  "imageUrl": "",
+  "description": "<blockquote><p>Погружайтесь в глубины магических знаний.</p></blockquote><p>Барды Коллегии Знаний собирают заклинания и тайны из любых источников — научных трудов, мистических обрядов и крестьянских баек. Члены этой коллегии встречаются в библиотеках и университетах, где делятся полученными знаниями друг с другом. Также их можно встретить на фестивалях или государственных мероприятиях, где они обличают казнокрадов и лжецов или потешаются над самодовольными правителями.</p>\n<table><thead><tr><td><p style=\"text-align:center\"><strong>Уровень Барда</strong></p></td><td><p><strong>Особенности</strong></p></td></tr></thead><tbody><tr><td><p style=\"text-align:center\">3</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Острые слова [Cutting Words]\">Острые слова</a></p><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Бонусные умения [Bonus Proficiencies]\">Бонусные умения</a></p></td></tr><tr><td><p style=\"text-align:center\">6</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Магические открытия [Magical Discoveries]\">Магические открытия</a></p></td></tr><tr><td><p style=\"text-align:center\">14</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Несравненные навыки [Peerless Skill]\">Несравненные навыки</a></p></td></tr></tbody></table>"
+}

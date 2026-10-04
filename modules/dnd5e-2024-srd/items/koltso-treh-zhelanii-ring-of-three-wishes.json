@@ -1,0 +1,17 @@
+{
+  "name": "Кольцо трёх желаний [Ring of Three Wishes]",
+  "source": "DMG 2024",
+  "type": "кольцо",
+  "rarity": "легендарный",
+  "requiresAttunement": false,
+  "cost": "200000 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "3 из 3 зарядов",
+  "description": "<p><em>Кольцо, Легендарное</em></p><p>Пока вы носите это кольцо, то можете потратить 1 из 3 его зарядов, чтобы сотворить из него заклинание <a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Желание [Wish]\">Желание</a>. Потратив последний заряд, кольцо становится немагическим.</p>",
+  "imageUrl": ""
+}

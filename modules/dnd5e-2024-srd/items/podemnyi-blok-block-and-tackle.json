@@ -1,0 +1,16 @@
+{
+  "name": "Подъёмный блок [Block and Tackle]",
+  "source": "PHB 2024",
+  "type": "Расходуемый предмет",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "1 зм.",
+  "weight": "5 фунт.",
+  "weightLb": 5,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Подъёмный блок позволяет поднять в четыре раза больший вес, чем вы обычно можете поднять.</p>"
+}

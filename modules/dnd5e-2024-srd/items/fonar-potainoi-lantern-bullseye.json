@@ -1,0 +1,17 @@
+{
+  "name": "Фонарь, потайной [Lantern, Bullseye]",
+  "source": "PHB 2024",
+  "type": "Расходуемый предмет",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "10 зм.",
+  "weight": "2 фунт.",
+  "weightLb": 2,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Потайной фонарь заправляется Маслом и при горении испускает свет в виде направленного Конуса — Яркий на 60 футов и Тусклый ещё на 60 футов.</p>",
+  "imageUrl": ""
+}

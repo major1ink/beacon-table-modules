@@ -1,0 +1,17 @@
+{
+  "name": "Пластинчатый доспех [Splint Armor]",
+  "source": "PHB 2024",
+  "type": "тяжёлый доспех, splint",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "200 зм.",
+  "weight": "60 фунт.",
+  "weightLb": 60,
+  "activation": "",
+  "damage": "",
+  "armorClass": "17",
+  "properties": "",
+  "charges": "",
+  "description": "",
+  "imageUrl": ""
+}

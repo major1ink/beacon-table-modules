@@ -1,0 +1,18 @@
+{
+  "name": "Облако тумана [Fog Cloud]",
+  "source": "PHB 2024",
+  "level": 1,
+  "school": "Вызов",
+  "castTime": "1 действие",
+  "ritual": false,
+  "range": "120 фт. (20*@item.level фт. сфера)",
+  "verbal": true,
+  "somatic": true,
+  "material": false,
+  "materialNote": "",
+  "duration": "1 час(ов)",
+  "concentration": true,
+  "savingThrow": "",
+  "damage": "",
+  "description": "<p>Вы создаёте Сферу тумана радиусом 20 футов в центре точки в пределах дистанции. Видимость в Сфере Крайне затруднена. Она существует, пока действует заклинание или пока её не развеет сильный ветер (созданный, например, заклинанием <a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Порыв ветра [Gust of Wind]\">Порыв ветра</a>).</p><p><strong>Использование ячейки кругом выше.</strong> Радиус тумана увеличивается на 20 футов за каждый круг ячейки выше 1-го.</p>"
+}

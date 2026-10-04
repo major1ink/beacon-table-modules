@@ -1,0 +1,8 @@
+{
+  "name": "Круг Земли [Circle of the Land]",
+  "kind": "архетип",
+  "parentName": "Друид",
+  "source": "PHB 2024",
+  "imageUrl": "",
+  "description": "<blockquote><p>Воспевайте связь с миром природы.</p></blockquote><p>Круг Земли состоит из мистиков и мудрецов, поколениями сохраняющие древние знания и обряды. Их собрания проводятся в священном круге деревьев или стоячих камней, где на Друидическом языке звучат изначальные секреты самого мироздания. Мудрейшие представители круга становятся духовными лидерами своих поселений.</p><table><thead><tr><td><p style=\"text-align:center\"><strong>Уровень Друида</strong></p></td><td><p><strong>Особенности</strong></p></td></tr></thead><tbody><tr><td><p style=\"text-align:center\">3</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Заклинания Круга Земли [Circle of the Land Spells]\">Заклинания Круга Земли</a></p><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Помощь земли [Land's Aid]\">Помощь земли</a></p></td></tr><tr><td><p style=\"text-align:center\">6</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Природное восстановление [Natural Recovery]\">Природное восстановление</a></p></td></tr><tr><td><p style=\"text-align:center\">10</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Природный оберег [Nature's Ward]\">Природный оберег</a></p></td></tr><tr><td><p style=\"text-align:center\">14</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Природное убежище [Nature's Sanctuary]\">Природное убежище</a></p></td></tr></tbody></table>"
+}

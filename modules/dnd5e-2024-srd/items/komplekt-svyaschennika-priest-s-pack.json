@@ -1,0 +1,16 @@
+{
+  "name": "Комплект священника [Priest's Pack]",
+  "source": "PHB 2024",
+  "type": "Контейнер",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "19 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>В Комплект священника входят: <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Лампа [Lamp]\">Лампа</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Одеяло [Blanket]\">Одеяло</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Огниво [Tinderbox]\">Огниво</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Роба [Robe]\">Мантия</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Рюкзак [Backpack]\">Рюкзак</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Святая вода [Holy Water]\">Святая вода</a> и <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Сухой паёк [Rations]\">Сухой паёк</a> на 7 дней.</p>"
+}

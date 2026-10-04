@@ -1,0 +1,17 @@
+{
+  "name": "Кольчужная рубаха [Chain Shirt]",
+  "source": "PHB 2024",
+  "type": "средний доспех, chainshirt",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "50 зм.",
+  "weight": "20 фунт.",
+  "weightLb": 20,
+  "activation": "",
+  "damage": "",
+  "armorClass": "13 + Лов (макс 2)",
+  "properties": "",
+  "charges": "",
+  "description": "",
+  "imageUrl": ""
+}

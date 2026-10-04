@@ -1,0 +1,17 @@
+{
+  "name": "Зелье яда [Potion of Poison]",
+  "source": "DMG 2024",
+  "type": "зелье",
+  "rarity": "необычный",
+  "requiresAttunement": false,
+  "cost": "200 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "1 бонусное действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "1 из 1 зарядов",
+  "description": "<section id=\"secret-skDsxuJwTLbfhTAz\" class=\"secret\"><p><em>Зелье, Необычное</em></p><p>Это снадобье на вид, вкус и запах неотличимо от Зелья исцеления или другого полезного зелья. На самом деле это яд, замаскированный магией иллюзий. Заклинание <a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Опознание [Identify]\">Опознание</a> выдаст его истинную суть.</p><p>Выпив это зелье, вы получите и должны пройти испытание Выносливости со СЛ 13, при провале вы Отравлены на 1 час.</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\"></figure><article><p>Замените описание на другое зелье, чтобы игроки не смогли обнаружить, что это зелье яда.</p></article></section></section>",
+  "imageUrl": ""
+}

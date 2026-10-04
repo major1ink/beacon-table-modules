@@ -1,0 +1,17 @@
+{
+  "name": "Свеча [Candle]",
+  "source": "PHB 2024",
+  "type": "Расходуемый предмет",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "1 мм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Свеча горит 1 час и испускает Яркий свет в радиусе 5 футов и Тусклый свет ещё на 5 футов.</p>",
+  "imageUrl": ""
+}

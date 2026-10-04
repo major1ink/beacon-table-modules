@@ -1,0 +1,17 @@
+{
+  "name": "Кувшин [Jug]",
+  "source": "PHB 2024",
+  "type": "Контейнер",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "2 мм.",
+  "weight": "4 фунт.",
+  "weightLb": 4,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Кувшин вмещает до 1 галлона жидкости.</p>",
+  "imageUrl": ""
+}

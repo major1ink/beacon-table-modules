@@ -1,0 +1,18 @@
+{
+  "name": "Защита от энергии [Protection From Energy]",
+  "source": "PHB 2024",
+  "level": 3,
+  "school": "Ограждение",
+  "castTime": "1 действие",
+  "ritual": false,
+  "range": "Касание (1 существ(о/а))",
+  "verbal": true,
+  "somatic": true,
+  "material": false,
+  "materialNote": "",
+  "duration": "1 час(ов)",
+  "concentration": true,
+  "savingThrow": "",
+  "damage": "",
+  "description": "<div><p>Пока длится заклинание, согласное существо, которого вы коснулись, получает damageresistance к одному типу урона по вашему выбору: Гром, Кислота, Молния, Огонь или Холод.</p></div>"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Ковёр-самолёт [Carpet of Flying]",
+  "source": "DMG 2024",
+  "type": "чудесный предмет",
+  "rarity": "очень редкий",
+  "requiresAttunement": false,
+  "cost": "40000 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><em>Чудесный предмет, Крайне редкий</em>.</p><p>Выполнив действие Magic, вы можете произнести командное слово для ковра, чтобы тот взлетел и начала парить. Он перемещается, повинуясь вашим приказам, пока вы в пределах 30 футов от него.</p><p>Существуют четыре размера Ковров-самолётов. Мастер выбирает размер ковра или определяет его случайным образом, совершив бросок по таблице ниже. Ковёр может перевозить вдвое больше веса, указанного в таблице. Если он нагружен свыше обычной грузоподъемности, Скорость полёта ковра уменьшается вдвое.</p><table style=\"text-align:center\"><thead><tr><td><p style=\"text-align:center\"><strong>d100</strong></p></td><td><p><strong>Размер</strong></p></td><td data-colwidth=\"116\"><p><strong>Грузоподъёмность</strong></p></td><td><p><strong>Скорость полёта</strong></p></td></tr></thead><tbody><tr><td><p style=\"text-align:center\">01—20</p></td><td><p>3 × 5 футов</p></td><td data-colwidth=\"116\"><p>200 фунтов</p></td><td><p>80 футов</p></td></tr><tr><td><p style=\"text-align:center\">21—55</p></td><td><p>4 × 6 футов</p></td><td data-colwidth=\"116\"><p>400 фунтов</p></td><td><p>60 футов</p></td></tr><tr><td><p style=\"text-align:center\">56—80</p></td><td><p>5 × 7 футов</p></td><td data-colwidth=\"116\"><p>600 фунтов</p></td><td><p>40 футов</p></td></tr><tr><td><p style=\"text-align:center\">81—00</p></td><td><p>6 × 9 футов</p></td><td data-colwidth=\"116\"><p>800 фунтов</p></td><td><p>30 футов</p></td></tr></tbody></table>",
+  "imageUrl": ""
+}

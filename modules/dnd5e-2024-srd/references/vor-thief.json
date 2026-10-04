@@ -1,0 +1,8 @@
+{
+  "name": "Вор [Thief]",
+  "kind": "архетип",
+  "parentName": "Плут",
+  "source": "PHB 2024",
+  "imageUrl": "",
+  "description": "<blockquote><p>Охотьтесь за сокровищами как классический искатель приключений.</p></blockquote><p>Вы — истинное воплощение искателя приключений, сочетающего в себе взломщика, искателя сокровищ и исследователя. Помимо улучшения ловкости и скрытности, вы получаете особые способности, которые помогут вам эффективно исследовать древние руины и извлекать максимальную пользу из найденных там магических предметов.</p>\n<table><thead><tr><td><p style=\"text-align:center\">Уровень Плута</p></td><td><p>Особенность</p></td></tr></thead><tbody><tr><td><p style=\"text-align:center\">3</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Быстрые пальцы [Fast Hands]\">Быстрые пальцы</a></p><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Форточник [Second-Story Work]\">Форточник</a></p></td></tr><tr><td><p style=\"text-align:center\">9</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Высшая скрытность [Supreme Sneak]\">Высшая скрытность</a></p></td></tr><tr><td><p style=\"text-align:center\">13</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Использование магических устройств [Use Magic Device]\">Использование магических устройств</a></p></td></tr><tr><td><p style=\"text-align:center\">17</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Воровские рефлексы [Thief's Reflexes]\">Воровские рефлексы</a></p></td></tr></tbody></table>"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Кошель [Pouch]",
+  "source": "PHB 2024",
+  "type": "Контейнер",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "5 см.",
+  "weight": "1 фунт.",
+  "weightLb": 1,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Кошель вмещает до 6 фунтов объёмом до 1⁄5 кубического фута.</p>"
+}

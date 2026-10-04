@@ -1,0 +1,293 @@
+{
+  "format": "beacon-schema/v1",
+  "kind": "spell",
+  "fields": {
+    "level": {
+      "type": "select",
+      "numeric": true,
+      "path": "level",
+      "label": "Круг",
+      "options": [
+        {
+          "value": "0",
+          "label": "Заговоры"
+        },
+        {
+          "value": "1",
+          "label": "1-й круг"
+        },
+        {
+          "value": "2",
+          "label": "2-й круг"
+        },
+        {
+          "value": "3",
+          "label": "3-й круг"
+        },
+        {
+          "value": "4",
+          "label": "4-й круг"
+        },
+        {
+          "value": "5",
+          "label": "5-й круг"
+        },
+        {
+          "value": "6",
+          "label": "6-й круг"
+        },
+        {
+          "value": "7",
+          "label": "7-й круг"
+        },
+        {
+          "value": "8",
+          "label": "8-й круг"
+        },
+        {
+          "value": "9",
+          "label": "9-й круг"
+        }
+      ],
+      "default": 0
+    },
+    "school": {
+      "type": "select",
+      "path": "school",
+      "label": "Школа",
+      "options": [
+        {
+          "value": "Ограждение",
+          "label": "Ограждение",
+          "glyph": "shield",
+          "color": "#4a8ef0"
+        },
+        {
+          "value": "Вызов",
+          "label": "Вызов",
+          "glyph": "scroll",
+          "color": "#f59f00"
+        },
+        {
+          "value": "Прорицание",
+          "label": "Прорицание",
+          "glyph": "eye",
+          "color": "#e3a008"
+        },
+        {
+          "value": "Очарование",
+          "label": "Очарование",
+          "glyph": "heart",
+          "color": "#d6336c"
+        },
+        {
+          "value": "Воплощение",
+          "label": "Воплощение",
+          "glyph": "flame",
+          "color": "#e8590c"
+        },
+        {
+          "value": "Иллюзия",
+          "label": "Иллюзия",
+          "glyph": "sparkle",
+          "color": "#a371f7"
+        },
+        {
+          "value": "Некромантия",
+          "label": "Некромантия",
+          "glyph": "skull",
+          "color": "#7fbf7f"
+        },
+        {
+          "value": "Преобразование",
+          "label": "Преобразование",
+          "glyph": "swap",
+          "color": "#20c997"
+        }
+      ]
+    },
+    "cast_time": {
+      "type": "text",
+      "path": "castTime",
+      "label": "Время накладывания",
+      "placeholder": "1 действие"
+    },
+    "range": {
+      "type": "text",
+      "path": "range",
+      "label": "Дистанция",
+      "placeholder": "120 фт."
+    },
+    "verbal": {
+      "type": "bool",
+      "path": "verbal",
+      "label": "Вербальный"
+    },
+    "somatic": {
+      "type": "bool",
+      "path": "somatic",
+      "label": "Соматический"
+    },
+    "material": {
+      "type": "bool",
+      "path": "material",
+      "label": "Материальный"
+    },
+    "material_note": {
+      "type": "text",
+      "path": "materialNote",
+      "label": "Материал",
+      "placeholder": "жемчужина не дешевле 100 зм"
+    },
+    "components": {
+      "type": "template",
+      "label": "Компоненты",
+      "template": "{verbal} · {somatic} · {material}[ ({material_note})]"
+    },
+    "duration": {
+      "type": "text",
+      "path": "duration",
+      "label": "Длительность",
+      "placeholder": "мгновенная"
+    },
+    "concentration": {
+      "type": "bool",
+      "path": "concentration",
+      "label": "Концентрация"
+    },
+    "ritual": {
+      "type": "bool",
+      "path": "ritual",
+      "label": "Ритуал"
+    },
+    "attack": {
+      "type": "select",
+      "path": "attack",
+      "label": "Атака заклинанием",
+      "options": [
+        {
+          "value": "melee",
+          "label": "рукопашная"
+        },
+        {
+          "value": "ranged",
+          "label": "дистанционная"
+        }
+      ]
+    },
+    "saving_throw": {
+      "type": "text",
+      "path": "savingThrow",
+      "label": "Спасбросок",
+      "placeholder": "Телосложение"
+    },
+    "damage": {
+      "type": "text",
+      "path": "damage",
+      "label": "Урон",
+      "placeholder": "8к6 огнём"
+    },
+    "upcast": {
+      "type": "text",
+      "path": "upcast",
+      "label": "За круг ячейки выше",
+      "placeholder": "1к6"
+    },
+    "classes": {
+      "type": "text",
+      "path": "classes",
+      "label": "Классы",
+      "placeholder": "волшебник, чародей",
+      "facet": "list"
+    }
+  },
+  "layout": [
+    {
+      "title": "Параметры",
+      "fields": [
+        "cast_time",
+        "range",
+        "components",
+        "duration",
+        "attack",
+        "saving_throw",
+        "damage",
+        "upcast",
+        "classes"
+      ],
+      "mode": "view"
+    },
+    {
+      "title": "Параметры",
+      "fields": [
+        "level",
+        "school",
+        "cast_time",
+        "range",
+        "duration",
+        "attack",
+        "saving_throw",
+        "damage",
+        "upcast",
+        "classes"
+      ],
+      "mode": "edit"
+    },
+    {
+      "title": "Компоненты и свойства",
+      "fields": [
+        "verbal",
+        "somatic",
+        "material",
+        "material_note",
+        "concentration",
+        "ritual"
+      ],
+      "mode": "edit"
+    },
+    {
+      "title": "Накладывает",
+      "widget": "applies"
+    }
+  ],
+  "list": {
+    "subtitle": "{school} · {level}",
+    "group": "level",
+    "sort": [
+      "level",
+      "name"
+    ],
+    "filters": [
+      "level",
+      "concentration",
+      "ritual",
+      "classes"
+    ],
+    "search": [
+      "name",
+      "tags",
+      "school",
+      "classes"
+    ],
+    "pills": [
+      "concentration",
+      "ritual"
+    ],
+    "flags": [
+      {
+        "field": "concentration",
+        "mark": "К",
+        "title": "Концентрация"
+      },
+      {
+        "field": "ritual",
+        "mark": "Р",
+        "title": "Ритуал"
+      }
+    ],
+    "medallion": {
+      "field": "school",
+      "glyph": "sparkle"
+    }
+  }
+}

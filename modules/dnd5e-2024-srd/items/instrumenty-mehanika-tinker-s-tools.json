@@ -1,0 +1,16 @@
+{
+  "name": "Инструменты механика [Tinker’s Tools]",
+  "source": "PHB 2024",
+  "type": "художественные инструменты, tinker",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "50 зм.",
+  "weight": "10 фунт.",
+  "weightLb": 10,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Ловкость </p><p><strong>Использование:</strong> Сборка из утиля Крошечного предмета, разваливающегося через 1 минуту (СЛ 20) </p><p><strong>Изготовление:</strong> <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Фонарь, обычный [Lantern, Hooded]\">Закрытый фонарь</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Замок [Lock]\">Замок</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Зеркальце [Mirror]\">Зеркало</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Кандалы [Manacles]\">Кандалы</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Колокольчик [Bell]\">Колокольчик</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Лопата [Shovel]\">Лопата</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Мушкет [Musket]\">Мушкет</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Фонарь, потайной [Lantern, Bullseye]\">Направленный фонарь</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Капкан [Hunting Trap]\">Охотничий капкан</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Пистолет [Pistol]\">Пистоль</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Свисток [Signal Whistle]\">Сигнальный свисток</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Огниво [Tinderbox]\">Трутница</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Склянка [Flask]\">Фляга</a>.</p>"
+}

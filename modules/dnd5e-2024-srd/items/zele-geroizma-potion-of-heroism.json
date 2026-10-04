@@ -1,0 +1,17 @@
+{
+  "name": "Зелье героизма [Potion of Heroism]",
+  "source": "DMG 2024",
+  "type": "зелье",
+  "rarity": "редкий",
+  "requiresAttunement": false,
+  "cost": "2000 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "1 бонусное действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "1 из 1 зарядов",
+  "description": "<p><em>Зелье, Редкое</em></p><p>Это синее зелье пузырится и испускает пар, будто кипит.</p><p>Выпив это зелье, вы получаете 10 временных ПЗ на 1 час. На это же время вы находитесь под эффектом заклинания <a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Благословение [Bless]\">Благословение</a> (Концентрация не требуется).</p>",
+  "imageUrl": ""
+}

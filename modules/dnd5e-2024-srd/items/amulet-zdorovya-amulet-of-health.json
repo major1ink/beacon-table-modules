@@ -1,0 +1,17 @@
+{
+  "name": "Амулет здоровья [Amulet of Health]",
+  "source": "DMG 2024",
+  "type": "чудесный предмет",
+  "rarity": "редкий",
+  "requiresAttunement": true,
+  "cost": "4000 зм.",
+  "weight": "1 фунт.",
+  "weightLb": 1,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><em>Чудесный предмет, Редкий (требует Настроенности)</em></p><p>Ваша Выносливость равна 19, пока вы носите этот амулет. Если ваша Выносливость и так 19 или выше, он не оказывает эффекта на вас.</p>",
+  "imageUrl": ""
+}

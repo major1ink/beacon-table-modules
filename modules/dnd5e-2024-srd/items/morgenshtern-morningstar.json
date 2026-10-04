@@ -1,0 +1,17 @@
+{
+  "name": "Моргенштерн [Morningstar]",
+  "source": "PHB 2024",
+  "type": "воинское рукопашное, morningstar",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "15 зм.",
+  "weight": "4 фунт.",
+  "weightLb": 4,
+  "activation": "1 действие",
+  "damage": "1к8 (колющий)",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Мастерство: <em>Ослабляющее.</em></strong> Когда вы попадаете по существу оружием, у него Помеха к следующему броску атаки до начала вашего следующего хода.</p>",
+  "imageUrl": ""
+}

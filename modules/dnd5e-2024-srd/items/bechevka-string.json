@@ -1,0 +1,16 @@
+{
+  "name": "Бечёвка [String]",
+  "source": "PHB 2024",
+  "type": "чудесный предмет",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "1 см.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Длина Бечёвки — 10 футов. Вы можете завязать на ней узел в качестве действия Использование.</p>"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Парадная одежда [Clothes, Fine]",
+  "source": "PHB 2024",
+  "type": "одежда",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "15 зм.",
+  "weight": "6 фунт.",
+  "weightLb": 6,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Парадная одежда изготавливается из дорогих тканей и искусно украшается. В некоторые места и на мероприятия допускаются существа только в этой одежде.</p>"
+}

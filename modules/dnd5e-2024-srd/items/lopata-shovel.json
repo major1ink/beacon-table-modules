@@ -1,0 +1,17 @@
+{
+  "name": "Лопата [Shovel]",
+  "source": "PHB 2024",
+  "type": "Снаряжение",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "2 зм.",
+  "weight": "5 фунт.",
+  "weightLb": 5,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Вы можете использовать Лопату, чтобы за час выкопать в почве или подобном материале кубическую яму со стороной 5 футов.</p>",
+  "imageUrl": ""
+}

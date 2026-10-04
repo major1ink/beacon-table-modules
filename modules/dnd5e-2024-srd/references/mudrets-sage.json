@@ -1,0 +1,8 @@
+{
+  "name": "Мудрец [Sage]",
+  "kind": "происхождение",
+  "parentName": "",
+  "source": "PHB 2024",
+  "description": "<p><strong>Характеристики:</strong> Выносливость, Интеллект, Мудрость.</p><p><strong>Черта:</strong> <a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Посвящённый в магию [Magic Initiate]\">Посвящённый в магию</a> (Волшебник).</p><p><strong>Умения в навыках:</strong> История и Магия.</p><p><strong>Умения в инструментах:</strong> Инструменты каллиграфа.</p><p><strong>Экипировка:</strong> Выберите А или Б: (А) <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Боевой посох [Quarterstaff]\">Боевой посох</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Инструменты каллиграфа [Calligrapher’s Supplies]\">Инструменты каллиграфа</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Книга [Book]\">Книга</a> (история), <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Пергамент [Parchment]\">Пергамент</a> (8 листов), <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Роба [Robe]\">Мантия</a>, 8 ЗМ; (Б) 50 ЗМ.</p><p>Ваши юные годы прошли в постоянных странствиях между поместьями и монастырями. Вы брались за любую работу и оказывали всевозможные услуги, лишь бы получить доступ к их библиотекам. Бесчисленные долгие вечера, проведённые за древними книгами и свитками, наделили вас знаниями о мультивселенной и основах магии. Но жажда знаний по-прежнему терзает ваш разум.</p>",
+  "imageUrl": ""
+}

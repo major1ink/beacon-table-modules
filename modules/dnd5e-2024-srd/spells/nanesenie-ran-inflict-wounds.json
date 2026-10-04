@@ -1,0 +1,19 @@
+{
+  "name": "Нанесение ран [Inflict Wounds]",
+  "source": "PHB 2024",
+  "level": 1,
+  "school": "Некромантия",
+  "castTime": "1 действие",
+  "ritual": false,
+  "range": "Касание (1 существ(о/а))",
+  "verbal": true,
+  "somatic": true,
+  "material": false,
+  "materialNote": "",
+  "duration": "Мгновенная",
+  "concentration": false,
+  "savingThrow": "Тел",
+  "damage": "2к10 (некротический)",
+  "upcast": "1к10",
+  "description": "<p>ущество, которого вы коснулись, проходит испытание Выносливости, при провале получая, при успехе — половину этого урона.</p><p><strong>Использование ячейки кругом выше.</strong> Урон увеличивается на 1d10 за каждый круг ячейки выше 1-го.</p>"
+}

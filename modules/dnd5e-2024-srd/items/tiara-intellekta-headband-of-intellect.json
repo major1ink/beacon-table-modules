@@ -1,0 +1,17 @@
+{
+  "name": "Тиара интеллекта [Headband of Intellect]",
+  "source": "DMG 2024",
+  "type": "чудесный предмет",
+  "rarity": "необычный",
+  "requiresAttunement": true,
+  "cost": "400 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><em>Чудесный предмет, Необычный</em>.</p><p>Ваш Интеллект равен 19, пока вы носите эту тиару. Если ваш Интеллект и так 19 или выше, она не оказывает эффекта на вас.</p>",
+  "imageUrl": ""
+}

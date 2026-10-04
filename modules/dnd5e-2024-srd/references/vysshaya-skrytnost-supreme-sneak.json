@@ -1,0 +1,7 @@
+{
+  "name": "Высшая скрытность [Supreme Sneak]",
+  "kind": "черта класса",
+  "parentName": "",
+  "source": "PHB 2024",
+  "description": "<p><strong>Требования:</strong> Плут 9 (Вор)</p><p>Вы получаете описанный ниже вариант <a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Хитроумный удар [Cunning Strike]\">Хитроумного удара</a>.</p><p><strong>Скрытная атака (1d6).</strong> Если вы &amp;reference[Invisible]{Невидимы} благодаря действию Hide, эта атака не прекращает Невидимость для вас, если вы завершите этот ход за Укрытием на три четверти или Полным укрытием.</p>"
+}

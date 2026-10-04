@@ -1,0 +1,16 @@
+{
+  "name": "Сундук [Chest]",
+  "source": "PHB 2024",
+  "type": "Контейнер",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "5 зм.",
+  "weight": "25 фунт.",
+  "weightLb": 25,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Сундук вмещает до 12 кубических футов содержимого.</p>"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Виола [Viol]",
+  "source": "PHB 2024",
+  "type": "музыкальный инструмент, viol",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "30 зм.",
+  "weight": "1 фунт.",
+  "weightLb": 1,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Харизма</p><p class=\"phb-meta\"><strong>Использование:</strong> сыграть известную мелодию (СЛ 10), импровизировать (СЛ 15)</p>",
+  "imageUrl": ""
+}

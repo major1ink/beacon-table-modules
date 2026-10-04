@@ -1,0 +1,17 @@
+{
+  "name": "Инструменты отравителя [Poisoner’s Kit]",
+  "source": "PHB 2024",
+  "type": "pois",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "50 зм.",
+  "weight": "2 фунт.",
+  "weightLb": 2,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика: </strong>Интеллект.</p><p><strong>Использование: </strong>Обнаружение отравленного объекта (СЛ 10)</p><p><strong>Изготовление: </strong><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Обычный яд [Poison, Basic]\">Простой яд</a>.</p>",
+  "imageUrl": ""
+}

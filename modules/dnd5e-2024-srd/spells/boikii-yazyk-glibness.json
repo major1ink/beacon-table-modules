@@ -1,0 +1,18 @@
+{
+  "name": "Бойкий язык [Glibness]",
+  "source": "PHB 2024",
+  "level": 8,
+  "school": "Преобразование",
+  "castTime": "1 действие",
+  "ritual": false,
+  "range": "На себя (self)",
+  "verbal": true,
+  "somatic": false,
+  "material": false,
+  "materialNote": "",
+  "duration": "1 час(ов)",
+  "concentration": false,
+  "savingThrow": "",
+  "damage": "",
+  "description": "<p>Пока длится заклинание, вы можете заменить выпавшее число на 15 при проверке Харизмы. Кроме того, что бы вы ни говорили, магия, определяющая истинность сказанного вами, будет указывать, что вы сказали правду.</p>"
+}

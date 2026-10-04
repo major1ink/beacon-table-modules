@@ -1,0 +1,17 @@
+{
+  "name": "Цеп [Flail]",
+  "source": "PHB 2024",
+  "type": "воинское рукопашное, flail",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "10 зм.",
+  "weight": "2 фунт.",
+  "weightLb": 2,
+  "activation": "1 действие",
+  "damage": "1к8 (дробящий)",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Мастерство: <em>Ослабляющее.</em></strong> Когда вы попадаете по существу оружием, у него Помеха к следующему броску атаки до начала вашего следующего хода.</p>",
+  "imageUrl": ""
+}

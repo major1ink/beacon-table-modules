@@ -1,0 +1,17 @@
+{
+  "name": "Набор для подделки [Forgery Kit]",
+  "source": "PHB 2024",
+  "type": "Инструмент",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "15 зм.",
+  "weight": "5 фунт.",
+  "weightLb": 5,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p class=\"phb-meta\"><strong>Характеристика:</strong> Ловкость <strong>Вес:</strong> 5 фунтов</p><p><strong>Использование:</strong> подделать не больше 10 слов чужим почерком (СЛ 15), создать дубликат восковой печати (СЛ 20)</p>",
+  "imageUrl": ""
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Плащ ската [Cloak of the Manta Ray]",
+  "source": "DMG 2024",
+  "type": "чудесный предмет",
+  "rarity": "необычный",
+  "requiresAttunement": true,
+  "cost": "400 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><em>Чудесный предмет, Необычный (требует Настроенности)</em></p><p>Пока вы носите этот плащ, то можете дышать под водой и у вас Скорость плавания 60 футов.</p>",
+  "imageUrl": ""
+}

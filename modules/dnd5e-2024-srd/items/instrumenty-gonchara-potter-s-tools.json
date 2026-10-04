@@ -1,0 +1,16 @@
+{
+  "name": "Инструменты гончара [Potter's Tools]",
+  "source": "PHB 2024",
+  "type": "художественные инструменты, potter",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "10 зм.",
+  "weight": "3 фунт.",
+  "weightLb": 3,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p class=\"phb-meta\"><strong>Характеристика:</strong> Интеллект Вес: 3 фунта</p><p><strong>Использование:</strong> определить содержимое керамического объекта за последние 24 часа (СЛ 15)</p><p><strong>Изготовление:</strong> <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Кувшин [Jug]\">Кувшин</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Лампа [Lamp]\">Лампа</a>.</p>"
+}

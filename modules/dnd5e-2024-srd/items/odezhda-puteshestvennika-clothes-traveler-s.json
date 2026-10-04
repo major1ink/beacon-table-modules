@@ -1,0 +1,16 @@
+{
+  "name": "Одежда путешественника [Clothes, Traveler's]",
+  "source": "PHB 2024",
+  "type": "одежда",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "2 зм.",
+  "weight": "4 фунт.",
+  "weightLb": 4,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Одежда путешественника — это прочные и практичные одеяния, созданные для странствий в различных условиях.</p>"
+}

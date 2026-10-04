@@ -1,0 +1,16 @@
+{
+  "name": "Комплект взломщика [Burglar's Pack]",
+  "source": "PHB 2024",
+  "type": "Контейнер",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "16 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>В Комплект взломщика входят: <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Бурдюк [Waterskin]\">Бурдюк</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Верёвка [Rope]\">Верёвка</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Колокольчик [Bell]\">Колокольчик</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Ломик [Crowbar]\">Ломик</a>, 7 склянок <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Масло [Oil]\">Масла</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Фонарь, обычный [Lantern, Hooded]\">Обычный фонарь</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Огниво [Tinderbox]\">Огниво</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Рюкзак [Backpack]\">Рюкзак</a>, 10 <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Свеча [Candle]\">Свечей</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Сухой паёк [Rations]\">Сухой паёк</a> на 5 дней и <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Шарики [Ball Bearings]\">Шарики</a>.</p>"
+}

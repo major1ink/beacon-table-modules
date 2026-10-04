@@ -1,0 +1,17 @@
+{
+  "name": "Клёпаный кожаный доспех [Studded Leather Armor]",
+  "source": "PHB 2024",
+  "type": "лёгкий доспех, studded",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "45 зм.",
+  "weight": "13 фунт.",
+  "weightLb": 13,
+  "activation": "",
+  "damage": "",
+  "armorClass": "12 + Лов",
+  "properties": "",
+  "charges": "",
+  "description": "",
+  "imageUrl": ""
+}

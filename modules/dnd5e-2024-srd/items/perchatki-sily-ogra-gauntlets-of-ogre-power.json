@@ -1,0 +1,17 @@
+{
+  "name": "Перчатки силы огра [Gauntlets of Ogre Power]",
+  "source": "DMG 2024",
+  "type": "чудесный предмет",
+  "rarity": "необычный",
+  "requiresAttunement": true,
+  "cost": "400 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><em>Чудесный предмет, Необычный (требует Настроенности)</em></p><p>Ваша Сила равна 19, пока вы носите эти перчатки. Если ваша Сила и так 19 или выше, они не оказывают эффекта на вас.</p>",
+  "imageUrl": ""
+}

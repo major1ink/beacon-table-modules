@@ -1,0 +1,1381 @@
+{
+  "format": "beacon-schema/v1",
+  "kind": "sheet",
+  "core": {
+    "hp.current": "hp_current",
+    "hp.max": "hp_max",
+    "ac": "ac",
+    "speed": "speed",
+    "initiative": "initiative"
+  },
+  "fields": {
+    "player": {
+      "type": "text",
+      "path": "info.playerName",
+      "label": "Имя игрока"
+    },
+    "info_bg": {
+      "type": "text",
+      "path": "info.background",
+      "label": "Предыстория",
+      "suggest": {
+        "reference": "происхождение"
+      }
+    },
+    "class": {
+      "type": "text",
+      "path": "info.class",
+      "label": "Класс",
+      "suggest": {
+        "reference": "класс"
+      }
+    },
+    "subclass": {
+      "type": "text",
+      "path": "info.subclass",
+      "label": "Подкласс",
+      "suggest": {
+        "reference": "архетип",
+        "parentField": "class"
+      }
+    },
+    "race": {
+      "type": "text",
+      "path": "info.race",
+      "label": "Раса",
+      "suggest": {
+        "reference": "вид"
+      }
+    },
+    "level": {
+      "type": "number",
+      "path": "info.level",
+      "label": "Уровень",
+      "default": 1
+    },
+    "xp": {
+      "type": "number",
+      "path": "info.xp",
+      "label": "Опыт"
+    },
+    "alignment": {
+      "type": "text",
+      "path": "alignment",
+      "label": "Мировоззрение"
+    },
+    "prof": {
+      "type": "computed",
+      "label": "Бонус владения",
+      "formula": "2 + floor((min(max(@level, 1), 20) - 1) / 4)",
+      "signed": true
+    },
+    "str": {
+      "type": "number",
+      "path": "abilities.str",
+      "label": "Сила",
+      "short": "Сил",
+      "modifierTarget": "abilities.str",
+      "default": 10
+    },
+    "str_mod": {
+      "type": "computed",
+      "label": "Проверка: Сила",
+      "formula": "floor((@str - 10) / 2)",
+      "signed": true,
+      "roll": "1d20 + @str_mod"
+    },
+    "dex": {
+      "type": "number",
+      "path": "abilities.dex",
+      "label": "Ловкость",
+      "short": "Лов",
+      "modifierTarget": "abilities.dex",
+      "default": 10
+    },
+    "dex_mod": {
+      "type": "computed",
+      "label": "Проверка: Ловкость",
+      "formula": "floor((@dex - 10) / 2)",
+      "signed": true,
+      "roll": "1d20 + @dex_mod"
+    },
+    "con": {
+      "type": "number",
+      "path": "abilities.con",
+      "label": "Телосложение",
+      "short": "Тел",
+      "modifierTarget": "abilities.con",
+      "default": 10
+    },
+    "con_mod": {
+      "type": "computed",
+      "label": "Проверка: Телосложение",
+      "formula": "floor((@con - 10) / 2)",
+      "signed": true,
+      "roll": "1d20 + @con_mod"
+    },
+    "int": {
+      "type": "number",
+      "path": "abilities.int",
+      "label": "Интеллект",
+      "short": "Инт",
+      "modifierTarget": "abilities.int",
+      "default": 10
+    },
+    "int_mod": {
+      "type": "computed",
+      "label": "Проверка: Интеллект",
+      "formula": "floor((@int - 10) / 2)",
+      "signed": true,
+      "roll": "1d20 + @int_mod"
+    },
+    "wis": {
+      "type": "number",
+      "path": "abilities.wis",
+      "label": "Мудрость",
+      "short": "Мдр",
+      "modifierTarget": "abilities.wis",
+      "default": 10
+    },
+    "wis_mod": {
+      "type": "computed",
+      "label": "Проверка: Мудрость",
+      "formula": "floor((@wis - 10) / 2)",
+      "signed": true,
+      "roll": "1d20 + @wis_mod"
+    },
+    "cha": {
+      "type": "number",
+      "path": "abilities.cha",
+      "label": "Харизма",
+      "short": "Хар",
+      "modifierTarget": "abilities.cha",
+      "default": 10
+    },
+    "cha_mod": {
+      "type": "computed",
+      "label": "Проверка: Харизма",
+      "formula": "floor((@cha - 10) / 2)",
+      "signed": true,
+      "roll": "1d20 + @cha_mod"
+    },
+    "hp_current": {
+      "type": "number",
+      "path": "combat.hpCurrent",
+      "label": "Хиты сейчас"
+    },
+    "hp_max": {
+      "type": "number",
+      "path": "combat.hpMax",
+      "label": "Хиты макс.",
+      "modifierTarget": "hp.max"
+    },
+    "hp_temp": {
+      "type": "number",
+      "path": "combat.hpTemp",
+      "label": "Врем. хиты"
+    },
+    "ac": {
+      "type": "number",
+      "path": "combat.ac",
+      "label": "КЗ",
+      "modifierTarget": "ac"
+    },
+    "speed": {
+      "type": "number",
+      "path": "combat.speed",
+      "label": "Скорость",
+      "modifierTarget": "speed"
+    },
+    "darkvision": {
+      "type": "number",
+      "path": "combat.darkvision",
+      "label": "Тёмное зрение"
+    },
+    "initiative": {
+      "type": "computed",
+      "label": "Инициатива",
+      "formula": "@dex_mod",
+      "signed": true,
+      "roll": "1d20 + @dex_mod"
+    },
+    "passive": {
+      "type": "computed",
+      "label": "Пасс. восприятие",
+      "formula": "10 + @wis_mod + @skillProf.perception * @prof"
+    },
+    "hit_total": {
+      "type": "text",
+      "path": "combat.hitDiceTotal",
+      "label": "Кости хитов (всего)",
+      "placeholder": "3к8"
+    },
+    "hit_current": {
+      "type": "text",
+      "path": "combat.hitDiceCurrent",
+      "label": "Кости хитов (сейчас)",
+      "placeholder": "3к8"
+    },
+    "death_ok": {
+      "type": "tally",
+      "path": "combat.deathSaveSuccess",
+      "label": "Спасбр. от смерти — успехи",
+      "max": 3
+    },
+    "death_fail": {
+      "type": "tally",
+      "path": "combat.deathSaveFail",
+      "label": "Спасбр. от смерти — провалы",
+      "max": 3,
+      "tone": "bad"
+    },
+    "exhaustion": {
+      "type": "tally",
+      "path": "combat.exhaustion",
+      "label": "Истощение",
+      "max": 6,
+      "tone": "bad"
+    },
+    "inspiration": {
+      "type": "bool",
+      "path": "combat.inspiration",
+      "label": "Героическое вдохновение"
+    },
+    "dying": {
+      "type": "bool",
+      "path": "combat.isDying",
+      "label": "Умирает / без сознания"
+    },
+    "conditions": {
+      "type": "longtext",
+      "path": "combat.conditions",
+      "label": "Состояния (заметка)"
+    },
+    "armor_light": {
+      "type": "bool",
+      "path": "armor.lightArmor",
+      "label": "Лёгкие доспехи"
+    },
+    "armor_medium": {
+      "type": "bool",
+      "path": "armor.mediumArmor",
+      "label": "Средние доспехи"
+    },
+    "armor_heavy": {
+      "type": "bool",
+      "path": "armor.heavyArmor",
+      "label": "Тяжёлые доспехи"
+    },
+    "armor_shield": {
+      "type": "bool",
+      "path": "armor.shield",
+      "label": "Щит"
+    },
+    "weapons_simple": {
+      "type": "bool",
+      "path": "armor.simpleWeapons",
+      "label": "Простое оружие"
+    },
+    "weapons_martial": {
+      "type": "bool",
+      "path": "armor.martialWeapons",
+      "label": "Воинское оружие"
+    },
+    "weapons_other": {
+      "type": "text",
+      "path": "armor.otherWeapons",
+      "label": "Другое оружие"
+    },
+    "tools": {
+      "type": "longtext",
+      "path": "toolsLanguages",
+      "label": "Владение инструментами и языками"
+    },
+    "prof_notes": {
+      "type": "longtext",
+      "path": "proficiencyNotes",
+      "label": "Прочие владения (текстом)"
+    },
+    "saves": {
+      "type": "table",
+      "path": "saveProf",
+      "label": "Спасброски",
+      "rows": [
+        {
+          "key": "str",
+          "label": "Сила (спасбросок)",
+          "formulas": {
+            "base": "@str_mod"
+          }
+        },
+        {
+          "key": "dex",
+          "label": "Ловкость (спасбросок)",
+          "formulas": {
+            "base": "@dex_mod"
+          }
+        },
+        {
+          "key": "con",
+          "label": "Телосложение (спасбросок)",
+          "formulas": {
+            "base": "@con_mod"
+          }
+        },
+        {
+          "key": "int",
+          "label": "Интеллект (спасбросок)",
+          "formulas": {
+            "base": "@int_mod"
+          }
+        },
+        {
+          "key": "wis",
+          "label": "Мудрость (спасбросок)",
+          "formulas": {
+            "base": "@wis_mod"
+          }
+        },
+        {
+          "key": "cha",
+          "label": "Харизма (спасбросок)",
+          "formulas": {
+            "base": "@cha_mod"
+          }
+        }
+      ],
+      "columns": [
+        {
+          "id": "pl",
+          "type": "prof",
+          "path": "{key}",
+          "label": "Владение",
+          "levels": 2
+        },
+        {
+          "id": "base",
+          "type": "computed",
+          "label": "База",
+          "formula": "0"
+        },
+        {
+          "id": "bonus",
+          "type": "computed",
+          "label": "Бонус",
+          "formula": "@base + @pl * @prof",
+          "signed": true
+        },
+        {
+          "id": "check",
+          "type": "roll",
+          "label": "Бросок",
+          "roll": "1d20 + @bonus"
+        }
+      ]
+    },
+    "skills": {
+      "type": "table",
+      "path": "skillProf",
+      "label": "Навыки",
+      "rows": [
+        {
+          "key": "athletics",
+          "label": "Атлетика",
+          "formulas": {
+            "base": "@str_mod"
+          }
+        },
+        {
+          "key": "acrobatics",
+          "label": "Акробатика",
+          "formulas": {
+            "base": "@dex_mod"
+          }
+        },
+        {
+          "key": "sleightOfHand",
+          "label": "Ловкость рук",
+          "formulas": {
+            "base": "@dex_mod"
+          }
+        },
+        {
+          "key": "stealth",
+          "label": "Скрытность",
+          "formulas": {
+            "base": "@dex_mod"
+          }
+        },
+        {
+          "key": "investigation",
+          "label": "Анализ",
+          "formulas": {
+            "base": "@int_mod"
+          }
+        },
+        {
+          "key": "history",
+          "label": "История",
+          "formulas": {
+            "base": "@int_mod"
+          }
+        },
+        {
+          "key": "arcana",
+          "label": "Магия",
+          "formulas": {
+            "base": "@int_mod"
+          }
+        },
+        {
+          "key": "nature",
+          "label": "Природа",
+          "formulas": {
+            "base": "@int_mod"
+          }
+        },
+        {
+          "key": "religion",
+          "label": "Религия",
+          "formulas": {
+            "base": "@int_mod"
+          }
+        },
+        {
+          "key": "perception",
+          "label": "Восприятие",
+          "formulas": {
+            "base": "@wis_mod"
+          }
+        },
+        {
+          "key": "survival",
+          "label": "Выживание",
+          "formulas": {
+            "base": "@wis_mod"
+          }
+        },
+        {
+          "key": "medicine",
+          "label": "Медицина",
+          "formulas": {
+            "base": "@wis_mod"
+          }
+        },
+        {
+          "key": "insight",
+          "label": "Проницательность",
+          "formulas": {
+            "base": "@wis_mod"
+          }
+        },
+        {
+          "key": "animalHandling",
+          "label": "Уход за животными",
+          "formulas": {
+            "base": "@wis_mod"
+          }
+        },
+        {
+          "key": "performance",
+          "label": "Выступление",
+          "formulas": {
+            "base": "@cha_mod"
+          }
+        },
+        {
+          "key": "intimidation",
+          "label": "Запугивание",
+          "formulas": {
+            "base": "@cha_mod"
+          }
+        },
+        {
+          "key": "deception",
+          "label": "Обман",
+          "formulas": {
+            "base": "@cha_mod"
+          }
+        },
+        {
+          "key": "persuasion",
+          "label": "Убеждение",
+          "formulas": {
+            "base": "@cha_mod"
+          }
+        }
+      ],
+      "columns": [
+        {
+          "id": "pl",
+          "type": "prof",
+          "path": "{key}",
+          "label": "Владение",
+          "levels": 3
+        },
+        {
+          "id": "base",
+          "type": "computed",
+          "label": "База",
+          "formula": "0"
+        },
+        {
+          "id": "bonus",
+          "type": "computed",
+          "label": "Бонус",
+          "formula": "@base + @pl * @prof",
+          "signed": true
+        },
+        {
+          "id": "check",
+          "type": "roll",
+          "label": "Бросок",
+          "roll": "1d20 + @bonus"
+        }
+      ]
+    },
+    "weapons": {
+      "type": "table",
+      "path": "weapons",
+      "label": "Оружие и боевые заговоры",
+      "columns": [
+        {
+          "id": "name",
+          "type": "text",
+          "path": "name",
+          "label": "Название"
+        },
+        {
+          "id": "bonus",
+          "type": "text",
+          "path": "bonus",
+          "label": "Бонус/Сложность",
+          "placeholder": "+5",
+          "rollable": "check"
+        },
+        {
+          "id": "damage",
+          "type": "text",
+          "path": "damage",
+          "label": "Урон/Вид",
+          "rollable": "inline"
+        },
+        {
+          "id": "notes",
+          "type": "text",
+          "path": "notes",
+          "label": "Заметки"
+        }
+      ]
+    },
+    "traits": {
+      "type": "longtext",
+      "path": "traits",
+      "label": "Видовые черты"
+    },
+    "features": {
+      "type": "longtext",
+      "path": "features",
+      "label": "Умения и способности"
+    },
+    "attacks_spells": {
+      "type": "longtext",
+      "path": "attacksSpells",
+      "label": "Атаки и заклинания"
+    },
+    "feats": {
+      "type": "longtext",
+      "path": "feats",
+      "label": "Черты"
+    },
+    "equipment": {
+      "type": "longtext",
+      "path": "equipment",
+      "label": "Снаряжение"
+    },
+    "appearance": {
+      "type": "longtext",
+      "path": "appearance",
+      "label": "Внешность"
+    },
+    "background": {
+      "type": "longtext",
+      "path": "background",
+      "label": "Предыстория"
+    },
+    "personality": {
+      "type": "longtext",
+      "path": "personalityTraits",
+      "label": "Черты характера"
+    },
+    "ideals": {
+      "type": "longtext",
+      "path": "ideals",
+      "label": "Идеалы"
+    },
+    "bonds": {
+      "type": "longtext",
+      "path": "bonds",
+      "label": "Привязанности"
+    },
+    "flaws": {
+      "type": "longtext",
+      "path": "flaws",
+      "label": "Слабости"
+    },
+    "goals": {
+      "type": "longtext",
+      "path": "goals",
+      "label": "Цели и задачи"
+    },
+    "allies": {
+      "type": "longtext",
+      "path": "allies",
+      "label": "Союзники и организации"
+    },
+    "additional": {
+      "type": "longtext",
+      "path": "additionalFeatures",
+      "label": "Дополнительные способности и умения"
+    },
+    "treasure": {
+      "type": "longtext",
+      "path": "treasure",
+      "label": "Сокровища"
+    },
+    "note_0": {
+      "type": "longtext",
+      "path": "notes.0",
+      "label": "Заметки 1"
+    },
+    "note_1": {
+      "type": "longtext",
+      "path": "notes.1",
+      "label": "Заметки 2"
+    },
+    "note_2": {
+      "type": "longtext",
+      "path": "notes.2",
+      "label": "Заметки 3"
+    },
+    "note_3": {
+      "type": "longtext",
+      "path": "notes.3",
+      "label": "Заметки 4"
+    },
+    "note_4": {
+      "type": "longtext",
+      "path": "notes.4",
+      "label": "Заметки 5"
+    },
+    "note_5": {
+      "type": "longtext",
+      "path": "notes.5",
+      "label": "Заметки 6"
+    },
+    "age": {
+      "type": "text",
+      "path": "physical.age",
+      "label": "Возраст"
+    },
+    "height": {
+      "type": "text",
+      "path": "physical.height",
+      "label": "Рост"
+    },
+    "weight": {
+      "type": "text",
+      "path": "physical.weight",
+      "label": "Вес"
+    },
+    "eyes": {
+      "type": "text",
+      "path": "physical.eyes",
+      "label": "Глаза"
+    },
+    "skin": {
+      "type": "text",
+      "path": "physical.skin",
+      "label": "Кожа"
+    },
+    "hair": {
+      "type": "text",
+      "path": "physical.hair",
+      "label": "Волосы"
+    },
+    "spell_ability": {
+      "type": "select",
+      "path": "spellcasting.ability",
+      "label": "Характеристика",
+      "options": [
+        {
+          "value": "int",
+          "label": "Интеллект",
+          "formula": "@int_mod"
+        },
+        {
+          "value": "wis",
+          "label": "Мудрость",
+          "formula": "@wis_mod"
+        },
+        {
+          "value": "cha",
+          "label": "Харизма",
+          "formula": "@cha_mod"
+        }
+      ]
+    },
+    "spell_mod": {
+      "type": "computed",
+      "label": "Модификатор",
+      "formula": "@spell_ability",
+      "signed": true
+    },
+    "spell_dc": {
+      "type": "computed",
+      "label": "СЛ спасброска",
+      "formula": "8 + @prof + @spell_ability"
+    },
+    "spell_attack": {
+      "type": "computed",
+      "label": "Бонус атаки",
+      "formula": "@prof + @spell_ability",
+      "signed": true
+    },
+    "slots": {
+      "type": "table",
+      "path": "spellcasting.slotsByLevel",
+      "label": "Ячейки заклинаний",
+      "rows": [
+        {
+          "key": "0",
+          "label": "1-й уровень"
+        },
+        {
+          "key": "1",
+          "label": "2-й уровень"
+        },
+        {
+          "key": "2",
+          "label": "3-й уровень"
+        },
+        {
+          "key": "3",
+          "label": "4-й уровень"
+        },
+        {
+          "key": "4",
+          "label": "5-й уровень"
+        },
+        {
+          "key": "5",
+          "label": "6-й уровень"
+        },
+        {
+          "key": "6",
+          "label": "7-й уровень"
+        },
+        {
+          "key": "7",
+          "label": "8-й уровень"
+        },
+        {
+          "key": "8",
+          "label": "9-й уровень"
+        }
+      ],
+      "columns": [
+        {
+          "id": "slots",
+          "type": "pool",
+          "path": "{key}",
+          "label": "Ячейки"
+        }
+      ]
+    },
+    "prepared": {
+      "type": "table",
+      "path": "preparedSpells",
+      "label": "Заговоры и подготовленные заклинания",
+      "columns": [
+        {
+          "id": "level",
+          "type": "number",
+          "path": "level",
+          "label": "Ур."
+        },
+        {
+          "id": "name",
+          "type": "text",
+          "path": "name",
+          "label": "Название"
+        },
+        {
+          "id": "cast_time",
+          "type": "text",
+          "path": "castTime",
+          "label": "Время"
+        },
+        {
+          "id": "range",
+          "type": "text",
+          "path": "range",
+          "label": "Дистанция"
+        },
+        {
+          "id": "concentration",
+          "type": "bool",
+          "path": "concentration",
+          "label": "К"
+        },
+        {
+          "id": "ritual",
+          "type": "bool",
+          "path": "ritual",
+          "label": "Р"
+        },
+        {
+          "id": "material",
+          "type": "bool",
+          "path": "material",
+          "label": "М"
+        },
+        {
+          "id": "notes",
+          "type": "text",
+          "path": "notes",
+          "label": "Заметки"
+        }
+      ]
+    },
+    "size": {
+      "type": "text",
+      "path": "size",
+      "label": "Размер",
+      "placeholder": "Средний"
+    },
+    "carry": {
+      "type": "computed",
+      "label": "Грузоподъёмность (фунт.)",
+      "formula": "@str * 15"
+    },
+    "jump_high": {
+      "type": "computed",
+      "label": "Прыжок в высоту (фут.)",
+      "formula": "3 + @str_mod"
+    },
+    "jump_long": {
+      "type": "computed",
+      "label": "Прыжок в длину (фут.)",
+      "formula": "@str"
+    },
+    "attunement": {
+      "type": "table",
+      "path": "attunementItems",
+      "label": "Настройка на магические предметы",
+      "columns": [
+        {
+          "id": "name",
+          "type": "text",
+          "path": "name",
+          "label": "Предмет"
+        },
+        {
+          "id": "attuned",
+          "type": "bool",
+          "path": "attuned",
+          "label": "Настроен"
+        }
+      ]
+    }
+  },
+  "layout": [
+    {
+      "widget": "hp",
+      "column": 1,
+      "mode": "view"
+    },
+    {
+      "widget": "xp",
+      "column": 1,
+      "mode": "view",
+      "bind": {
+        "xp": "xp"
+      }
+    },
+    {
+      "title": "Бой",
+      "fields": [
+        "ac",
+        "initiative",
+        "speed",
+        "passive",
+        "prof",
+        "darkvision"
+      ],
+      "column": 1,
+      "mode": "view"
+    },
+    {
+      "title": "Состояние",
+      "fields": [
+        "death_ok",
+        "death_fail",
+        "exhaustion",
+        "inspiration",
+        "dying"
+      ],
+      "column": 1,
+      "mode": "view"
+    },
+    {
+      "title": "Состояния",
+      "widget": "statuses",
+      "column": 1,
+      "mode": "view"
+    },
+    {
+      "fields": [
+        "conditions"
+      ],
+      "column": 1,
+      "mode": "view"
+    },
+    {
+      "title": "Ресурсы",
+      "widget": "resources",
+      "column": 1
+    },
+    {
+      "title": "Проверки",
+      "fields": [
+        "str_mod",
+        "dex_mod",
+        "con_mod",
+        "int_mod",
+        "wis_mod",
+        "cha_mod"
+      ],
+      "column": 2,
+      "mode": "view"
+    },
+    {
+      "title": "Значения характеристик",
+      "fields": [
+        "str",
+        "dex",
+        "con",
+        "int",
+        "wis",
+        "cha"
+      ],
+      "column": 2,
+      "mode": "view"
+    },
+    {
+      "title": "Спасброски",
+      "fields": [
+        "saves"
+      ],
+      "column": 2
+    },
+    {
+      "title": "Навыки",
+      "fields": [
+        "skills"
+      ],
+      "column": 2
+    },
+    {
+      "title": "Оружие и боевые заговоры",
+      "fields": [
+        "weapons"
+      ],
+      "column": 2
+    },
+    {
+      "title": "Заклинания",
+      "widget": "spellbook",
+      "column": 2,
+      "tab": "magic",
+      "tabTitle": "Заклинания",
+      "bind": {
+        "spells": "prepared",
+        "slots": "slots",
+        "attack": "spell_attack",
+        "dc": "spell_dc",
+        "modifier": "spell_mod",
+        "level": "level",
+        "ability": "spell_ability"
+      }
+    },
+    {
+      "title": "Инвентарь",
+      "widget": "inventory",
+      "column": 3,
+      "tab": "inventory"
+    },
+    {
+      "title": "Деньги",
+      "widget": "money",
+      "column": 3,
+      "mode": "view"
+    },
+    {
+      "title": "Настройка на магические предметы",
+      "fields": [
+        "attunement"
+      ],
+      "column": 3,
+      "tab": "magic"
+    },
+    {
+      "fields": [
+        "features"
+      ],
+      "column": 3,
+      "mode": "view"
+    },
+    {
+      "fields": [
+        "traits"
+      ],
+      "column": 3,
+      "mode": "view"
+    },
+    {
+      "fields": [
+        "feats"
+      ],
+      "column": 3,
+      "mode": "view",
+      "open": false
+    },
+    {
+      "fields": [
+        "attacks_spells"
+      ],
+      "column": 3,
+      "mode": "view",
+      "open": false
+    },
+    {
+      "fields": [
+        "equipment"
+      ],
+      "column": 3,
+      "mode": "view",
+      "open": false
+    },
+    {
+      "fields": [
+        "tools",
+        "prof_notes"
+      ],
+      "column": 3,
+      "mode": "view",
+      "open": false
+    },
+    {
+      "fields": [
+        "appearance"
+      ],
+      "column": 3,
+      "mode": "view",
+      "open": false
+    },
+    {
+      "fields": [
+        "background"
+      ],
+      "column": 3,
+      "mode": "view",
+      "open": false
+    },
+    {
+      "fields": [
+        "personality",
+        "ideals",
+        "bonds",
+        "flaws"
+      ],
+      "column": 3,
+      "mode": "view",
+      "open": false
+    },
+    {
+      "fields": [
+        "goals",
+        "allies",
+        "additional",
+        "treasure"
+      ],
+      "column": 3,
+      "mode": "view",
+      "open": false
+    },
+    {
+      "fields": [
+        "note_0",
+        "note_1",
+        "note_2",
+        "note_3",
+        "note_4",
+        "note_5"
+      ],
+      "column": 3,
+      "mode": "view",
+      "open": false
+    },
+    {
+      "title": "Персонаж",
+      "fields": [
+        "player",
+        "info_bg",
+        "class",
+        "subclass",
+        "race",
+        "level",
+        "xp",
+        "prof"
+      ],
+      "column": 1,
+      "mode": "edit"
+    },
+    {
+      "title": "Характеристики",
+      "fields": [
+        "str",
+        "str_mod",
+        "dex",
+        "dex_mod",
+        "con",
+        "con_mod",
+        "int",
+        "int_mod",
+        "wis",
+        "wis_mod",
+        "cha",
+        "cha_mod"
+      ],
+      "column": 1,
+      "mode": "edit"
+    },
+    {
+      "title": "Боевые показатели",
+      "fields": [
+        "ac",
+        "speed",
+        "darkvision",
+        "initiative",
+        "passive"
+      ],
+      "column": 3,
+      "mode": "edit"
+    },
+    {
+      "title": "Хиты",
+      "fields": [
+        "hp_current",
+        "hp_temp",
+        "hp_max",
+        "hit_total",
+        "hit_current"
+      ],
+      "column": 3,
+      "mode": "edit"
+    },
+    {
+      "title": "Состояние",
+      "fields": [
+        "death_ok",
+        "death_fail",
+        "exhaustion",
+        "inspiration",
+        "dying",
+        "conditions"
+      ],
+      "column": 3,
+      "mode": "edit"
+    },
+    {
+      "title": "Владение снаряжением",
+      "fields": [
+        "armor_light",
+        "armor_medium",
+        "armor_heavy",
+        "armor_shield",
+        "weapons_simple",
+        "weapons_martial",
+        "weapons_other",
+        "tools",
+        "prof_notes"
+      ],
+      "column": 3,
+      "mode": "edit"
+    },
+    {
+      "title": "Снаряжение",
+      "fields": [
+        "equipment"
+      ],
+      "column": 3,
+      "mode": "edit"
+    },
+    {
+      "title": "Черты характера, идеалы, привязанности, слабости",
+      "fields": [
+        "personality",
+        "ideals",
+        "bonds",
+        "flaws",
+        "alignment"
+      ],
+      "column": 3,
+      "mode": "edit"
+    },
+    {
+      "title": "Видовые черты",
+      "fields": [
+        "traits"
+      ],
+      "column": 3,
+      "mode": "edit"
+    },
+    {
+      "title": "Умения и способности",
+      "fields": [
+        "features"
+      ],
+      "column": 3,
+      "mode": "edit"
+    },
+    {
+      "title": "Атаки и заклинания",
+      "fields": [
+        "attacks_spells"
+      ],
+      "column": 3,
+      "mode": "edit"
+    },
+    {
+      "title": "Черты",
+      "fields": [
+        "feats"
+      ],
+      "column": 3,
+      "mode": "edit"
+    },
+    {
+      "title": "Заклинательная статистика",
+      "fields": [
+        "spell_ability",
+        "spell_mod",
+        "spell_dc",
+        "spell_attack"
+      ],
+      "column": 1,
+      "tab": "magic",
+      "mode": "edit"
+    },
+    {
+      "title": "Размер, грузоподъёмность, прыжки",
+      "fields": [
+        "size",
+        "carry",
+        "jump_high",
+        "jump_long"
+      ],
+      "column": 1,
+      "tab": "magic",
+      "mode": "edit"
+    },
+    {
+      "title": "Данные персонажа",
+      "fields": [
+        "age",
+        "height",
+        "weight",
+        "eyes",
+        "skin",
+        "hair"
+      ],
+      "column": 1,
+      "tab": "story",
+      "tabTitle": "Личное",
+      "mode": "edit"
+    },
+    {
+      "title": "Внешность",
+      "fields": [
+        "appearance"
+      ],
+      "column": 1,
+      "tab": "story",
+      "mode": "edit"
+    },
+    {
+      "title": "Предыстория",
+      "fields": [
+        "background"
+      ],
+      "column": 1,
+      "tab": "story",
+      "mode": "edit"
+    },
+    {
+      "title": "Цели и задачи",
+      "fields": [
+        "goals"
+      ],
+      "column": 1,
+      "tab": "story",
+      "mode": "edit"
+    },
+    {
+      "title": "Союзники и организации",
+      "fields": [
+        "allies"
+      ],
+      "column": 3,
+      "tab": "story",
+      "mode": "edit"
+    },
+    {
+      "title": "Дополнительные способности и умения",
+      "fields": [
+        "additional"
+      ],
+      "column": 3,
+      "tab": "story",
+      "mode": "edit"
+    },
+    {
+      "title": "Сокровища",
+      "fields": [
+        "treasure"
+      ],
+      "column": 3,
+      "tab": "story",
+      "mode": "edit"
+    },
+    {
+      "title": "Заметки",
+      "fields": [
+        "note_0",
+        "note_1",
+        "note_2",
+        "note_3",
+        "note_4",
+        "note_5"
+      ],
+      "column": 1,
+      "tab": "notes",
+      "tabTitle": "Заметки",
+      "mode": "edit"
+    }
+  ],
+  "list": {
+    "subtitle": "{class} · {subclass} · {level} ур. · {race} · {info_bg} · {alignment}"
+  }
+}

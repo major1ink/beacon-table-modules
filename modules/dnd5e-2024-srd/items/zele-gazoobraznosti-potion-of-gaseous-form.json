@@ -1,0 +1,16 @@
+{
+  "name": "Зелье газообразности [Potion of Gaseous Form]",
+  "source": "DMG 2024",
+  "type": "зелье",
+  "rarity": "редкий",
+  "requiresAttunement": false,
+  "cost": "2000 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "1 бонусное действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "1 из 1 зарядов",
+  "description": "<p><em>Зелье, Редкое</em></p><p>В сосуде этого зелья будто бы плавает туман, текучий, как вода.</p><p>Выпив это зелье, вы получаете эффект заклинания <a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Газообразность [Gaseous Form]\">Газообразность</a> на 1 час (Концентрация не требуется) или пока не прекратите эффект в качестве Бонусного действия.</p>"
+}

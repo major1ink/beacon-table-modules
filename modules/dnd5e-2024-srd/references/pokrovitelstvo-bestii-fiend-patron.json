@@ -1,0 +1,8 @@
+{
+  "name": "Покровительство Бестии [Fiend Patron]",
+  "kind": "архетип",
+  "parentName": "Колдун",
+  "source": "PHB 2024",
+  "imageUrl": "",
+  "description": "<blockquote><p>Заключите сделку с Нижними планами.</p></blockquote><p>Ваш договор черпает силу из Нижних планов — царств погибели. Вы можете заключить сделку с повелителем демонов, например Демогоргоном или Оркусом, архидьяволом, таким как Асмодей, или особенно могущественным Бестией ада, балором, юголотом или ночной каргой. У этого покровителя злые намерения — развращение или разрушение всего сущего, включая вас, — и то, насколько вы сможете противостоять его воле, определит ваш путь.</p><table><thead><tr><td><p style=\"text-align:center\">Уровень Колдуна</p></td><td><p>Особенность</p></td></tr></thead><tbody><tr><td><p style=\"text-align:center\">3</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Заклинания Бестии [Fiend Spells]\">Заклинания Бестии</a></p><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Благословение Тёмного [Dark One's Blessing]\">Благословение Тёмного</a></p></td></tr><tr><td><p style=\"text-align:center\">6</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Удача Тёмного [Dark One's Own Luck]\">Удача Тёмного</a></p></td></tr><tr><td><p style=\"text-align:center\">10</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Стойкость бестии [Fiendish Resilience]\">Стойкость бестии</a></p></td></tr><tr><td><p style=\"text-align:center\">14</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Бросок сквозь Преисподнюю [Hurl Through Hell]\">Бросок сквозь Преисподнюю</a></p></td></tr></tbody></table>"
+}

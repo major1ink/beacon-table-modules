@@ -1,0 +1,17 @@
+{
+  "name": "Мантия полезных вещей [Robe of Useful Items]",
+  "source": "DMG 2024",
+  "type": "чудесный предмет",
+  "rarity": "необычный",
+  "requiresAttunement": false,
+  "cost": "400 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><em>Чудесный предмет, Необычный</em>.</p><p>На этой мантии полным-полно нашивок разных размеров и цветов. Пока вы её носите, вы можете выполнить действие Magic, чтобы сорвать нашивку, и она превратится в объект или существо, которых изображает. Лишившись последней нашивки, мантия становится простой одеждой.</p><p>На мантии есть по две нашивки каждого вида:</p><ul><li><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Верёвка [Rope]\">Верёвка</a> (свёрнутая)</p></li><li><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Зеркальце [Mirror]\">Зеркальце</a></p></li><li><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Кинжал [Dagger]\">Кинжал</a></p></li><li><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Мешок [Sack]\">Мешок</a></p></li><li><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Фонарь, потайной [Lantern, Bullseye]\">Фонарь, потайной</a>(заправленный и зажжённый)</p></li><li><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Шест [Pole]\">Шест</a></p></li></ul><p>Кроме того, на мантии есть другие 4d4 нашивки. Мастер выбирает или определяет нашивки случайным образом, совершив бросок по таблице ниже.</p><p>(см. таблицу в источнике)</p>",
+  "imageUrl": ""
+}

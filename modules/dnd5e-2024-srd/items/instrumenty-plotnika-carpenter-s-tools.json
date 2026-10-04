@@ -1,0 +1,16 @@
+{
+  "name": "Инструменты плотника [Carpenter’s Tools]",
+  "source": "PHB 2024",
+  "type": "художественные инструменты, carpenter",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "8 зм.",
+  "weight": "6 фунт.",
+  "weightLb": 6,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Сила </p><p><strong>Использование:</strong> Заколачивание или вскрытие двери или контейнера (СЛ 20) </p><p><strong>Изготовление:</strong> <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Боевой посох [Quarterstaff]\">Боевой посох</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Бочка [Barrel]\">Бочка</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Дубинка [Club]\">Дубинка</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Лестница [Ladder]\">Лестница</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Дубина [Greatclub]\">Палица</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Ручной таран [Ram, Portable]\">Портативный таран</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Сундук [Chest]\">Сундук</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Факел [Torch]\">Факел</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Шест [Pole]\">Шест</a>.</p>"
+}

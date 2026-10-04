@@ -1,0 +1,17 @@
+{
+  "name": "Бочка [Barrel]",
+  "source": "PHB 2024",
+  "type": "Контейнер",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "2 зм.",
+  "weight": "70 фунт.",
+  "weightLb": 70,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Бочка вмещает до 40 галлонов жидкости или до 4 кубических футов товаров.</p>",
+  "imageUrl": ""
+}

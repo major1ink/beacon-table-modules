@@ -1,0 +1,17 @@
+{
+  "name": "Колчан для стрел [Quiver]",
+  "source": "PHB 2024",
+  "type": "Контейнер",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "1 зм.",
+  "weight": "1 фунт.",
+  "weightLb": 1,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Колчан вмещает до 20 Стрел.</p>",
+  "imageUrl": ""
+}

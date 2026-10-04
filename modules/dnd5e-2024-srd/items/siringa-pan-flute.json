@@ -1,0 +1,16 @@
+{
+  "name": "Сиринга [Pan Flute]",
+  "source": "PHB 2024",
+  "type": "музыкальный инструмент, panflute",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "12 зм.",
+  "weight": "2 фунт.",
+  "weightLb": 2,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Харизма</p><p class=\"phb-meta\"><strong>Использование:</strong> сыграть известную мелодию (СЛ 10), импровизировать (СЛ 15)</p>"
+}

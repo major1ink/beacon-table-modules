@@ -1,0 +1,18 @@
+{
+  "name": "Ложная жизнь [False Life]",
+  "source": "PHB 2024",
+  "level": 1,
+  "school": "Некромантия",
+  "castTime": "1 действие",
+  "ritual": false,
+  "range": "На себя (self)",
+  "verbal": true,
+  "somatic": true,
+  "material": true,
+  "materialNote": "капля спиртного",
+  "duration": "Мгновенная",
+  "concentration": false,
+  "savingThrow": "",
+  "damage": "",
+  "description": "<p>Вы получаете 2d4 + 4 временных ПЗ.</p><p><strong>Использование ячейки кругом выше.</strong> Вы получаете по 5 дополнительных Временных ПЗ за каждый круг ячейки выше 1-го.</p>"
+}

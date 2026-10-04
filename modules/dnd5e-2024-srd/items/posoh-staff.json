@@ -1,0 +1,17 @@
+{
+  "name": "Посох [Staff]",
+  "source": "PHB 2024",
+  "type": "простое рукопашное, quarterstaff",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "5 зм.",
+  "weight": "4 фунт.",
+  "weightLb": 4,
+  "activation": "1 действие",
+  "damage": "1к6 (дробящий)",
+  "armorClass": "",
+  "properties": "фокусировка, универсальное",
+  "charges": "",
+  "description": "<p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Мистический фокусирующий предмет (различный) [Arcane Focus (Varies)]\">Мистический фокусирующий предмет</a> украшен самоцветами или резьбой, чтобы направлять силу мистической магии. Волшебники, Колдуны и Чародеи могут использовать их как Фокусирующий предмет.</p>",
+  "imageUrl": ""
+}

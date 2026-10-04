@@ -1,0 +1,17 @@
+{
+  "name": "Кольцо хождения по воде [Ring of Water Walking]",
+  "source": "DMG 2024",
+  "type": "кольцо",
+  "rarity": "необычный",
+  "requiresAttunement": false,
+  "cost": "400 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><em>Кольцо, Необычное</em></p><p>Пока вы носите это кольцо, то можете сотворить из него заклинание <a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Хождение по воде [Water Walk]\">Хождение по воде</a> (на себя).</p>",
+  "imageUrl": ""
+}

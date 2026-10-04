@@ -1,0 +1,16 @@
+{
+  "name": "Мука [Flour]",
+  "source": "DMG 2024",
+  "type": "trade",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "2 мм.",
+  "weight": "2 фунт.",
+  "weightLb": 2,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Торговцы часто обменивают товары без использования валюты.</p>"
+}

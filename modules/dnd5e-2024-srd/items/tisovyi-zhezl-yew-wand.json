@@ -1,0 +1,17 @@
+{
+  "name": "Тисовый жезл [Yew Wand]",
+  "source": "PHB 2024",
+  "type": "Снаряжение",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "10 зм.",
+  "weight": "1 фунт.",
+  "weightLb": 1,
+  "activation": "",
+  "damage": "",
+  "armorClass": "10",
+  "properties": "",
+  "charges": "",
+  "description": "<p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Фокусирующий предмет друида (различный) [Druidic Focus (Varies)]\">Фокусирующщий предмет друда</a> перевязываются лентой, украшаются резьбой или росписью, чтобы направлять силу магии природы. Друиды и Следопыты могут использовать их как Фокусирующий предмет.</p>",
+  "imageUrl": ""
+}

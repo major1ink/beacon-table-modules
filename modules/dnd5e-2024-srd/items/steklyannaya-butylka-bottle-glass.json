@@ -1,0 +1,16 @@
+{
+  "name": "Стеклянная бутылка [Bottle, Glass]",
+  "source": "PHB 2024",
+  "type": "Контейнер",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "2 зм.",
+  "weight": "2 фунт.",
+  "weightLb": 2,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Стеклянная бутылка вмещает до 1½ пинты.</p>"
+}

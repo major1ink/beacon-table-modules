@@ -1,0 +1,16 @@
+{
+  "name": "Чары восстановления [Charm of Restoration]",
+  "source": "DMG 2024",
+  "type": "Дар предмета",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "3 из 3 зарядов",
+  "description": "<p>У Чар 3 заряда. Вы можете потратить несколько зарядов, чтобы сотворить одно из перечисленных ниже заклинаний:</p><ul><li><p><em><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Высшее восстановление [Greater Restoration]\">Высшее восстановление</a> </em>(2 заряда)</p></li><li><p><em><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Низшее восстановление [Lesser Restoration]\">Низшее восстановление</a> </em>(1 заряд)</p></li></ul><p>После траты всех зарядов Чары на вас оканчиваются.</p>"
+}

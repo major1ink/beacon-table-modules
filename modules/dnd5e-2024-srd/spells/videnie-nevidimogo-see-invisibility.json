@@ -1,0 +1,18 @@
+{
+  "name": "Видение невидимого [See Invisibility]",
+  "source": "PHB 2024",
+  "level": 2,
+  "school": "Прорицание",
+  "castTime": "1 действие",
+  "ritual": false,
+  "range": "На себя (self)",
+  "verbal": true,
+  "somatic": true,
+  "material": true,
+  "materialNote": "щепотка талька",
+  "duration": "1 час(ов)",
+  "concentration": false,
+  "savingThrow": "",
+  "damage": "",
+  "description": "<p>Пока длится заклинание, вы видите Невидимых существ и объекты, как если бы они были видимы, и можете видеть Эфирный план. Существа и объекты кажутся вам призрачными.</p>"
+}

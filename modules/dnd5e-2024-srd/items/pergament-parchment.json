@@ -1,0 +1,17 @@
+{
+  "name": "Пергамент [Parchment]",
+  "source": "PHB 2024",
+  "type": "gear",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "1 см.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>На один лист Пергамента помещается около 250 рукописных слов.</p>",
+  "imageUrl": ""
+}

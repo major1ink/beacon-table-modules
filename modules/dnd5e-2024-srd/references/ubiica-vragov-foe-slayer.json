@@ -1,0 +1,7 @@
+{
+  "name": "Убийца врагов [Foe Slayer]",
+  "kind": "черта класса",
+  "parentName": "",
+  "source": "PHB 2024",
+  "description": "<p><strong>Требования:</strong> Следопыт 20</p><p>Кость урона <a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Метка охотника [Hunter's Mark]\">Метки охотника</a> превращается в d10.</p>"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Мешок [Sack]",
+  "source": "PHB 2024",
+  "type": "Контейнер",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "1 мм.",
+  "weight": "0.5 фунт.",
+  "weightLb": 0.5,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Мешок вмещает груз объёмом до 1 кубического фута и весом до 30 фунтов.</p>"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Чернила [Ink]",
+  "source": "PHB 2024",
+  "type": "gear",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "10 зм.",
+  "weight": "0.06 фунт.",
+  "weightLb": 0.06,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Чернила находятся в бутылочке объёмом в 1 унцию. Этого достаточно для написания около 500 листов.</p>"
+}

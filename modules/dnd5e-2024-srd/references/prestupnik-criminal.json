@@ -1,0 +1,8 @@
+{
+  "name": "Преступник [Criminal]",
+  "kind": "происхождение",
+  "parentName": "",
+  "source": "PHB 2024",
+  "description": "<p><strong>Характеристики:</strong> Ловкость, Выносливость, Интеллект</p><p><strong>Черта:</strong> <a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Бдительный [Alert]\">Бдительный</a>.</p><p><strong>Умения в навыках:</strong> Ловкость рук и Скрытность</p><p><strong>Умения в инструментах:</strong> Инструменты вора.</p><p><strong>Экипировка:</strong> Выберите А или Б: (А) 2 <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Кинжал [Dagger]\">Кинжала</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Инструменты вора [Thieves’ Tools]\">Инструменты вора</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Ломик [Crowbar]\">Ломик</a>, 2 <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Кошель [Pouch]\">Кошеля</a>, Одежда путешественника, 16 ЗМ; (Б) 50 ЗМ</p><p>Вы зарабатывали на жизнь в тёмных переулках, срезая кошельки и проникая в лавки. Возможно, вы были частью небольшой, но сплочённой банды лиходеев, прикрывавших друг другу спину, или же одиноким волком, не желавшим иметь дел с местной гильдией воров и отпетыми бандитами.</p>",
+  "imageUrl": ""
+}

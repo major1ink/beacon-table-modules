@@ -1,0 +1,16 @@
+{
+  "name": "Шар [Orb]",
+  "source": "PHB 2024",
+  "type": "Снаряжение",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "20 зм.",
+  "weight": "3 фунт.",
+  "weightLb": 3,
+  "activation": "",
+  "damage": "",
+  "armorClass": "10",
+  "properties": "",
+  "charges": "",
+  "description": "<p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Мистический фокусирующий предмет (различный) [Arcane Focus (Varies)]\">Мистический фокусирующий предмет</a> украшен самоцветами или резьбой, чтобы направлять силу мистической магии. Волшебники, Колдуны и Чародеи могут использовать их как Фокусирующий предмет.</p>"
+}

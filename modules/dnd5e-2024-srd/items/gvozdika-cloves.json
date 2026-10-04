@@ -1,0 +1,16 @@
+{
+  "name": "Гвоздика [Cloves]",
+  "source": "DMG 2024",
+  "type": "trade",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "3 зм.",
+  "weight": "1 фунт.",
+  "weightLb": 1,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Торговцы часто обменивают товары без использования валюты.</p>"
+}

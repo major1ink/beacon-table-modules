@@ -1,0 +1,18 @@
+{
+  "name": "Управление погодой [Control Weather]",
+  "source": "PHB 2024",
+  "level": 8,
+  "school": "Преобразование",
+  "castTime": "10 мин.",
+  "ritual": false,
+  "range": "На себя (5 миль радиус)",
+  "verbal": true,
+  "somatic": true,
+  "material": true,
+  "materialNote": "горящее благовоние и кусочки земли и дерева, смешанные с водой",
+  "duration": "8 час(ов)",
+  "concentration": true,
+  "savingThrow": "",
+  "damage": "",
+  "description": "<p>Вы управляете погодой в пределах 5 миль от вас, пока длится заклинание. Вам нужно быть под открытым небом, чтобы сотворить это заклинание. Оно прекратит действовать досрочно, если вы окажетесь в помещении.</p><p>При сотворении вы меняете текущую погоду, определённую Мастером. Вы можете поменять осадки, температуру и ветер. На наступление новой погоды уходит1d4*10#Затрачено минут на изменение погоды минут. После этого вы можете поменять погоду снова. Когда заклинание прекращает действовать, погода постепенно приходит в норму.</p><p>Когда вы меняете погоду, найдите текущую погоду в этих таблицах и поменяйте её на одну стадию вверх или вниз. Меняя ветер, вы можете изменить его направление.</p><details><summary><strong>Осадки</strong></summary></details><details><summary><strong>Температура</strong></summary></details><details><summary><strong>Ветер</strong></summary></details>\n<table><caption>Осадки</caption><thead><tr><td><p style=\"text-align:center\"><strong>Ступень</strong></p></td><td><p><strong>Состояние</strong></p></td></tr></thead><tbody><tr><td><p style=\"text-align:center\">1</p></td><td><p>Чистое небо</p></td></tr><tr><td><p style=\"text-align:center\">2</p></td><td><p>Небольшая облачность</p></td></tr><tr><td><p style=\"text-align:center\">3</p></td><td><p>Пасмурно или густой туман</p></td></tr><tr><td><p style=\"text-align:center\">4</p></td><td><p>Дождь, град или снег</p></td></tr><tr><td><p style=\"text-align:center\">5</p></td><td><p>Проливной дождь, сильный град или метель</p></td></tr></tbody></table>\n<table><caption>Температура</caption><thead><tr><td><p style=\"text-align:center\"><strong>Ступень</strong></p></td><td><p><strong>Состояние</strong></p></td></tr></thead><tbody><tr><td><p style=\"text-align:center\">1</p></td><td><p>Чрезвычайная жара</p></td></tr><tr><td><p style=\"text-align:center\">2</p></td><td><p>Жара</p></td></tr><tr><td><p style=\"text-align:center\">3</p></td><td><p>Тепло</p></td></tr><tr><td><p style=\"text-align:center\">4</p></td><td><p>Прохладно</p></td></tr><tr><td><p style=\"text-align:center\">5</p></td><td><p>Холодно</p></td></tr><tr><td><p style=\"text-align:center\">6</p></td><td><p>Мороз</p></td></tr></tbody></table>\n<table><caption>Ветер</caption><thead><tr><td><p style=\"text-align:center\"><strong>Ступень</strong></p></td><td><p><strong>Состояние</strong></p></td></tr></thead><tbody><tr><td><p style=\"text-align:center\">1</p></td><td><p>Штиль</p></td></tr><tr><td><p style=\"text-align:center\">2</p></td><td><p>Умеренный ветер</p></td></tr><tr><td><p style=\"text-align:center\">3</p></td><td><p>Сильный ветер</p></td></tr><tr><td><p style=\"text-align:center\">4</p></td><td><p>Буря</p></td></tr><tr><td><p style=\"text-align:center\">5</p></td><td><p>Шторм</p></td></tr></tbody></table>"
+}

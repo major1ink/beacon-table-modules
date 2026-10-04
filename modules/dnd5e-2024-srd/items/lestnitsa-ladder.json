@@ -1,0 +1,16 @@
+{
+  "name": "Лестница [Ladder]",
+  "source": "PHB 2024",
+  "type": "Снаряжение",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "1 см.",
+  "weight": "25 фунт.",
+  "weightLb": 25,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Высота Лестницы — 10 футов. Передвижение по ней вверх или вниз считается лазанием.</p>"
+}

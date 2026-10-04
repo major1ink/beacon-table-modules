@@ -1,0 +1,8 @@
+{
+  "name": "Драконье чародейство [Draconic Sorcery]",
+  "kind": "архетип",
+  "parentName": "Чародей",
+  "source": "PHB 2024",
+  "imageUrl": "",
+  "description": "<blockquote><p>Дышите магией драконов.</p></blockquote><p>Ваша врождённая магия — дар дракона. Возможно, перед смертью древний дракон завещал вам или вашему предку часть своей магической силы. Вы могли поглотить магию места, в котором была сосредоточено могущество дракона, или же коснуться вещицы из его сокровищницы. Быть может, среди ваших предков был дракон.</p><table><thead><tr><td><p style=\"text-align:center\"><strong>Уровень Чародея</strong></p></td><td><p><strong>Особенности</strong></p></td></tr></thead><tbody><tr><td><p style=\"text-align:center\">3</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Драконья стойкость [Draconic Resilience]\">Драконья стойкость</a></p><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Драконьи заклинания [Draconic Spells]\">Драконьи заклинания</a></p></td></tr><tr><td><p style=\"text-align:center\">6</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Связь со стихиями [Elemental Affinity]\">Связь со стихиями</a></p></td></tr><tr><td><p style=\"text-align:center\">14</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Драконьи крылья [Dragon Wings]\">Драконьи крылья</a></p></td></tr><tr><td><p style=\"text-align:center\">18</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Дракон-спутник [Dragon Companion]\">Дракон-спутник</a></p></td></tr></tbody></table>"
+}

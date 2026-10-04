@@ -1,0 +1,16 @@
+{
+  "name": "Комплект учёного [Scholar's Pack]",
+  "source": "PHB 2024",
+  "type": "Контейнер",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "40 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>В Комплект учёного входят: <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Книга [Book]\">Книга</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Лампа [Lamp]\">Лампа</a>, 10 склянок <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Масло [Oil]\">Масла</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Огниво [Tinderbox]\">Огниво</a>, 10 листов <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Пергамент [Parchment]\">Пергамента</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Перо [Ink Pen]\">Перо</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Рюкзак [Backpack]\">Рюкзак </a> и <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Чернила [Ink]\">Чернила</a>.</p>"
+}

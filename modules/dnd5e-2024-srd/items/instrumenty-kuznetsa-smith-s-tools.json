@@ -1,0 +1,16 @@
+{
+  "name": "Инструменты кузнеца [Smith's Tools]",
+  "source": "PHB 2024",
+  "type": "художественные инструменты, smith",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "20 зм.",
+  "weight": "8 фунт.",
+  "weightLb": 8,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p class=\"phb-meta\"><strong>Характеристика:</strong> Сила <strong>Вес:</strong> 8 фунтов</p><p><strong>Использование:</strong> взломать дверь или контейнер (СЛ 20)</p><p><strong>Изготовление:</strong> любое оружие Ближнего боя (кроме Дубинки, Дубины, Боевого посоха и Кнута), Средняя броня (кроме Сыромятного доспеха), Тяжёлая броня, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Ведро [Bucket]\">Ведро</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Железные гвозди [Spikes, Iron]\">Железные гвозди</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Ломик [Crowbar]\">Ломик</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Шарики [Ball Bearings]\">Шарики</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Шипы-«чеснок» [Caltrops]\">Шипы-«чеснок»</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Цепь [Chain]\">Цепь</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Крюк-кошка [Grappling Hook]\">Крюк-кошка</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Пули для огнестрельного оружия [Bullets, Firearm]\">Пули для огнестрельного оружия</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Ядра для пращи [Bullets, Sling]\">Ядра для пращи</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Чугунный котелок [Pot, Iron]\">Чугунный котелок</a>.</p>"
+}

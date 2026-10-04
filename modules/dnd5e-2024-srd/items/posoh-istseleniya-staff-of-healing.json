@@ -1,0 +1,17 @@
+{
+  "name": "Посох исцеления [Staff of Healing]",
+  "source": "DMG 2024",
+  "type": "простое рукопашное, quarterstaff",
+  "rarity": "редкий",
+  "requiresAttunement": true,
+  "cost": "4000 зм.",
+  "weight": "4 фунт.",
+  "weightLb": 4,
+  "activation": "1 действие",
+  "damage": "1к6 (дробящий)",
+  "armorClass": "",
+  "properties": "фокусировка, магическое, универсальное",
+  "charges": "10 из 10 зарядов, восстановление: 1d6 + 4 (на рассвете)",
+  "description": "<p><em>Посох, Редкий (требует Настроенности Барда, Друида или Жреца)</em></p><p>У этого посоха 10 зарядов. Пока вы держите этот посох, вы можете сотворить из него одно из заклинаний, перечисленных в таблице ниже, используя свой модификатор заклинательной характеристики. В ней также указано, сколько зарядов требуется для сотворения заклинания.</p><table><thead><tr><td><p><strong>Заклинание</strong></p></td><td><p style=\"text-align:center\"><strong>Расход зарядов</strong></p></td></tr></thead><tbody><tr><td><p><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Исцеление ран [Cure Wounds]\">Исцеление ран</a></p></td><td><p style=\"text-align:center\">1 заряд за круг заклинания (но не больше 4 для заклинания 4-го круга)</p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Низшее восстановление [Lesser Restoration]\">Низшее восстановление</a></p></td><td><p style=\"text-align:center\">2</p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Массовое исцеление ран [Mass Cure Wounds]\">Массовое исцеление ран</a></p></td><td><p style=\"text-align:center\">5</p></td></tr></tbody></table><p><strong>Восстановление зарядов.</strong> Ежедневно на рассвете посох восстанавливает 1d6 + 4 потраченных заряда. Потратив последний заряд, бросьте. При результате 1 посох тает во вспышке света и исчезает навсегда.</p>",
+  "imageUrl": ""
+}

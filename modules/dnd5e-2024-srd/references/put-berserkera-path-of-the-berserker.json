@@ -1,0 +1,8 @@
+{
+  "name": "Путь берсеркера [Path of the Berserker]",
+  "kind": "архетип",
+  "parentName": "Варвар",
+  "source": "PHB 2024",
+  "imageUrl": "",
+  "description": "<blockquote>\n <p>Превратите ярость в неистовое бешенство.</p>\n</blockquote>\n<p>Варвары, следующие Пути берсеркера, направляют свою Ярость на проявление неистового насилия. Их путь — это путь необузданного гнева. Они наслаждаются хаосом битвы, позволяя Ярости овладеть собой и придать им сил.</p>\n<table>\n <thead>\n <tr>\n <td>\n <p style=\"text-align:center\">Уровень Варвара</p>\n </td>\n <td>\n <p>Особенность</p>\n </td>\n </tr>\n </thead>\n <tbody>\n <tr>\n <td>\n <p style=\"text-align:center\">3</p>\n </td>\n <td>\n <p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Бешенство [Frenzy]\">Бешенство</a></p>\n </td>\n </tr>\n <tr>\n <td>\n <p style=\"text-align:center\">6</p>\n </td>\n <td>\n <p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Слепая ярость [Mindless Rage]\">Слепая ярость</a></p>\n </td>\n </tr>\n <tr>\n <td>\n <p style=\"text-align:center\">10</p>\n </td>\n <td>\n <p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Возмездие [Retaliation]\">Возмездие</a></p>\n </td>\n </tr>\n <tr>\n <td>\n <p style=\"text-align:center\">14</p>\n </td>\n <td>\n <p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Пугающий облик [Intimidating Presence]\">Пугающий облик</a></p>\n </td>\n </tr>\n </tbody>\n</table>"
+}

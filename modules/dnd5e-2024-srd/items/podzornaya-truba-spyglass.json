@@ -1,0 +1,17 @@
+{
+  "name": "Подзорная труба [Spyglass]",
+  "source": "PHB 2024",
+  "type": "gear",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "1000 зм.",
+  "weight": "1 фунт.",
+  "weightLb": 1,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Объекты, рассматриваемые в подзорную трубу, увеличиваются вдвое.</p>",
+  "imageUrl": ""
+}

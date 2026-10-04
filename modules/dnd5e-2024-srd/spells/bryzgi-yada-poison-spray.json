@@ -1,0 +1,19 @@
+{
+  "name": "Брызги яда [Poison Spray]",
+  "source": "PHB 2024",
+  "level": 0,
+  "school": "Некромантия",
+  "castTime": "1 действие",
+  "ritual": false,
+  "range": "30 фт. (1 существ(о/а))",
+  "verbal": true,
+  "somatic": true,
+  "material": false,
+  "materialNote": "",
+  "duration": "Мгновенная",
+  "concentration": false,
+  "savingThrow": "",
+  "attack": "ranged",
+  "damage": "1d12 (яд)",
+  "description": "<p>Вы распыляете ядовитый туман на существо в пределах дистанции. Совершите дистанционную атаку заклинанием по этой цели. При попадании цель получает.</p><p><strong>Улучшение фокуса.</strong> Урон увеличивается на 1d12, когда вы достигаете 5-го (2d12), 11-го (3d12) и 17-го уровня (4d12).</p>"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Солдат [Soldier]",
+  "kind": "происхождение",
+  "parentName": "",
+  "source": "PHB 2024",
+  "description": "<p><strong>Характеристики:</strong> Сила, Ловкость, Выносливость.</p><p><strong>Черта:</strong> <a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Неистово атакующий [Savage Attacker]\">Неистово атакующий</a>.</p><p><strong>Умения в навыках:</strong> Атлетика и Запугивание.</p><p><strong>Умения в инструментах:</strong> Выберите один вид Игрового набора (см. главу 6).</p><p><strong>Экипировка:</strong> Выберите А или Б: (А) <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Копьё [Spear]\">Копьё</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Короткий лук [Shortbow]\">Короткий лук</a>, 20 <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Стрелы [Arrows]\">Стрел</a>, Игровой набор (выбранный выше), <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Набор лекаря [Healer's Kit]\">Набор лекаря</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Колчан для стрел [Quiver]\">Колчан для стрел</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Одежда путешественника [Clothes, Traveler's]\">Одежда путешественника</a>, 14 ЗМ; (Б) 50 ЗМ.</p><p>Война у вас в крови: вы начали готовиться к ней, как только достигли совершеннолетия, и почти не помните свою жизнь до момента, как взяли в руки оружие. Порой вы ловите себя на том, что машинально выполняете базовые боевые приёмы, которым когда-то научились. В конце концов ваши навыки пригодились на поле брани, когда вы защищали родные земли в жестокой войне.</p>",
+  "imageUrl": ""
+}

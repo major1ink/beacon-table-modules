@@ -1,0 +1,7 @@
+{
+  "name": "Улучшенный Хитроумный удар [Improved Cunning Strike]",
+  "kind": "черта класса",
+  "parentName": "",
+  "source": "PHB 2024",
+  "description": "<p><strong>Требования:</strong> Плут 11</p><p>Вы можете использовать до двух эффектов <a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Хитроумный удар [Cunning Strike]\">Хитроумного удара</a> при нанесении урона <a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Атака исподтишка [Sneak Attack]\">Атакой исподтишка</a>, убирая кости за каждый эффект.</p>"
+}

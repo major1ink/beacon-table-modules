@@ -1,0 +1,16 @@
+{
+  "name": "Горн [Horn]",
+  "source": "PHB 2024",
+  "type": "музыкальный инструмент, horn",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "2 зм.",
+  "weight": "3 фунт.",
+  "weightLb": 3,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Харизма</p><p class=\"phb-meta\"><strong>Использование:</strong> сыграть известную мелодию (СЛ 10), импровизировать (СЛ 15)</p>"
+}

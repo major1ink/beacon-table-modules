@@ -1,0 +1,17 @@
+{
+  "name": "Кожаный доспех [Leather Armor]",
+  "source": "PHB 2024",
+  "type": "лёгкий доспех, leather",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "10 зм.",
+  "weight": "10 фунт.",
+  "weightLb": 10,
+  "activation": "",
+  "damage": "",
+  "armorClass": "11 + Лов",
+  "properties": "",
+  "charges": "",
+  "description": "",
+  "imageUrl": ""
+}

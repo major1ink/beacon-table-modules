@@ -1,0 +1,7 @@
+{
+  "name": "Аура отваги [Aura of Courage]",
+  "kind": "черта класса",
+  "parentName": "",
+  "source": "PHB 2024",
+  "description": "<p><strong>Требования:</strong> Паладин 10</p><p>Находясь в Ауре защиты, у вас и ваших союзников &amp;reference[immunity] к &amp;reference[Frightened apply=false]{Испугу}. Если Испуганный союзник входит в ауру, состояние не оказывает эффекта на него, пока он находится в ней.</p>"
+}

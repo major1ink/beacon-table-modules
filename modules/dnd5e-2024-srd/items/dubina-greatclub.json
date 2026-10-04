@@ -1,0 +1,17 @@
+{
+  "name": "Дубина [Greatclub]",
+  "source": "PHB 2024",
+  "type": "простое рукопашное, greatclub",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "2 см.",
+  "weight": "10 фунт.",
+  "weightLb": 10,
+  "activation": "1 действие",
+  "damage": "1к8 (дробящий)",
+  "armorClass": "",
+  "properties": "двуручное",
+  "charges": "",
+  "description": "<p><strong>Двуручное.</strong> Двуручное оружие требует двух рук для атаки.</p> <p><strong>Мастерство: <em>Отталкивающее.</em></strong> При попадании оружием по существу размером не больше Крупного вы можете оттолкнуть его от себя по прямой на расстояние до 10 футов.</p>",
+  "imageUrl": ""
+}

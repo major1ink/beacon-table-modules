@@ -1,0 +1,17 @@
+{
+  "name": "Зелье дыхания под водой [Potion of Water Breathing]",
+  "source": "DMG 2024",
+  "type": "зелье",
+  "rarity": "необычный",
+  "requiresAttunement": false,
+  "cost": "200 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "1 бонусное действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "1 из 1 зарядов",
+  "description": "<p><em>Зелье, Необычное</em></p><p>Эта мутно-зелёная жидкость пахнет морем, и в ней плавает пузырёк, похожий на медузу.</p><p>Выпив это зелье, вы сможете дышать под водой 24 часа.</p>",
+  "imageUrl": ""
+}

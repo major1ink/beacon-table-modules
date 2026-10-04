@@ -1,0 +1,17 @@
+{
+  "name": "Наручи защиты [Bracers of Defense]",
+  "source": "DMG 2024",
+  "type": "чудесный предмет",
+  "rarity": "редкий",
+  "requiresAttunement": true,
+  "cost": "4000 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><em>Чудесный предмет, Редкий (требует Настроенности)</em></p><p>Пока вы носите эти наручи, вы получаете бонус +2 к КБ, если вы не носите брони и не используете Щит.</p>",
+  "imageUrl": ""
+}

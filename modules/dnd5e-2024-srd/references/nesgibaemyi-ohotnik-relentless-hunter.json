@@ -1,0 +1,7 @@
+{
+  "name": "Несгибаемый охотник [Relentless Hunter]",
+  "kind": "черта класса",
+  "parentName": "",
+  "source": "PHB 2024",
+  "description": "<p><strong>Требования:</strong> Следопыт 13</p><p>Получение урона не может прервать &amp;reference[concentration]{Концентрацию} на Метке охотника.</p>"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Слово силы: смерть [Power Word Kill]",
+  "source": "PHB 2024",
+  "level": 9,
+  "school": "Очарование",
+  "castTime": "1 действие",
+  "ritual": false,
+  "range": "60 фт. (1 существ(о/а))",
+  "verbal": true,
+  "somatic": false,
+  "material": false,
+  "materialNote": "",
+  "duration": "Мгновенная",
+  "concentration": false,
+  "savingThrow": "",
+  "damage": "100",
+  "description": "<p>Вы заставляете одно существо, которое видите в пределах дистанции, мгновенно умереть. Если у цели 100 ПЗ или менее, она умирает. В противном случае цель получает.</p>"
+}

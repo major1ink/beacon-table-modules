@@ -1,0 +1,16 @@
+{
+  "name": "Инструменты ткача [Weaver’s Tools]",
+  "source": "PHB 2024",
+  "type": "художественные инструменты, weaver",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "1 зм.",
+  "weight": "5 фунт.",
+  "weightLb": 5,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Ловкость </p><p><strong>Использование:</strong> Починка прорехи в одежде (СЛ 10) или вышивка Крошечного рисунка (СЛ 10) </p><p><strong>Изготовление:</strong> <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Верёвка [Rope]\">Верёвка</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Одежда путешественника [Clothes, Traveler's]\">Дорожная одежда</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Корзина [Basket]\">Корзина</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Бечёвка [String]\">Леска</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Роба [Robe]\">Мантия</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Мешок [Sack]\">Мешок</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Одеяло [Blanket]\">Одеяло</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Парадная одежда [Clothes, Fine]\">Отличная одежда</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Палатка [Tent]\">Палатка</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Сеть [Net]\">Сеть</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Спальный мешок [Bedroll]\">Спальник</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Стёганый доспех [Padded Armor]\">Стёганый доспех</a>.</p>"
+}

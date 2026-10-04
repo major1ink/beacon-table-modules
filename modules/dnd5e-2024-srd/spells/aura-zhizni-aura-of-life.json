@@ -1,0 +1,18 @@
+{
+  "name": "Аура жизни [Aura of Life]",
+  "source": "PHB 2024",
+  "level": 4,
+  "school": "Ограждение",
+  "castTime": "1 действие",
+  "ritual": false,
+  "range": "На себя (30 фт. радиус)",
+  "verbal": true,
+  "somatic": false,
+  "material": false,
+  "materialNote": "",
+  "duration": "10 минута/минут",
+  "concentration": true,
+  "savingThrow": "",
+  "damage": "",
+  "description": "<p>От вас исходит аура в 30-футовой Эманации, пока длится заклинание. Находясь в ауре, вы и ваши союзники получаете &amp;reference[damageresistance] к Некротическому урону, а ваш максимум ПЗ нельзя уменьшить. Если союзник начинает свой ход в ауре с 0 ПЗ, он восстанавливает 1 ПЗ.</p>"
+}

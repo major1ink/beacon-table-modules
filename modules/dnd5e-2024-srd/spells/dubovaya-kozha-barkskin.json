@@ -1,0 +1,18 @@
+{
+  "name": "Дубовая кожа [Barkskin]",
+  "source": "PHB 2024",
+  "level": 2,
+  "school": "Преобразование",
+  "castTime": "1 бонусное действие",
+  "ritual": false,
+  "range": "Касание (1 существ(о/а))",
+  "verbal": true,
+  "somatic": true,
+  "material": true,
+  "materialNote": "пригоршня коры",
+  "duration": "1 час(ов)",
+  "concentration": false,
+  "savingThrow": "",
+  "damage": "",
+  "description": "<p>Вы касаетесь согласного существа. Пока длится заклинание, кожа цели будет выглядеть грубой, как кора, и у цели КБ 17, если её КБ было ниже.</p>"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Инструменты ювелира [Jeweler’s Tools]",
+  "source": "PHB 2024",
+  "type": "художественные инструменты, jeweler",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "25 зм.",
+  "weight": "2 фунт.",
+  "weightLb": 2,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Интеллект.</p><p><strong>Использование:</strong> Определение ценности драгоценного камня (СЛ 15) </p><p><strong>Изготовление:</strong> <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Мистический фокусирующий предмет (различный) [Arcane Focus (Varies)]\">Магическая фокусировка</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Символ религии (различный) [Holy Symbol (Varies)]\">Священный символ</a>.</p>"
+}

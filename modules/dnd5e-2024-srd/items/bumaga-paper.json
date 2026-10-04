@@ -1,0 +1,16 @@
+{
+  "name": "Бумага [Paper]",
+  "source": "PHB 2024",
+  "type": "Хлам/сокровище",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "2 см.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>На один лист Бумаги помещается около 250 рукописных слов.</p>"
+}

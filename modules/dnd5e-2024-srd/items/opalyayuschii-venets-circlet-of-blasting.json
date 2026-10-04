@@ -1,0 +1,17 @@
+{
+  "name": "Опаляющий венец [Circlet of Blasting]",
+  "source": "DMG 2024",
+  "type": "чудесный предмет",
+  "rarity": "необычный",
+  "requiresAttunement": false,
+  "cost": "400 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "1 из 1 зарядов, восстановление:  (на рассвете)",
+  "description": "<p><em>Чудесный предмет, Необычный</em>.</p><p>Пока вы носите этот венец, вы можете сотворить из него <a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Опаляющий луч [Scorching Ray]\">Опаляющий луч</a> (+5 к броску). Венец не может сотворить это заклинание снова до следующего рассвета.</p>",
+  "imageUrl": ""
+}

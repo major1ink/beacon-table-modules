@@ -1,0 +1,17 @@
+{
+  "name": "Ожерелье молитвенных чёток [Necklace of Prayer Beads]",
+  "source": "DMG 2024",
+  "type": "чудесный предмет",
+  "rarity": "редкий",
+  "requiresAttunement": true,
+  "cost": "4000 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><em>Чудесный предмет, Редкий (требует Настроенности Друидом, Жрецом или Паладином)</em></p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\"></figure><article><p><em>При необходимости удалите ненужные чётки.</em></p></article></section><p>У этого ожерелья 1d4 + 2 магические бусины из аквамарина, чёрного жемчуга или топаза. Также на нём много немагических бусин из янтаря, гелиотропа, цитрина, коралла, нефрита, жемчуга или кварца. Если магическую бусину снять с ожерелья, она теряет свою магию.</p><p>Существует шесть видов магических бусин. Мастер выбирает тип каждой бусины на ожерелье или определяет его случайным образом, совершив бросок по таблице ниже. На ожерелье может быть более одной бусины каждого вида. Вы должны носить ожерелье, чтобы использовать хотя бы одну бусину. В каждой бусине содержится заклинание, которое вы можете сотворить из неё в качестве Бонусного действия (используя СЛ испытаний против ваших заклинаний, если требуется). После сотворения заклинания из магической бусины, её нельзя использовать снова до следующего рассвета.</p><table><thead><tr><td><p style=\"text-align:center\"><strong></strong></p></td><td><p><strong>Чётка</strong></p></td><td><p><strong>Заклинание</strong></p></td></tr></thead><tbody><tr><td><p style=\"text-align:center\">1—6</p></td><td><p>Чётка благословения</p></td><td><p><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Благословение [Bless]\">Благословение</a></p></td></tr><tr><td><p style=\"text-align:center\">7—12</p></td><td><p>Чётка лечения</p></td><td><p><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Исцеление ран [Cure Wounds]\">Исцеление ран</a> (2-й круг)</p></td></tr><tr><td><p style=\"text-align:center\">13—16</p></td><td><p>Чётка милости</p></td><td><p><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Высшее восстановление [Greater Restoration]\">Высшее восстановление</a></p></td></tr><tr><td><p style=\"text-align:center\">17—18</p></td><td><p>Чётка кары</p></td><td><p><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Сияющая кара [Shining Smite]\">Сияющая кара</a></p></td></tr><tr><td><p style=\"text-align:center\">19</p></td><td><p>Чётка призыва</p></td><td><p><a class=\"catalog-ref\" data-kind=\"monster\" data-name=\"Страж веры [Guardian of Faith]\">Страж веры</a></p></td></tr><tr><td><p style=\"text-align:center\">20</p></td><td><p>Чётка ветра</p></td><td><p><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Путешествие с ветром [Wind Walk]\">Путешествие с ветром</a></p></td></tr></tbody></table>",
+  "imageUrl": ""
+}

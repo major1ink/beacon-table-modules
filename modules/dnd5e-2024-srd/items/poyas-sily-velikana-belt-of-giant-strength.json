@@ -1,0 +1,17 @@
+{
+  "name": "Пояс силы великана [Belt of Giant Strength]",
+  "source": "DMG 2024",
+  "type": "чудесный предмет",
+  "rarity": "",
+  "requiresAttunement": true,
+  "cost": "",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><em>Чудесный предмет, различной Редкости (требует Настроенности)</em></p><p>Пока вы носите этот пояс, значение вашей Силы меняется на то, что даёт пояс. Новое значение зависит от вида великана (см. таблицу ниже). Предмет не оказывает эффекта на вас, если ваша Сила уже равна этому значению или выше, которое даёт пояс.</p><table><thead><tr><td><p><strong>Пояс</strong></p></td><td><p style=\"text-align:center\"><strong>Сила</strong></p></td><td><p><strong>Редкость</strong></p></td></tr></thead><tbody><tr><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Пояс силы великана (холмового) [Belt of Giant Strength (hill)]\">Пояс силы великана (холмового)</a></p></td><td><p style=\"text-align:center\">21</p></td><td><p>Редкий</p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Пояс силы великана (морозного) [Belt of Giant Strength (frost)]\">Пояс силы великана (морозного)</a></p><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Пояс силы великана (каменного) [Belt of Giant Strength (stone)]\">Пояс силы великана (каменного)</a></p></td><td><p style=\"text-align:center\">23</p></td><td><p>Крайне редкий</p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Пояс силы великана (огненного) [Belt of Giant Strength (fire)]\">Пояс силы великана (огненного)</a></p></td><td><p style=\"text-align:center\">25</p></td><td><p>Крайне редкий</p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Пояс силы великана (облачного) [Belt of Giant Strength (cloud)]\">Пояс силы великана (облачного)</a></p></td><td><p style=\"text-align:center\">27</p></td><td><p>Легендарный</p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Пояс силы великана (штормового) [Belt of Giant Strength (storm)]\">Пояс силы великана (штормового)</a></p></td><td><p style=\"text-align:center\">29</p></td><td><p>Легендарный</p></td></tr></tbody></table>",
+  "imageUrl": ""
+}

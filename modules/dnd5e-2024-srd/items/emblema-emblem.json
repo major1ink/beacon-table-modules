@@ -1,0 +1,16 @@
+{
+  "name": "Эмблема [Emblem]",
+  "source": "PHB 2024",
+  "type": "Снаряжение",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "5 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Требования для использования: </strong><em>на ткани или Щите</em>.</p><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Символ религии (различный) [Holy Symbol (Varies)]\">Символ религии</a> украшен самоцветами или росписью, чтобы направлять силу божественной магии. Жрецы и Паладины могут использовать его как Фокусирующий предмет.</p>"
+}

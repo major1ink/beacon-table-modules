@@ -1,0 +1,8 @@
+{
+  "name": "Мастер Эвокации [Evoker]",
+  "kind": "архетип",
+  "parentName": "Волшебник",
+  "source": "PHB 2024",
+  "imageUrl": "",
+  "description": "<blockquote><p>Создавайте взрывы стихий.</p></blockquote><p>Вы сосредоточились на изучении магии, создающей могущественные стихийные эффекты, например мороз, языки пламени, раскаты грома, трескучие молнии и едкую кислоту. Многие Мастера Эвокации идут на военную службу и становятся живой артиллерией, обрушивая заклинания на врагов издалека. Некоторые используют свою мощь для защиты, а другие — преследуют собственные цели.</p><table><thead><tr><td><p style=\"text-align:center\"><strong>Уровень Волшебника</strong></p></td><td><p><strong>Особенности</strong></p></td></tr></thead><tbody><tr><td><p style=\"text-align:center\">3</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Сильный фокус [Potent Cantrip]\">Сильный фокус</a></p><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Знаток школы Эвокации [Evocation Savant]\">Знаток школы Эвокации</a></p></td></tr><tr><td><p style=\"text-align:center\">6</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Лепка заклинаний [Sculpt Spells]\">Лепка заклинаний</a></p></td></tr><tr><td><p style=\"text-align:center\">10</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Усиление эвокаций [Empowered Evocation]\">Усиление эвокаций</a></p></td></tr><tr><td><p style=\"text-align:center\">14</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Переполнение энергией [Overchannel]\">Переполнение энергией</a></p></td></tr></tbody></table>"
+}

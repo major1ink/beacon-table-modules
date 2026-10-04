@@ -1,0 +1,18 @@
+{
+  "name": "Прострация [Befuddlement]",
+  "source": "PHB 2024",
+  "level": 8,
+  "school": "Очарование",
+  "castTime": "1 действие",
+  "ritual": false,
+  "range": "150 фт. (1 существ(о/а))",
+  "verbal": true,
+  "somatic": true,
+  "material": true,
+  "materialNote": "связка ключей без ключей",
+  "duration": "Мгновенная",
+  "concentration": false,
+  "savingThrow": "Инт",
+  "damage": "10к12 (психическая энергия)",
+  "description": "<p>Вы обрушиваете удар на разум существа, которое видите в пределах дистанции. Цель проходит испытание Интеллекта.</p><p>При провале она получает и не может творить заклинания или выполнять действие magic<br>По истечении каждых 30 дней цель повторяет испытание, при успехе эффект прекращается для неё. Также эффект может быть прекращён заклинаниями:<br><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Высшее восстановление [Greater Restoration]\">Высшее восстановление</a><br><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Желание [Wish]\">Желание</a><br><a class=\"catalog-ref\" data-kind=\"spell\" data-name=\"Излечение [Heal]\">Излечение</a></p><p>При успехе цель получает только половину этого урона.</p>"
+}

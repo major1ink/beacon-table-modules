@@ -1,0 +1,16 @@
+{
+  "name": "Одеяло [Blanket]",
+  "source": "PHB 2024",
+  "type": "gear",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "5 см.",
+  "weight": "3 фунт.",
+  "weightLb": 3,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Пока вы обёрнуты в Одеяло, у вас Преимущество к испытаниям против сильного холода (см. <em>«Руководство мастера подземелий»</em>).</p>"
+}

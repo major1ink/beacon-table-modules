@@ -1,0 +1,18 @@
+{
+  "name": "Туманный шаг [Misty Step]",
+  "source": "PHB 2024",
+  "level": 2,
+  "school": "Вызов",
+  "castTime": "1 бонусное действие",
+  "ritual": false,
+  "range": "30 фт. (1 клетка(и))",
+  "verbal": true,
+  "somatic": false,
+  "material": false,
+  "materialNote": "",
+  "duration": "Мгновенная",
+  "concentration": false,
+  "savingThrow": "",
+  "damage": "",
+  "description": "<p>Вас ненадолго окутывает серебристый туман, и вы телепортируетесь в незанятое пространство в пределах 30 футов, которое видите.</p>"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Воин Открытой Ладони [Warrior of the Open Hand]",
+  "kind": "архетип",
+  "parentName": "Монах",
+  "source": "PHB 2024",
+  "imageUrl": "",
+  "description": "<blockquote><p>Станьте мастером техник безоружного боя.</p></blockquote><p>Воины открытой ладони — мастера безоружного боя. Они изучают техники, позволяющие эффективно толкать и ронять врагов наземь, а также управлять энергией своего тела, защищая себя.</p><table><thead><tr><td><p style=\"text-align:center\"><strong>Уровень Монаха</strong></p></td><td><p><strong>Особенности</strong></p></td></tr></thead><tbody><tr><td><p style=\"text-align:center\">3</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Техника Открытой Ладони [Open Hand Technique]\">Техника Открытой Ладони</a></p></td></tr><tr><td><p style=\"text-align:center\">6</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Цельность тела [Wholeness of Body]\">Цельность тела</a></p></td></tr><tr><td><p style=\"text-align:center\">11</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Проворный шаг [Fleet Step]\">Проворный шаг</a></p></td></tr><tr><td><p style=\"text-align:center\">17</p></td><td><p><a class=\"catalog-ref\" data-kind=\"reference\" data-name=\"Дрожащая ладонь [Quivering Palm]\">Дрожащая ладонь</a></p></td></tr></tbody></table>"
+}

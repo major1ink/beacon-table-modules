@@ -1,0 +1,17 @@
+{
+  "name": "Морозный клинок [Frost Brand]",
+  "source": "DMG 2024",
+  "type": "воинское рукопашное",
+  "rarity": "очень редкий",
+  "requiresAttunement": true,
+  "cost": "40000 зм.",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "магическое",
+  "charges": "",
+  "description": "<p><em>Оружие (<a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Глефа [Glaive]\">Глефа</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Двуручный меч [Greatsword]\">Двуручный меч</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Длинный меч [Longsword]\">Длинный меч</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Рапира [Rapier]\">Рапира</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Скимитар [Scimitar]\">Скимитар</a> или <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Короткий меч [Shortsword]\">Короткий меч</a>), Очень редкий (требуется настройка)</em></p><p>Когда вы попадаете по цели броском атаки этим магическим оружием, цель получает дополнительно. Кроме того, пока вы держите это оружие, у вас Устойчивость к урону Огнём.</p><p>На морозе оружие испускает Яркий свет в радиусе 10 футов и Тусклый свет ещё на 10 футов.</p><p>Когда вы выхватываете это оружие, вы можете погасить всё немагическое пламя в пределах 30 футов от вас. Это свойство нельзя использовать снова 1 час.</p><p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"systems/dnd5e/icons/spell-tiers/spell3.webp\" class=\"round\"></figure><article><p>Этот магический предмет - шаблон для создания. Вы можете превратить его в полноценный предмет одним из двух способов:</p><p><strong>1. Рекомендуемый:</strong> Перетащите этот предмет в лист персонажа. У вас откроется диалоговое окно, в котором можно будет выбрать предмет, в который превратится шаблон.</p><p><strong>2. Классический:</strong> Откройте вкладку <strong>Эффекты</strong> в этом предмете и перетащите зачарование в предмет, который хотите зачаровать. Вы можете удалить зачарование, созданное таким образом, зайдя во вкладку <strong>Эффекты</strong>.</p></article></section></p>",
+  "imageUrl": ""
+}

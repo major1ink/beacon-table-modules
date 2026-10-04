@@ -1,0 +1,18 @@
+{
+  "name": "Милость божества [Divine Favor]",
+  "source": "PHB 2024",
+  "level": 1,
+  "school": "Воплощение",
+  "castTime": "1 бонусное действие",
+  "ritual": false,
+  "range": "На себя (self)",
+  "verbal": true,
+  "somatic": true,
+  "material": false,
+  "materialNote": "",
+  "duration": "1 минута/минут",
+  "concentration": false,
+  "savingThrow": "",
+  "damage": "",
+  "description": "<p>Пока длится заклинание, ваши атаки оружием дополнительно наносят при попадании.</p>"
+}

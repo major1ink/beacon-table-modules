@@ -1,0 +1,20 @@
+{
+  "format": "beacon-module/v1",
+  "id": "dnd5e-2024-srd",
+  "type": "content",
+  "title": "D&D 5e (2024) — SRD 5.2",
+  "version": "1.0.0",
+  "minAppVersion": "0.9.0",
+  "systems": [
+    "dnd5e-2024"
+  ],
+  "requires": [
+    {
+      "id": "dnd5e-2024",
+      "minVersion": "1.0.0"
+    }
+  ],
+  "description": "Каталог SRD 5.2 для D&D 5e 2024: существа, заклинания, предметы и справочник (классы, архетипы, виды, предыстории, черты).",
+  "license": "CC-BY-4.0",
+  "legacyIds": true
+}

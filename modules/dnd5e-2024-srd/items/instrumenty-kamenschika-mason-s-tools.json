@@ -1,0 +1,16 @@
+{
+  "name": "Инструменты каменщика [Mason's Tools]",
+  "source": "PHB 2024",
+  "type": "художественные инструменты",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "10 зм.",
+  "weight": "8 фунт.",
+  "weightLb": 8,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p class=\"phb-meta\"><strong>Характеристика:</strong> Сила <strong>Вес:</strong> 8 фунтов</p><p><strong>Использование:</strong> высечь знак или отверстие в камне (СЛ 10)</p><p><strong>Изготовление:</strong> <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Подъёмный блок [Block and Tackle]\">Подъёмный блок</a>.</p>"
+}

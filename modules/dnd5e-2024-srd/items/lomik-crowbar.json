@@ -1,0 +1,17 @@
+{
+  "name": "Ломик [Crowbar]",
+  "source": "PHB 2024",
+  "type": "Снаряжение",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "2 зм.",
+  "weight": "5 фунт.",
+  "weightLb": 5,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Использование Ломика в качестве рычага (если это возможно) даёт Преимущество к проверкам Силы.</p>",
+  "imageUrl": ""
+}

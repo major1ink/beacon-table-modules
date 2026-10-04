@@ -1,0 +1,16 @@
+{
+  "name": "Боеприпасы [Ammunition]",
+  "source": "PHB 2024",
+  "type": "Расходуемый предмет",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "",
+  "weight": "",
+  "weightLb": 0,
+  "activation": "",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p>Боеприпасы требуются для оружия, обладающего свойством Боеприпас. В описании оружия указывается тип боеприпасов, используемых этим оружием. Следующая таблица показывает различные типы боеприпасов. В таблице указано, какое количество штук приобретается за указанную стоимость, а также предмет, обычно используемый для хранения боеприпасов этого типа; этот контейнер нужно приобретать отдельно.</p><table><caption><p>Ammunition</p></caption><thead><tr><td><p>Type</p></td><td><p>Amount</p></td><td><p>Storage</p></td><td><p>Weight</p></td><td><p>Cost</p></td></tr></thead><tbody><tr><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Стрелы [Arrows]\">Стрелы</a></p></td><td><p>20</p></td><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Колчан для стрел [Quiver]\">Колчан для стрел</a></p></td><td><p>1 lb.</p></td><td><p>1 GP</p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Арбалетные болты [Bolts]\">Арбалетные болты</a></p></td><td><p>20</p></td><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Колчан для арбалетных болтов [Case, Crossbow Bolt]\">Колчан для арбалетных болтов</a></p></td><td><p>1½ lb.</p></td><td><p>1 GP</p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Пули для огнестрельного оружия [Bullets, Firearm]\">Пули для огнестрельного оружия</a></p></td><td><p>10</p></td><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Кошель [Pouch]\">Кошель</a></p></td><td><p>2 lb.</p></td><td><p>3 GP</p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Ядра для пращи [Bullets, Sling]\">Ядра для пращи</a></p></td><td><p>20</p></td><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Кошель [Pouch]\">Кошель</a></p></td><td><p>1½ lb.</p></td><td><p>4 CP</p></td></tr><tr><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Иглы [Needles]\">Иглы</a></p></td><td><p>50</p></td><td><p><a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Кошель [Pouch]\">Кошель</a></p></td><td><p>1 lb.</p></td><td><p>1 GP</p></td></tr></tbody></table>"
+}

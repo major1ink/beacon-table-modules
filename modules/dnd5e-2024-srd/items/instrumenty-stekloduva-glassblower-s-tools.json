@@ -1,0 +1,16 @@
+{
+  "name": "Инструменты стеклодува [Glassblower’s Tools]",
+  "source": "PHB 2024",
+  "type": "художественные инструменты, glassblower",
+  "rarity": "",
+  "requiresAttunement": false,
+  "cost": "30 зм.",
+  "weight": "5 фунт.",
+  "weightLb": 5,
+  "activation": "1 действие",
+  "damage": "",
+  "armorClass": "",
+  "properties": "",
+  "charges": "",
+  "description": "<p><strong>Характеристика:</strong> Интеллект.</p><p><strong>Использование:</strong> Определение, что содержал стеклянный объект за последние 24 часа (СЛ 15) </p><p><strong>Изготовление:</strong> <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Подзорная труба [Spyglass]\">Подзорная труба</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Стеклянная бутылка [Bottle, Glass]\">Стеклянная бутылка</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Увеличительное стекло [Magnifying Glass]\">Увеличительное стекло</a>, <a class=\"catalog-ref\" data-kind=\"item\" data-name=\"Пузырёк [Vial]\">Флакон</a>.</p>"
+}
