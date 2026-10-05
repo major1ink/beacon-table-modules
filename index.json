@@ -5,7 +5,7 @@
       "id": "dnd5e-2014",
       "title": "D&D 5e (2014)",
       "type": "system",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Система D&D 5e (редакция 2014): лист персонажа, карточки существа, заклинания, предмета и справочника, правила боя (инициатива, спасброски от смерти, опыт по уровню опасности), монеты и вес, состояния SRD 5.1.",
       "license": "CC-BY-4.0",
       "minAppVersion": "0.9.0",
@@ -13,16 +13,16 @@
         "dnd5e-2014"
       ],
       "legacyIds": true,
-      "size": 68400,
-      "sha256": "9ed55d7162ddbdce0490fa850ebb65ba55918cd90c8ffb500d8b5cc948462826",
-      "url": "https://github.com/major1ink/beacon-table-modules/releases/download/dnd5e-2014%2Fv1.1.0/dnd5e-2014-1.1.0.btmod",
-      "summaryUrl": "https://github.com/major1ink/beacon-table-modules/releases/download/dnd5e-2014%2Fv1.1.0/dnd5e-2014-1.1.0.summary.json"
+      "size": 68747,
+      "sha256": "f4941911bd6dea03dc76fb87c329acb3ebb196245ffbc4b681eba9ecdfb947f8",
+      "url": "https://github.com/major1ink/beacon-table-modules/releases/download/dnd5e-2014%2Fv1.2.0/dnd5e-2014-1.2.0.btmod",
+      "summaryUrl": "https://github.com/major1ink/beacon-table-modules/releases/download/dnd5e-2014%2Fv1.2.0/dnd5e-2014-1.2.0.summary.json"
     },
     {
       "id": "dnd5e-2024",
       "title": "D&D 5e (2024)",
       "type": "system",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Система D&D 5e (редакция 2024): лист персонажа, карточки существа, заклинания, предмета и справочника, правила боя (инициатива, спасброски от смерти, опыт по уровню опасности), монеты и вес, состояния SRD 5.2.",
       "license": "CC-BY-4.0",
       "minAppVersion": "0.9.0",
@@ -30,10 +30,10 @@
         "dnd5e-2024"
       ],
       "legacyIds": true,
-      "size": 69820,
-      "sha256": "3bb4e738004f9f533e79ccd4458dea8b651ed2864c1c4caa9ce3f97dbb51d49b",
-      "url": "https://github.com/major1ink/beacon-table-modules/releases/download/dnd5e-2024%2Fv1.1.0/dnd5e-2024-1.1.0.btmod",
-      "summaryUrl": "https://github.com/major1ink/beacon-table-modules/releases/download/dnd5e-2024%2Fv1.1.0/dnd5e-2024-1.1.0.summary.json"
+      "size": 70165,
+      "sha256": "f0a08c9db9529a35876e90fc49a26bafadc57cf01ed61cbc68b73a8ef2565342",
+      "url": "https://github.com/major1ink/beacon-table-modules/releases/download/dnd5e-2024%2Fv1.2.0/dnd5e-2024-1.2.0.btmod",
+      "summaryUrl": "https://github.com/major1ink/beacon-table-modules/releases/download/dnd5e-2024%2Fv1.2.0/dnd5e-2024-1.2.0.summary.json"
     },
     {
       "id": "dnd5e-2024-srd",
