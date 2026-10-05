@@ -3,7 +3,7 @@
   "id": "dnd5e-2014",
   "type": "system",
   "title": "D&D 5e (2014)",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "minAppVersion": "0.9.0",
   "systems": [
     "dnd5e-2014"
@@ -126,6 +126,24 @@
       "title": "медь"
     }
   ],
+  "tokenSize": {
+    "field": "size",
+    "table": {
+      "Крошечный": 0.5,
+      "Маленький": 1,
+      "Средний": 1,
+      "Большой": 2,
+      "Огромный": 3,
+      "Гигантский": 4,
+      "Громадный": 4,
+      "Tiny": 0.5,
+      "Small": 1,
+      "Medium": 1,
+      "Large": 2,
+      "Huge": 3,
+      "Gargantuan": 4
+    }
+  },
   "theme": {
     "vars": {
       "bg": "#16120f",
