@@ -39,7 +39,7 @@
       "id": "dnd5e-2024-srd",
       "title": "D&D 5e (2024) — SRD 5.2",
       "type": "content",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "Каталог SRD 5.2 для D&D 5e 2024: существа, заклинания, предметы и справочник (классы, архетипы, виды, предыстории, черты).",
       "license": "CC-BY-4.0",
       "minAppVersion": "0.9.0",
@@ -53,10 +53,10 @@
         }
       ],
       "legacyIds": true,
-      "size": 1632534,
-      "sha256": "bf6646d1e0362130345a3a6b1b1f913753e184ce7a0eb4d6bd237d560e666b02",
-      "url": "https://github.com/major1ink/beacon-table-modules/releases/download/dnd5e-2024-srd%2Fv1.0.0/dnd5e-2024-srd-1.0.0.btmod",
-      "summaryUrl": "https://github.com/major1ink/beacon-table-modules/releases/download/dnd5e-2024-srd%2Fv1.0.0/dnd5e-2024-srd-1.0.0.summary.json"
+      "size": 2730399,
+      "sha256": "68b9815dba838f39b1e0ba3446e177ae2c528a253de7be555847449ce6ae33bc",
+      "url": "https://github.com/major1ink/beacon-table-modules/releases/download/dnd5e-2024-srd%2Fv1.0.1/dnd5e-2024-srd-1.0.1.btmod",
+      "summaryUrl": "https://github.com/major1ink/beacon-table-modules/releases/download/dnd5e-2024-srd%2Fv1.0.1/dnd5e-2024-srd-1.0.1.summary.json"
     }
   ]
 }
