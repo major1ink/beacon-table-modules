@@ -48,6 +48,12 @@
           "label": "Черта класса",
           "glyph": "sparkle",
           "color": "#4a8ef0"
+        },
+        {
+          "value": "правило",
+          "label": "Правило",
+          "glyph": "hourglass",
+          "color": "#b08d57"
         }
       ]
     },
