@@ -5,3 +5,7 @@ https://creativecommons.org/licenses/by/4.0/
 Полный текст: https://creativecommons.org/licenses/by/4.0/legalcode
 
 Обязательная атрибуция SRD — в файлах NOTICE каждого модуля.
+
+Исключение: файлы в modules/dnd5e-2024-srd/assets/monsters/ (модели, текстуры
+и анимации существ) принадлежат проекту Beacon Table, все права защищены.
+Лицензия CC BY 4.0 на них не распространяется, подробнее — в NOTICE модуля.
